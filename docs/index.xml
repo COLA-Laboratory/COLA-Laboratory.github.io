@@ -30,205 +30,6 @@
     </item>
     
     <item>
-      <title></title>
-      <link>https://example.com/docs/research/publications_year/2009/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/docs/research/publications_year/2009/</guid>
-      <description>Publications#2009#Conference#  A Novel Algorithm for Non-dominated Hypervolume-based Multiobjective Optimization
-Ke Li, Jinhua Zheng, Miqing Li, Cong Zhou, Hui Lv
-Proc. of 2009 IEEE International Conference on Systems, Mans and Cybernetics (SMC’09), IEEE Press: p. 5220–5226, December 2009.
-  10.1109/ICSMC.2009.5345983
-[PDF] [BiB]
-  An Spanning Tree Based Method For Pruning Non-Dominated Solutions in Multi- Objective Optimization Problems</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://example.com/docs/research/publications_year/2010/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/docs/research/publications_year/2010/</guid>
-      <description>Publications#2010#Journal# A Novel Slicing Based Algorithm to Calculate Hypervolume for Multi-Objective Optimization Problems
-Ke Li, Jinhua Zheng, Miqing Li, Cong Zhou, Hui Lv
-ICIC Express Letters: An International Journal of Research and Surveys, 4(4): 1113–1120, 2010.
-[PDF] [BiB]  Conference#  Enhancing Diversity for Average Ranking Method in Evolutionary Many-Objective Optimization
-Miqing Li, Jinhua Zheng, Ke Li, Qizhao Yuan, Ruimin Shen</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://example.com/docs/research/publications_year/2011/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/docs/research/publications_year/2011/</guid>
-      <description>Publications#2011#Conference#  Combining Interpretable Fuzzy Rule-based Classifiers via Multi-Objective Hierarchical Evolutionary Algorithm
-Jingjing Cao, Hanli Wang, Sam Kwong, Ke Li
-Proc. of 2011 IEEE International Conference on Systems, Mans and Cybernetics (SMC’11), IEEE Press: p. 1771–1776, October 2011.
-  10.1109/ICSMC.2011.6083928
-[PDF] [BiB]
-  JGBL paradigm: A Novel Strategy to Enhance the Exploration Ability of NSGA-II
-Ke Li, Sam Kwong, Kim-Fung Man</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://example.com/docs/research/publications_year/2012/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/docs/research/publications_year/2012/</guid>
-      <description>Publications#2012#Journal# Achieving Balance Between Proximity and Diversity in Multi-objective Evolutionary Algorithm
-Ke Li, Sam Kwong, Jingjing Cao, Miqing Li, Jinhua Zheng, Ruimin Shen
-Information Sciences (INS), 182(1): 220–242, 2012.
-  10.1016/j.ins.2011.08.027
-[PDF] [BiB]  Conference#  Multi-Objective Differential Evolution with Self-Navigation
-Ke Li, Sam Kwong, Ran Wang, Jingjing Cao, Imre J. Rudas
-Proc. of 2012 IEEE International Conference on Systems, Mans and Cybernetics (SMC’12), IEEE Press: p.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://example.com/docs/research/publications_year/2013/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/docs/research/publications_year/2013/</guid>
-      <description>Publications#2013#Journal# Learning Paradigm Based on Jumping Genes: A General Framework for Enhancing Exploration in Evolutionary Multiobjective Optimization
-Ke Li, Sam Kwong, Ran Wang, Kit-Sang Tang, Kim-Fung Man
-Information Sciences (INS), 226: 1–22, 2013.
-  10.1016/j.ins.2012.11.002
-[PDF] [Code] [BiB]  Conference# Evolving Extreme Learning Machine Paradigm with Adaptive Operator Selection and Parameter Control
-Ke Li, Ran Wang, Sam Kwong, Jingjing Cao</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://example.com/docs/research/publications_year/2014/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/docs/research/publications_year/2014/</guid>
-      <description>Publications#2014#Journal#  Stable Matching Based Selection in Evolutionary Multiobjective Optimization
-Ke Li, Qingfu Zhang, Sam Kwong, Miqing Li, Ran Wang
-IEEE Trans. Evolutionary Computation (TEVC). 18(6): 909–923, 2014.
-  10.1109/TEVC.2013.2293776
-[PDF] [Code] [BiB]
-  Adaptive Operator Selection with Bandits for Multiobjective Evolutionary Algorithm Based on Decomposition
-Ke Li, Álvaro Fialho, Sam Kwong, Qingfu Zhang
-IEEE Trans. Evolutionary Computation (TEVC).</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://example.com/docs/research/publications_year/2015/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/docs/research/publications_year/2015/</guid>
-      <description>Publications#2015#Journal#  An Evolutionary Many-Objective Optimization Algorithm Based on Dominance and Decomposition
-Ke Li, Kalyanmoy Deb, Qingfu Zhang, Sam Kwong
-IEEE Trans. Evolutionary Computation (TEVC), 19(5): 694–716, 2015.
-  10.1109/TEVC.2014.2373386
-[PDF] [Code] [BiB]
-  Interrelationship-Based Selection for Decomposition Multiobjective Optimization
-Ke Li, Sam Kwong, Qingfu Zhang, Kalyanmoy Deb
-IEEE Trans. Cybernetics (TCYB), 45(10): 2076-2088, 2015
-  10.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://example.com/docs/research/publications_year/2016/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/docs/research/publications_year/2016/</guid>
-      <description>Publications#2016#Journal#Personalized Search for Social Media via Dominating Verbal Context
-Haoran Xie, Xiaodong Li, Tao Wang, Li Chen, Ke Li, Fu Lee Wang, Yi Cai, Qing Li, Huaqing Min
-Neurocomputing (NEUCOM). 172: 27–37, 2016.
-  10.1016/j.neucom.2014.12.109
-[PDF] [BiB]
-Conference#Variable Interactions in Multi-Objective Optimization Problems
-Ke Li, Mohammad Nabi Omidvar, Kalyanmoy Deb, Xin Yao
-Proc. of the 14th International Conference on Parallel Problem Solving from Nature (PPSN’16), Springer, LNCS, Volume 9921: p.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://example.com/docs/research/publications_year/2017/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/docs/research/publications_year/2017/</guid>
-      <description>Publications#2017#Journal#  Efficient Non-domination Level Update Method for Steady-State Evolutionary Multiobjective Optimization
-Ke Li, Kalyanmoy Deb, Qingfu Zhang, Qiang Zhang
-IEEE Trans. Cybernetics (TCYB), 47(9): 2838–2849, 2017.
-  10.1109/TCYB.2016.2621008
-[PDF] [Supplementary] [Code] [BiB]
-  Matching-Based Selection with Incomplete Lists for Decomposition Multi-Objective Optimization
-Mengyuan Wu+, Ke Li, Sam Kwong, Yu Zhou, Qingfu Zhang
-IEEE Trans. Evolutionary Computation (TEVC), 21(4): 554–568, 2017.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://example.com/docs/research/publications_year/2018/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/docs/research/publications_year/2018/</guid>
-      <description>Publications#2018#Journal#  R-Metric: Evaluating the Performance of Preference-Based Evolutionary Multi-Objective Optimization Using Reference Points
-Ke Li, Kalyanmoy Deb, Xin Yao
-IEEE Trans. Evolutionary Computation (TEVC), 22(6): 821–835, 2018.
-   10.1109/TEVC.2017.2737781
-[PDF] [Supplementary] [Code] [BiB]
-  Integration of Preferences in Decomposition Multiobjective Optimization
-Ke Li*, Renzhi Chen*+, Geyong Min, Xin Yao
-IEEE Trans. Cybernetics (TCYB), 48(12): 3359–3370, 2018.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://example.com/docs/research/publications_year/2019/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/docs/research/publications_year/2019/</guid>
-      <description>Publications#2019#Journal#  Learning to Decompose: A Paradigm for Decomposition-Based Multi-Objective Optimization
-Mengyuan Wu+, Ke Li, Sam Kwong, Qingfu Zhang, Jun Zhang
-IEEE Trans. Evolutionary Computation (TEVC), 23(3): 376–390, 2019.
-  10.1109/TEVC.2018.2865931
-[PDF] [Supplementary] [Code] [BiB]
-  Interactive Decomposition Multi-Objective Optimization via Progressively Learned Value Functions
-Ke Li*, Renzhi Chen*+, Dragan Savic, Xin Yao
-IEEE Trans. Fuzzy Systems (TFS), 27(5): 845–860, 2019.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://example.com/docs/research/publications_year/2020/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/docs/research/publications_year/2020/</guid>
-      <description>Publications#2020#Journal#  Does Preference Always Help? A Holistic Study on Preference-Based Evolutionary Multi-Objective Optimisation Using Reference Points
-Ke Li, Minhui Liao+, Kalyanmoy Deb, Geyong Min, Xin Yao
-IEEE Trans. Evolutionary Computation (TEVC), 24(6): 1078-1096, 2020.
-  10.1109/TEVC.2020.2987559
-[PDF] [Project] [BiB]
-  Reference Point Based Multi-Objective Optimization of Reservoir Operation: a Comparison of Three Algorithms
-Rong Tang, Ke Li, Wei Ding, Yuntao Wang, Huicheng Zhou, Guangtao Fu</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://example.com/docs/research/publications_year/new/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/docs/research/publications_year/new/</guid>
-      <description>Publications#To appear#Journal# Bayesian Network Based Label Correlation Analysis For Multi-label Classifier Chain
-Ran Wang, Suhe Ye, Ke Li, Sam Kwong
-Information Sciences
-[PDF] [BiB]  Conference#  An Improved Two-Archive Evolutionary Algorithm for Constrained Multi-Objective Optimization
-Xinyu Shan+, Ke Li
-Proc. of the 11th International Conference on Evolutionary Multi-Criterion Optimization (EMO&#39;21), March, 2021
-[PDF] [BiB]
-  Multi-Objective Reinforcement Learning based Multi-Microgrid System Optimisation Problem</description>
-    </item>
-    
-    <item>
       <title>Deadlines</title>
       <link>https://example.com/docs/misc/ddl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
