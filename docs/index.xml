@@ -45,7 +45,8 @@ AI &amp;amp; ML IJCAI 2022: January 14, 2022 ICML 2022: January 27, 2022 UAI
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/research/emoc/</guid>
-      <description>EMOC stands for Evolutionary Multi-objective Optimization in C++ which is a framework for single-objective and multi-objective optimization.
+      <description>test
+EMOC stands for Evolutionary Multi-objective Optimization in C++ which is a framework for single-objective and multi-objective optimization.
 For more information about installation and usage, please refer to the document site.
  Features#  Rich algorithms and problems
 EMOC implemented about 30 algorithms and more than 80 test problems which both include single-objective and multi-objective types.
@@ -97,7 +98,7 @@ All the source code of EMOC are wrote in C++.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/research/publications/</guid>
-      <description>Publications#function toggle_visibility(id) {var e = document.getElementById(id);if(e.style.display == &#39;block&#39;)e.style.display = &#39;none&#39;;elsee.style.display = &#39;block&#39;;}hr.dashed {border-top: 1px dashed #bbb;}.grid-container {display: grid;grid-template-columns: 40% 60%;grid-gap: 5px;background-color: transparent;padding: 5px;}.bibtexpre{background-color:#F8F8FA;border-radius:5px;border: 2px solid #D8D8DA;margin:5px;} The copyrights of published papers are transferred to publishers. Misuse of any material posted here may result in plagiarism.</description>
+      <description>Publications#function toggle_visibility(id) {var e = document.getElementById(id);if(e.style.display == &#39;block&#39;)e.style.display = &#39;none&#39;;elsee.style.display = &#39;block&#39;;}hr.dashed {border-top: 1px dashed #bbb;}.grid-container {display: grid;grid-template-columns: 40% 60%;grid-gap: 5px;background-color: transparent;padding: 5px;}.bibtexpre{background-color:#F8F8FA;border-radius:5px;border: 2px solid #D8D8DA;margin:10px;} The copyrights of published papers are transferred to publishers. Misuse of any material posted here may result in plagiarism.</description>
     </item>
     
     <item>
