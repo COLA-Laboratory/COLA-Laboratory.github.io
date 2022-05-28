@@ -158,7 +158,7 @@ All the source code of EMOC are wrote in C++.</description>
       <guid>https://example.com/docs/research/supp/supp_dmi/</guid>
       <description>Supplementary Materials#This website maintains the supplementary materials related to the following paper:
 Ke Li, Renzhi Chen, &amp;ldquo;Batched Data-Driven Evolutionary Multi-Objective Optimization Based on Manifold Interpolation&amp;rdquo;, IEEE Trans. Evol. Comput., accepted for publication, 2022.It consists of the following parts:
- Tables related to the results. Figures of population distributions related to ZDT1, ZDT2, ZDT4 and ZDT6. Figures of population distributions related to DTLZ1 to DTLZ4. Figures of population distributions related to ZDT3, ZDT31, and ZDT32.</description>
+ Appendix document of this paper can be found from this Dropbox link. Tables of all comparison results can be found in this Dropbox link. Figures of all comparison results of the population distributions of on different benchmark test problems can be found in this Dropbox link.</description>
     </item>
     
     <item>
