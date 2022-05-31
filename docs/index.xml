@@ -30,212 +30,28 @@
     </item>
     
     <item>
-      <title></title>
-      <link>https://example.com/docs/research/publications_year/2009/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/docs/research/publications_year/2009/</guid>
-      <description>Publications #  2009 #  Conference #    A Novel Algorithm for Non-dominated Hypervolume-based Multiobjective Optimization
-Ke Li, Jinhua Zheng, Miqing Li, Cong Zhou, Hui Lv
-Proc. of 2009 IEEE International Conference on Systems, Mans and Cybernetics (SMC’09), IEEE Press: p. 5220–5226, December 2009.
-  10.1109/ICSMC.2009.5345983
-[ PDF] [ BiB]
-  An Spanning Tree Based Method For Pruning Non-Dominated Solutions in Multi- Objective Optimization Problems</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://example.com/docs/research/publications_year/2010/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/docs/research/publications_year/2010/</guid>
-      <description>Publications #  2010 #  Journal #   A Novel Slicing Based Algorithm to Calculate Hypervolume for Multi-Objective Optimization Problems
-Ke Li, Jinhua Zheng, Miqing Li, Cong Zhou, Hui Lv
-ICIC Express Letters: An International Journal of Research and Surveys, 4(4): 1113–1120, 2010.
-[ PDF] [ BiB]  Conference #    Enhancing Diversity for Average Ranking Method in Evolutionary Many-Objective Optimization
-Miqing Li, Jinhua Zheng, Ke Li, Qizhao Yuan, Ruimin Shen</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://example.com/docs/research/publications_year/2011/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/docs/research/publications_year/2011/</guid>
-      <description>Publications #  2011 #  Conference #    Combining Interpretable Fuzzy Rule-based Classifiers via Multi-Objective Hierarchical Evolutionary Algorithm
-Jingjing Cao, Hanli Wang, Sam Kwong, Ke Li
-Proc. of 2011 IEEE International Conference on Systems, Mans and Cybernetics (SMC’11), IEEE Press: p. 1771–1776, October 2011.
-  10.1109/ICSMC.2011.6083928
-[ PDF] [ BiB]
-  JGBL paradigm: A Novel Strategy to Enhance the Exploration Ability of NSGA-II
-Ke Li, Sam Kwong, Kim-Fung Man</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://example.com/docs/research/publications_year/2012/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/docs/research/publications_year/2012/</guid>
-      <description>Publications #  2012 #  Journal #   Achieving Balance Between Proximity and Diversity in Multi-objective Evolutionary Algorithm
-Ke Li, Sam Kwong, Jingjing Cao, Miqing Li, Jinhua Zheng, Ruimin Shen
-Information Sciences (INS), 182(1): 220–242, 2012.
-  10.1016/j.ins.2011.08.027
-[ PDF] [ BiB]  Conference #    Multi-Objective Differential Evolution with Self-Navigation
-Ke Li, Sam Kwong, Ran Wang, Jingjing Cao, Imre J. Rudas
-Proc. of 2012 IEEE International Conference on Systems, Mans and Cybernetics (SMC’12), IEEE Press: p.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://example.com/docs/research/publications_year/2013/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/docs/research/publications_year/2013/</guid>
-      <description>Publications #  2013 #  Journal #   Learning Paradigm Based on Jumping Genes: A General Framework for Enhancing Exploration in Evolutionary Multiobjective Optimization
-Ke Li, Sam Kwong, Ran Wang, Kit-Sang Tang, Kim-Fung Man
-Information Sciences (INS), 226: 1–22, 2013.
-  10.1016/j.ins.2012.11.002
-[ PDF] [ Code] [ BiB]  Conference #   Evolving Extreme Learning Machine Paradigm with Adaptive Operator Selection and Parameter Control
-Ke Li, Ran Wang, Sam Kwong, Jingjing Cao</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://example.com/docs/research/publications_year/2014/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/docs/research/publications_year/2014/</guid>
-      <description>Publications #  2014 #  Journal #    Stable Matching Based Selection in Evolutionary Multiobjective Optimization
-Ke Li, Qingfu Zhang, Sam Kwong, Miqing Li, Ran Wang
-IEEE Trans. Evolutionary Computation (TEVC). 18(6): 909–923, 2014.
-  10.1109/TEVC.2013.2293776
-[ PDF] [ Code] [ BiB]
-  Adaptive Operator Selection with Bandits for Multiobjective Evolutionary Algorithm Based on Decomposition
-Ke Li, Álvaro Fialho, Sam Kwong, Qingfu Zhang
-IEEE Trans. Evolutionary Computation (TEVC).</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://example.com/docs/research/publications_year/2015/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/docs/research/publications_year/2015/</guid>
-      <description>Publications #  2015 #  Journal #    An Evolutionary Many-Objective Optimization Algorithm Based on Dominance and Decomposition
-Ke Li, Kalyanmoy Deb, Qingfu Zhang, Sam Kwong
-IEEE Trans. Evolutionary Computation (TEVC), 19(5): 694–716, 2015.
-  10.1109/TEVC.2014.2373386
-[ PDF] [ Code] [ BiB]
-  Interrelationship-Based Selection for Decomposition Multiobjective Optimization
-Ke Li, Sam Kwong, Qingfu Zhang, Kalyanmoy Deb
-IEEE Trans. Cybernetics (TCYB), 45(10): 2076-2088, 2015
-  10.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://example.com/docs/research/publications_year/2016/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/docs/research/publications_year/2016/</guid>
-      <description>Publications #  2016 #  Journal #  Personalized Search for Social Media via Dominating Verbal Context
-Haoran Xie, Xiaodong Li, Tao Wang, Li Chen, Ke Li, Fu Lee Wang, Yi Cai, Qing Li, Huaqing Min
-Neurocomputing (NEUCOM). 172: 27–37, 2016.
-  10.1016/j.neucom.2014.12.109
-[ PDF] [ BiB]
-Conference #  Variable Interactions in Multi-Objective Optimization Problems
-Ke Li, Mohammad Nabi Omidvar, Kalyanmoy Deb, Xin Yao
-Proc. of the 14th International Conference on Parallel Problem Solving from Nature (PPSN’16), Springer, LNCS, Volume 9921: p.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://example.com/docs/research/publications_year/2017/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/docs/research/publications_year/2017/</guid>
-      <description>Publications #  2017 #  Journal #    Efficient Non-domination Level Update Method for Steady-State Evolutionary Multiobjective Optimization
-Ke Li, Kalyanmoy Deb, Qingfu Zhang, Qiang Zhang
-IEEE Trans. Cybernetics (TCYB), 47(9): 2838–2849, 2017.
-  10.1109/TCYB.2016.2621008
-[ PDF] [ Supplementary] [ Code] [ BiB]
-  Matching-Based Selection with Incomplete Lists for Decomposition Multi-Objective Optimization
-Mengyuan Wu+, Ke Li, Sam Kwong, Yu Zhou, Qingfu Zhang
-IEEE Trans. Evolutionary Computation (TEVC), 21(4): 554–568, 2017.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://example.com/docs/research/publications_year/2018/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/docs/research/publications_year/2018/</guid>
-      <description>Publications #  2018 #  Journal #    R-Metric: Evaluating the Performance of Preference-Based Evolutionary Multi-Objective Optimization Using Reference Points
-Ke Li, Kalyanmoy Deb, Xin Yao
-IEEE Trans. Evolutionary Computation (TEVC), 22(6): 821–835, 2018.
-   10.1109/TEVC.2017.2737781
-[ PDF] [ Supplementary] [ Code] [ BiB]
-  Integration of Preferences in Decomposition Multiobjective Optimization
-Ke Li*, Renzhi Chen*+, Geyong Min, Xin Yao
-IEEE Trans. Cybernetics (TCYB), 48(12): 3359–3370, 2018.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://example.com/docs/research/publications_year/2019/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/docs/research/publications_year/2019/</guid>
-      <description>Publications #  2019 #  Journal #    Learning to Decompose: A Paradigm for Decomposition-Based Multi-Objective Optimization
-Mengyuan Wu+, Ke Li, Sam Kwong, Qingfu Zhang, Jun Zhang
-IEEE Trans. Evolutionary Computation (TEVC), 23(3): 376–390, 2019.
-  10.1109/TEVC.2018.2865931
-[PDF] [Supplementary] [Code] [ BiB]
-  Interactive Decomposition Multi-Objective Optimization via Progressively Learned Value Functions
-Ke Li*, Renzhi Chen*+, Dragan Savic, Xin Yao
-IEEE Trans. Fuzzy Systems (TFS), 27(5): 845–860, 2019.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://example.com/docs/research/publications_year/2020/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/docs/research/publications_year/2020/</guid>
-      <description>Publications #  2020 #  Journal #    Does Preference Always Help? A Holistic Study on Preference-Based Evolutionary Multi-Objective Optimisation Using Reference Points
-Ke Li, Minhui Liao+, Kalyanmoy Deb, Geyong Min, Xin Yao
-IEEE Trans. Evolutionary Computation (TEVC), 24(6): 1078-1096, 2020.
-  10.1109/TEVC.2020.2987559
-[ PDF] [ Project] [BiB]
-  Reference Point Based Multi-Objective Optimization of Reservoir Operation: a Comparison of Three Algorithms
-Rong Tang, Ke Li, Wei Ding, Yuntao Wang, Huicheng Zhou, Guangtao Fu</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://example.com/docs/research/publications_year/new/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/docs/research/publications_year/new/</guid>
-      <description>Publications #  To appear #  Journal #   Bayesian Network Based Label Correlation Analysis For Multi-label Classifier Chain
-Ran Wang, Suhe Ye, Ke Li, Sam Kwong
-Information Sciences
-[PDF] [BiB]  Conference #    An Improved Two-Archive Evolutionary Algorithm for Constrained Multi-Objective Optimization
-Xinyu Shan+, Ke Li
-Proc. of the 11th International Conference on Evolutionary Multi-Criterion Optimization (EMO&#39;21), March, 2021
-[PDF] [BiB]
-  Multi-Objective Reinforcement Learning based Multi-Microgrid System Optimisation Problem</description>
-    </item>
-    
-    <item>
       <title>Deadlines</title>
       <link>https://example.com/docs/misc/ddl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/misc/ddl/</guid>
-      <description>Deadlines #  Here are some important deadlines for the major conferences in artificial intelligence and machine learning (AI &amp;amp; ML), software engineering (SE) and evolutionary computation (EC) domains.
-AI &amp;amp; ML  IJCAI 2021: January 20, 2021 ICML 2021: February 4, 2021 UAI 2021: February 19, 2021 NIPS 2021: May 27, 2021 AAAI 2022: TBD ICLR 2022: TBD AISTAS 2022: TBD SDM 2022: TBD  SE  ISSTA 2021: Jan 29, 2021 FSE 2021: February 25, 2021 ASE 2021: April 23, 2021 ICSE 2022: September 3, 2021  EC  GECCO 2021: February 4, 2021 IJCNN: February 10, 2021 CEC 2021: February 21, 2021 SMC 2021: April 5, 2021 FOGA 2021: May 7, 2021 SSCI 2021: August 6, 2021   </description>
+      <description>Deadlines #  Here are some important deadlines for the major conferences in artificial intelligence and machine learning (AI &amp;amp; ML), data mining (DM), natural language processing (NLP), software engineering (SE) and evolutionary computation (EC) domains.
+AI &amp;amp; ML  IJCAI 2022: January 14, 2022 ICML 2022: January 27, 2022 UAI 2022: February 25, 2022 NeurIPS 2022: TBD AAAI 2023: TBD ICLR 2023: TBD AISTAS 2023: TBD  DM  ICDM 2022: June 2022 SDM 2023: TBD  NLP  ACL 2022: November 15, 2021 NAACL 2022: Jan 15, 2022 COLING 2022: May 15, 2022 EMNLP 2022: May 24, 2022  SE  ISSTA 2022: Jan 28, 2022 FSE 2022: March 17, 2022 ASE 2022: May 6, 2022 ICSE 2022: September 1, 2022  EC  GECCO 2022: February 3, 2022 WCCI 2022: January 31, 2022 PPSN 2022: April 13, 2022 IJCNN 2022: February 10, 2022 CEC 2022: February 21, 2022 SMC 2022: April 15, 2022 FOGA 2022: May 7, 2022 SSCI 2022: July 1, 2022   </description>
+    </item>
+    
+    <item>
+      <title>EMOC</title>
+      <link>https://example.com/docs/research/emoc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/docs/research/emoc/</guid>
+      <description>test
+ EMOC stands for Evolutionary Multi-objective Optimization in C++ which is a framework for single-objective and multi-objective optimization.
+For more information about installation and usage, please refer to the document site.
+ Features #    Rich algorithms and problems
+EMOC implemented about 30 algorithms and more than 80 test problems which both include single-objective and multi-objective types.
+  Developed in C++ and Cross-platform
+All the source code of EMOC are wrote in C++.</description>
     </item>
     
     <item>
@@ -245,8 +61,8 @@ AI &amp;amp; ML  IJCAI 2021: January 20, 2021 ICML 2021: February 4, 2021 UAI 20
       
       <guid>https://example.com/docs/research/grants/</guid>
       <description>Grants #      hr.dashed { border-top: 1px dashed #bbb; } .grid-container { display: grid; grid-template-columns: 40% 60%; grid-gap: 5px; background-color: transparent; padding: 5px; }  We are grateful to have been generously supported by or closely working with the following funding bodies and industrial partners.
- Ongoing  Many Hands Make Work Light: Multi-task Deep Semantic Learning for Testing Web Application Firewalls
- Amazon Research Award |  PI |  $80,000 +  $10,000 |  2021&amp;ndash;2022.</description>
+ Ongoing  Transfer Bayesian Optimization for Multi-Fidelity Data in Uncertain Environments
+ European Network Fund |  #GP ENF5.10 |  PI |  £7,440 |  2021&amp;ndash;2022.</description>
     </item>
     
     <item>
@@ -264,7 +80,7 @@ AI &amp;amp; ML  IJCAI 2021: January 20, 2021 ICML 2021: February 4, 2021 UAI 20
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/home/members/</guid>
-      <description>Members #      hr.dashed { border-top: 1px dashed #bbb; } .grid-container { display: grid; grid-template-columns: 15% 35% 15% 35%; grid-gap: 15px; background-color: transparent; padding: 5px; align-content: left; }   Lookup table of acronyms in this page. &amp;#43;   EMO: evolutionary multi-objective optimization BO: Bayesian optimization BLO: bi-level optimization MFO: multi-fidelity optimization CO: constrained optimization DO: dynamic optimization MCM: Monte Carlo method    LA: landscape analysis TL: transfer learning MTL: multi-task learning LL: life-long learning GP: Gaussian processes NLP: natural language processing SE: software engineering VNF: virtual network functions         Faculty #   Dr Ke Li (UKRI FLF)</description>
+      <description>Members #      hr.dashed { border-top: 1px dashed #bbb; } .grid-container { display: grid; grid-template-columns: 15% 35% 15% 35%; grid-gap: 15px; background-color: transparent; padding: 5px; align-content: left; }   Lookup table of acronyms in this page. &amp;#43;   EMO: evolutionary multi-objective optimization BO: Bayesian optimization BLO: bi-level optimization MFO: multi-fidelity optimization CO: constrained optimization DO: dynamic optimization MCM: Monte Carlo method    LA: landscape analysis TL: transfer learning MTL: multi-task learning LL: life-long learning GP: Gaussian processes NLP: natural language processing SE: software engineering VNF: virtual network functions         Faculty #   Dr Ke Li</description>
     </item>
     
     <item>
@@ -273,8 +89,7 @@ AI &amp;amp; ML  IJCAI 2021: January 20, 2021 ICML 2021: February 4, 2021 UAI 20
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/home/news/</guid>
-      <description>News Archive #  2020 #  Dec   Our paper on Bayesian Network Based Label Correlation Analysis For Multi-label Classifier Chain has been accepted for publication in Information Sciences. Congratulations to my collaborators! Dec 8
-  There are multiple openings in our lab for PhD students 2021 entry. The studentships are available for both UK/EU and international students. Please have a look at vacancies and feel free to contact with me for more details.</description>
+      <description>News Archive #  2021 #  Dec  I have been invited to renew my term as an Associate Editor of IEEE Trans. Evolutionary Computation in 2022. Be humbled to serve our best journal in the evolutionary computation community.  Dec 27  Nov  Our paper &amp;ldquo;Distributed UAV Swarm Formation and Collision Avoidance Strategies Over Fixed and Switching Topologies&amp;rdquo; is accepted to IEEE Trans. Cybernetics. Congratulations to Jia!</description>
     </item>
     
     <item>
@@ -283,7 +98,7 @@ AI &amp;amp; ML  IJCAI 2021: January 20, 2021 ICML 2021: February 4, 2021 UAI 20
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/research/publications/</guid>
-      <description>Publications #      hr.dashed { border-top: 1px dashed #bbb; } .grid-container { display: grid; grid-template-columns: 40% 60%; grid-gap: 5px; background-color: transparent; padding: 5px; }   The copyrights of published papers are transferred to publishers. Misuse of any material posted here may result in plagiarism. + means my current/previous student or visitor. * means equal contribution   To appear #   Technical Report #    Decomposition Multi-Objective Evolutionary Optimization: From State-of-the-Art to Future Opportunities</description>
+      <description>Publications #      function toggle_visibility(id) { var e = document.getElementById(id); if(e.style.display == &#39;block&#39;) e.style.display = &#39;none&#39;; else e.style.display = &#39;block&#39;; }   hr.dashed { border-top: 1px dashed #bbb; } .grid-container { display: grid; grid-template-columns: 40% 60%; grid-gap: 5px; background-color: transparent; padding: 5px; } .bibtexpre{ background-color:#F8F8FA; border-radius:5px; border: 2px solid #D8D8DA; margin:10px; }   The copyrights of published papers are transferred to publishers. Misuse of any material posted here may result in plagiarism.</description>
     </item>
     
     <item>
@@ -293,6 +108,26 @@ AI &amp;amp; ML  IJCAI 2021: January 20, 2021 ICML 2021: February 4, 2021 UAI 20
       
       <guid>https://example.com/docs/research/readinggroup/</guid>
       <description>Reading Group #     The paper reading group meets weekly during the semester to discuss papers. Participation is open to all, guests are always welcome; if you are interested in receiving invitations contact the organizer.   More about our reading group culture &amp;#43;  Each week we will discuss a different paper. The paper to discuss is announced about one week in advance by the organizer. All participants are expected to read the paper before the meeting.</description>
+    </item>
+    
+    <item>
+      <title>Supplementary</title>
+      <link>https://example.com/docs/research/supp/supp_dmi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/docs/research/supp/supp_dmi/</guid>
+      <description>Supplementary Materials #  This website maintains the supplementary materials related to the following paper:
+Ke Li, Renzhi Chen, &amp;ldquo;Batched Data-Driven Evolutionary Multi-Objective Optimization Based on Manifold Interpolation&amp;rdquo;, IEEE Trans. Evol. Comput., accepted for publication, 2022.  It consists of the following parts:
+ Appendix document of this paper can be found from this Dropbox link. Tables of all comparison results can be found in this Dropbox link. Figures of all comparison results of the population distributions of on different benchmark test problems can be found in this Dropbox link.</description>
+    </item>
+    
+    <item>
+      <title>Symposium</title>
+      <link>https://example.com/docs/research/activities/exeter_leiden_symposium/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/docs/research/activities/exeter_leiden_symposium/</guid>
+      <description>Exeter-Leiden Symposium on Data-Driven Modeling and Optimization #      function toggle_visibility(id) { var e = document.getElementById(id); if(e.style.display == &#39;block&#39;) e.style.display = &#39;none&#39;; else e.style.display = &#39;block&#39;; }   hr.dashed { border-top: 1px dashed #bbb; } .grid-container { display: grid; grid-template-columns: 40% 60%; grid-gap: 5px; background-color: transparent; padding: 5px; } .bibtexpre{ background-color:#F8F8FA; border-radius:5px; border: 2px solid #D8D8DA; margin:10px; }  Objectives #  Data has been playing an ever-growing role in artificial/computational intelligence.</description>
     </item>
     
     <item>
