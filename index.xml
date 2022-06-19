@@ -22,7 +22,7 @@ Instead of being comprehensive, this page mainly aims to provide a curated list 
       
       <guid>https://example.com/posts/overleaf_naming/</guid>
       <description>Overleaf is a collaborative cloud-based LaTeX editor used for writing, editing and publishing scientific documents. In COLA laboratory, we use the Overleaf as the centralized place to manage our manuscripts. In order to make the projects be managed in an organized manner, a project is usually named as A_B_C.
- A: journal/conference name, e.g., TEVC/PPSN22 B: acronym of the algorithm, e.g., TBO2 C: first character of your name, e.</description>
+A: journal/conference name, e.g., TEVC/PPSN22 B: acronym of the algorithm, e.g., TBO2 C: first character of your name, e.g., RC This comes up to be a typical example: TEVC_TBO2_RC.</description>
     </item>
     
     <item>
@@ -32,7 +32,7 @@ Instead of being comprehensive, this page mainly aims to provide a curated list 
       
       <guid>https://example.com/posts/bibtex_rule/</guid>
       <description>Bibtex is a powerful tool to manage your references in scientific writing by using LaTeX. However, the bibtex sources can be messy in the wild. Here are some useful tips to prepare a beautiful and clean bibtex file.
- Instead of searching from Google, it might be more convenient to search the corresponding paper or author in DBLP. There is an option to choose the export record as the BibTeX.</description>
+Instead of searching from Google, it might be more convenient to search the corresponding paper or author in DBLP. There is an option to choose the export record as the BibTeX. It will be more efficient to use some text editor like Vim to facilitate your editing.</description>
     </item>
     
     <item>
@@ -41,8 +41,8 @@ Instead of being comprehensive, this page mainly aims to provide a curated list 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/academicons/academicons-1.9.0/README/</guid>
-      <description>What is Academicons? #  Academicons is a specialist icon font for academics. It contains icons for websites and organisations related to academia that are often missing from mainstream font packages. It can be used by itself, but its primary purpose is to be used as a supplementary package alongside a larger icon set. Go here to view the full icon set along with instructions for their use.
-Requesting new icons #  New icons can be requested by creating an issue here.</description>
+      <description>What is Academicons? # Academicons is a specialist icon font for academics. It contains icons for websites and organisations related to academia that are often missing from mainstream font packages. It can be used by itself, but its primary purpose is to be used as a supplementary package alongside a larger icon set. Go here to view the full icon set along with instructions for their use.
+Requesting new icons # New icons can be requested by creating an issue here.</description>
     </item>
     
     <item>
@@ -51,13 +51,13 @@ Requesting new icons #  New icons can be requested by creating an issue here.</d
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/research/archive_reading/</guid>
-      <description>Archive of Reading Group #  Agenda (Year 2020) #  Dec   Surrogate Assisted Evolutionary Algorithms, Fan Li Dec 27
+      <description>Archive of Reading Group # Agenda (Year 2020) # Dec Surrogate Assisted Evolutionary Algorithms, Fan Li Dec 27
 [slides]
-  RoboGrammar: Graph Grammar for Terrain-Optimized Robot Design, ACM Trans. Graphics. Jiahao Zhou Dec 20
-[paper] [slides]
-  Optimization, Fast and Slow: Optimally Switching Between Local and Bayesian Optimization, ICML 2018. Guozhao Wei Dec 13
-[paper] [slides]
-  Nov   Ordinal Regression with Multiple Output CNN for Age Estimation, CVPR 2016.</description>
+RoboGrammar: Graph Grammar for Terrain-Optimized Robot Design, ACM Trans. Graphics. Jiahao Zhou Dec 20
+[ paper] [slides]
+Optimization, Fast and Slow: Optimally Switching Between Local and Bayesian Optimization, ICML 2018. Guozhao Wei Dec 13
+[ paper] [slides]
+Nov Ordinal Regression with Multiple Output CNN for Age Estimation, CVPR 2016. Guiyu Lai Nov 29</description>
     </item>
     
     <item>
@@ -66,7 +66,7 @@ Requesting new icons #  New icons can be requested by creating an issue here.</d
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/research/projects/</guid>
-      <description>Projects #  Under construction  </description>
+      <description> Projects # Under construction </description>
     </item>
     
     <item>
@@ -75,8 +75,8 @@ Requesting new icons #  New icons can be requested by creating an issue here.</d
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/misc/ddl/</guid>
-      <description>Deadlines #  Here are some important deadlines for the major conferences in artificial intelligence and machine learning (AI &amp;amp; ML), data mining (DM), natural language processing (NLP), software engineering (SE) and evolutionary computation (EC) domains.
-AI &amp;amp; ML  IJCAI 2022: January 14, 2022 ICML 2022: January 27, 2022 UAI 2022: February 25, 2022 NeurIPS 2022: May 17, 2022 AAAI 2023: August 15, 2022 ICLR 2023: TBD AISTAS 2023: TBD  DM  ICDM 2022: June 2022 SDM 2023: TBD  NLP  ACL 2022: November 15, 2021 NAACL 2022: Jan 15, 2022 COLING 2022: May 15, 2022 EMNLP 2022: May 24, 2022  SE  ISSTA 2022: Jan 28, 2022 FSE 2022: March 17, 2022 ASE 2022: May 6, 2022 ICSE 2022: September 1, 2022  EC  GECCO 2022: February 3, 2022 WCCI 2022: January 31, 2022 PPSN 2022: April 13, 2022 IJCNN 2022: February 10, 2022 CEC 2022: February 21, 2022 SMC 2022: April 15, 2022 FOGA 2022: May 7, 2022 SSCI 2022: July 1, 2022   </description>
+      <description> Deadlines # Here are some important deadlines for the major conferences in artificial intelligence and machine learning (AI &amp;amp; ML), data mining (DM), natural language processing (NLP), software engineering (SE) and evolutionary computation (EC) domains.
+AI &amp;amp; ML IJCAI 2022: January 14, 2022 ICML 2022: January 27, 2022 UAI 2022: February 25, 2022 NeurIPS 2022: May 17, 2022 AAAI 2023: August 15, 2022 ICLR 2023: TBD AISTAS 2023: TBD DM ICDM 2022: June 2022 SDM 2023: TBD NLP ACL 2022: November 15, 2021 NAACL 2022: Jan 15, 2022 COLING 2022: May 15, 2022 EMNLP 2022: May 24, 2022 SE ISSTA 2022: Jan 28, 2022 FSE 2022: March 17, 2022 ASE 2022: May 6, 2022 ICSE 2022: September 1, 2022 EC GECCO 2022: February 3, 2022 WCCI 2022: January 31, 2022 PPSN 2022: April 13, 2022 IJCNN 2022: February 10, 2022 CEC 2022: February 21, 2022 SMC 2022: April 15, 2022 FOGA 2022: May 7, 2022 SSCI 2022: July 1, 2022 </description>
     </item>
     
     <item>
@@ -87,10 +87,10 @@ AI &amp;amp; ML  IJCAI 2022: January 14, 2022 ICML 2022: January 27, 2022 UAI 20
       <guid>https://example.com/docs/research/emoc/</guid>
       <description>EMOC stands for Evolutionary Multi-objective Optimization in C++ which is a framework for single-objective and multi-objective optimization.
 For more information about installation and usage, please refer to the document site.
- Features #    Rich algorithms and problems
+Features # Rich algorithms and problems
 EMOC implemented about 30 algorithms and more than 80 test problems which both include single-objective and multi-objective types.
-  Developed in C++ and Cross-platform
-All the source code of EMOC are wrote in C++.</description>
+Developed in C++ and Cross-platform
+All the source code of EMOC are wrote in C++. So the running efficiency is guaranteed when comparing other implementation with python, java or matlab.</description>
     </item>
     
     <item>
@@ -99,9 +99,11 @@ All the source code of EMOC are wrote in C++.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/research/grants/</guid>
-      <description>Grants #      hr.dashed { border-top: 1px dashed #bbb; } .grid-container { display: grid; grid-template-columns: 40% 60%; grid-gap: 5px; background-color: transparent; padding: 5px; }  We are grateful to have been generously supported by or closely working with the following funding bodies and industrial partners.
- Ongoing  Transfer Bayesian Optimization for Multi-Fidelity Data in Uncertain Environments
- European Network Fund |  #GP ENF5.10 |  PI |  £7,440 |  2021&amp;ndash;2022.</description>
+      <description>Grants # We are grateful to have been generously supported by or closely working with the following funding bodies and industrial partners.
+Ongoing Transfer Bayesian Optimization for Multi-Fidelity Data in Uncertain Environments
+European Network Fund | #GP ENF5.10 | PI | £7,440 | 2021&amp;ndash;2022. Evolutionary Multi-Objective Search for Automating CNN Architecture Design
+Royal Society | #IES\R2\212077 | PI | £11,815 | 2021&amp;ndash;2023. Human-Centric Computing
+Alan Turing Fellowship | PI | 2021&amp;ndash;2022.</description>
     </item>
     
     <item>
@@ -110,7 +112,7 @@ All the source code of EMOC are wrote in C++.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/misc/dtec/</guid>
-      <description>IEEE CIS Task Force 12 #  Task Force on Decomposition-based Techniques in Evolutionary Computation Objectives #  As the name suggests, the basic idea of the decomposition-based technique is to transform the original complex problem into simplified subproblem(s) so as to facilitate the optimization. Decomposition-based techniques have been widely used for solving both single- and multi-objective optimization problems. More specifically, in single-objective optimization, especially for the large-scale scenarios, which consider a tremendous amount of decision variables, the decomposition-based technique contains three aspects: 1) analyzing and understanding the fitness landscape and modularity structure of the underlying problem; 2) decomposing the original complex problem into several loosely coupled or independent subproblems based on the learnt characteristics; 3) using a meta-heuristic to solve these subproblems in a sequential or concurrent manner.</description>
+      <description>IEEE CIS Task Force 12 # Task Force on Decomposition-based Techniques in Evolutionary Computation Objectives # As the name suggests, the basic idea of the decomposition-based technique is to transform the original complex problem into simplified subproblem(s) so as to facilitate the optimization. Decomposition-based techniques have been widely used for solving both single- and multi-objective optimization problems. More specifically, in single-objective optimization, especially for the large-scale scenarios, which consider a tremendous amount of decision variables, the decomposition-based technique contains three aspects: 1) analyzing and understanding the fitness landscape and modularity structure of the underlying problem; 2) decomposing the original complex problem into several loosely coupled or independent subproblems based on the learnt characteristics; 3) using a meta-heuristic to solve these subproblems in a sequential or concurrent manner.</description>
     </item>
     
     <item>
@@ -119,7 +121,8 @@ All the source code of EMOC are wrote in C++.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/home/members/</guid>
-      <description>Members #      hr.dashed { border-top: 1px dashed #bbb; } .grid-container { display: grid; grid-template-columns: 15% 35% 15% 35%; grid-gap: 15px; background-color: transparent; padding: 5px; align-content: left; }   Lookup table of acronyms in this page. &amp;#43;   EMO: evolutionary multi-objective optimization BO: Bayesian optimization BLO: bi-level optimization MFO: multi-fidelity optimization CO: constrained optimization DO: dynamic optimization MCM: Monte Carlo method    LA: landscape analysis TL: transfer learning MTL: multi-task learning LL: life-long learning GP: Gaussian processes NLP: natural language processing SE: software engineering VNF: virtual network functions         Faculty #   Dr Ke Li</description>
+      <description>Members # Lookup table of acronyms in this page. &amp;#43; EMO: evolutionary multi-objective optimization BO: Bayesian optimization BLO: bi-level optimization MFO: multi-fidelity optimization CO: constrained optimization DO: dynamic optimization MCM: Monte Carlo method LA: landscape analysis TL: transfer learning MTL: multi-task learning LL: life-long learning GP: Gaussian processes NLP: natural language processing SE: software engineering VNF: virtual network functions Faculty # Dr Ke Li
+UKRI FLF | Turing Fellow</description>
     </item>
     
     <item>
@@ -128,7 +131,7 @@ All the source code of EMOC are wrote in C++.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/home/news/</guid>
-      <description>News Archive #  2021 #  Dec  I have been invited to renew my term as an Associate Editor of IEEE Trans. Evolutionary Computation in 2022. Be humbled to serve our best journal in the evolutionary computation community.  Dec 27  Nov  Our paper &amp;ldquo;Distributed UAV Swarm Formation and Collision Avoidance Strategies Over Fixed and Switching Topologies&amp;rdquo; is accepted to IEEE Trans. Cybernetics. Congratulations to Jia!</description>
+      <description>News Archive # 2021 # Dec I have been invited to renew my term as an Associate Editor of IEEE Trans. Evolutionary Computation in 2022. Be humbled to serve our best journal in the evolutionary computation community. Dec 27 Nov Our paper &amp;ldquo;Distributed UAV Swarm Formation and Collision Avoidance Strategies Over Fixed and Switching Topologies&amp;rdquo; is accepted to IEEE Trans. Cybernetics. Congratulations to Jia! Nov 24 Oct I am proud to be recognized in the Top 2% Scientists Worldwide in a latest study from Stanford University.</description>
     </item>
     
     <item>
@@ -137,7 +140,10 @@ All the source code of EMOC are wrote in C++.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/research/publications/</guid>
-      <description>Publications #      function toggle_visibility(id) { var e = document.getElementById(id); if(e.style.display == &#39;block&#39;) e.style.display = &#39;none&#39;; else e.style.display = &#39;block&#39;; } //Params: // id_prefix: the prefix of the id for the showing blocks // current_order: the order of the current block, start from 0 // total_num: the total number of showing blocks //Usage: // All the showing blocks should have id with the form &#39;id_prefix_#&#39;, e.g., // for id_prefix = &#39;test&#39;, total_num = 4, the id for showing blocks should be // &#39;test_0&#39;, &#39;test_1&#39;, &#39;test_2&#39;, &#39;test_3&#39;.</description>
+      <description>Publications # The copyrights of published papers are transferred to publishers. Misuse of any material posted here may result in plagiarism. + means my current/previous student or visitor. * means equal contribution To appear # Technical Report # DaNuoYi: Evolutionary Multi-Task Injection Testing on Web Application Firewalls
+Ke Li, Heng Yang+, Willem Visser
+CoRR abs/2206.05743 | June 2022
+PDF | BiB @article{LiYV22, author = {Ke Li and Heng Yang and Willem Visser}, title = {DaNuoYi: Evolutionary Multi-Task Injection Testing on Web Application Firewalls}, journal = {CoRR}, volume = {abs/2206.</description>
     </item>
     
     <item>
@@ -146,7 +152,7 @@ All the source code of EMOC are wrote in C++.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/research/readinggroup/</guid>
-      <description>Reading Group #     The paper reading group meets weekly during the semester to discuss papers. Participation is open to all, guests are always welcome; if you are interested in receiving invitations contact the organizer.   More about our reading group culture &amp;#43;  Each week we will discuss a different paper. The paper to discuss is announced about one week in advance by the organizer. All participants are expected to read the paper before the meeting.</description>
+      <description>Reading Group # The paper reading group meets weekly during the semester to discuss papers. Participation is open to all, guests are always welcome; if you are interested in receiving invitations contact the organizer. More about our reading group culture &amp;#43; Each week we will discuss a different paper. The paper to discuss is announced about one week in advance by the organizer. All participants are expected to read the paper before the meeting.</description>
     </item>
     
     <item>
@@ -155,9 +161,9 @@ All the source code of EMOC are wrote in C++.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/research/supp/supp_dmi/</guid>
-      <description>Supplementary Materials #  This website maintains the supplementary materials related to the following paper:
-Ke Li, Renzhi Chen, &amp;ldquo;Batched Data-Driven Evolutionary Multi-Objective Optimization Based on Manifold Interpolation&amp;rdquo;, IEEE Trans. Evol. Comput., accepted for publication, 2022.  It consists of the following parts:
- Appendix document of this paper can be found from this Dropbox link. Tables of all comparison results can be found in this Dropbox link. Figures of all comparison results of the population distributions of on different benchmark test problems can be found in this Dropbox link.</description>
+      <description>Supplementary Materials # This website maintains the supplementary materials related to the following paper:
+Ke Li, Renzhi Chen, &amp;ldquo;Batched Data-Driven Evolutionary Multi-Objective Optimization Based on Manifold Interpolation&amp;rdquo;, IEEE Trans. Evol. Comput., accepted for publication, 2022. It consists of the following parts:
+Appendix document of this paper can be found from this Dropbox link. Tables of all comparison results can be found in this Dropbox link. Figures of all comparison results of the population distributions of on different benchmark test problems can be found in this Dropbox link.</description>
     </item>
     
     <item>
@@ -166,7 +172,7 @@ Ke Li, Renzhi Chen, &amp;ldquo;Batched Data-Driven Evolutionary Multi-Objective 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/research/activities/exeter_leiden_symposium/</guid>
-      <description>Exeter-Leiden Symposium on Data-Driven Modeling and Optimization #      function toggle_visibility(id) { var e = document.getElementById(id); if(e.style.display == &#39;block&#39;) e.style.display = &#39;none&#39;; else e.style.display = &#39;block&#39;; }   hr.dashed { border-top: 1px dashed #bbb; } .grid-container { display: grid; grid-template-columns: 40% 60%; grid-gap: 5px; background-color: transparent; padding: 5px; } .bibtexpre{ background-color:#F8F8FA; border-radius:5px; border: 2px solid #D8D8DA; margin:10px; white-space: pre-wrap; word-wrap: break-word; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; }   Objectives #  Data has been playing an ever-growing role in artificial/computational intelligence.</description>
+      <description>Exeter-Leiden Symposium on Data-Driven Modeling and Optimization # Objectives # Data has been playing an ever-growing role in artificial/computational intelligence. Such role goes beyond its typical use in neural networks and learning systems, encompassing also evolutionary and other meta-heuristic optimization algorithms. The objective of this symposium is to provide a unique and vibrant cohort for sharing and experiencing the emerging methodologies and applications of data-driven artificial/computational intelligence. It will offer keynotes, invited lectures and discussion groups given by experts from Exeter, Leiden and other high-profile institutions.</description>
     </item>
     
     <item>
@@ -175,9 +181,9 @@ Ke Li, Renzhi Chen, &amp;ldquo;Batched Data-Driven Evolutionary Multi-Objective 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/home/vacancies/</guid>
-      <description>Vacancies #    We very much welcome and support applications from underrepresented groups and from people of all shapes, shades, and genders. If you are uncertain about your possible role in our team, please do not hesitate to get in touch with Ke Li.
+      <description>Vacancies # We very much welcome and support applications from underrepresented groups and from people of all shapes, shades, and genders. If you are uncertain about your possible role in our team, please do not hesitate to get in touch with Ke Li.
 PhD There are multiple opportunities available at the University of Exeter to fund your PhD study.
- China Scholarship Council (Chinese Students): The University of Exeter is proud to offer up to 50 full-time PhD scholarships in collaboration with the China Scholarship Council (CSC).</description>
+China Scholarship Council (Chinese Students): The University of Exeter is proud to offer up to 50 full-time PhD scholarships in collaboration with the China Scholarship Council (CSC).</description>
     </item>
     
   </channel>
