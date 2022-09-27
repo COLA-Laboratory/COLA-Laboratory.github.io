@@ -100,10 +100,11 @@ UKRI FLF | Turing Fellow</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/research/publications/</guid>
-      <description>Publications # The copyrights of published papers are transferred to publishers. Misuse of any material posted here may result in plagiarism. + means my current/previous student or visitor. * means equal contribution To appear # Technical Report # DaNuoYi: Evolutionary Multi-Task Injection Testing on Web Application Firewalls
-Ke Li, Heng Yang+, Willem Visser
-CoRR abs/2206.05743 | June 2022
-PDF | BiB @article{LiYV22, author = {Ke Li and Heng Yang and Willem Visser}, title = {DaNuoYi: Evolutionary Multi-Task Injection Testing on Web Application Firewalls}, journal = {CoRR}, volume = {abs/2206.</description>
+      <description>Publications # The copyrights of published papers are transferred to publishers. Misuse of any material posted here may result in plagiarism. + means my current/previous student or visitor. * means equal contribution To appear # Technical Report # A Data-Driven Evolutionary Transfer Optimization for Expensive Problems in Dynamic Environments
+Ke Li, Renzhi Chen+, Xin Yao
+CoRR abs/xxxx.xxxxx | October 2022
+PDF | Supp | BiB
+DaNuoYi: Evolutionary Multi-Task Injection Testing on Web Application Firewalls</description>
     </item>
     
     <item>
