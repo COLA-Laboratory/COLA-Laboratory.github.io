@@ -141,7 +141,7 @@ UKRI FLF | Turing Fellow</description>
       
       <guid>https://example.com/docs/research/publications/</guid>
       <description>Publications # The copyrights of published papers are transferred to publishers. Misuse of any material posted here may result in plagiarism. + means my current/previous student or visitor. * means equal contribution To appear # Technical Report # A Data-Driven Evolutionary Transfer Optimization for Expensive Problems in Dynamic Environments
-Ke Li, Renzhi Chen+, Xin Yao
+Ke Li*, Renzhi Chen+*, Xin Yao
 CoRR abs/xxxx.xxxxx | October 2022
 PDF | Supp | BiB
 DaNuoYi: Evolutionary Multi-Task Injection Testing on Web Application Firewalls</description>
