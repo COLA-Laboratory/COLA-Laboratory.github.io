@@ -123,7 +123,8 @@ DaNuoYi: Evolutionary Multi-Task Injection Testing on Web Application Firewalls<
       
       <guid>https://example.com/docs/research/supp/supp_deto/</guid>
       <description>Supplementary Materials # This website maintains the supplementary materials related to the following paper:
-Ke Li, Renzhi Chen, &amp;ldquo;A Data-Driven Evolutionary Transfer Optimization for Expensive Problems in Dynamic Environments&amp;rdquo;, arXiv CoRR abs/xxxx.xxxxx, 2022. We are keen on promoting reproducibility and transparency in scientific research. Since this manuscript is currently submitted for possible publication, the source codes used in our empirical study will be publicly available after its acceptance. It consists of the following parts:</description>
+Ke Li, Renzhi Chen, &amp;ldquo;A Data-Driven Evolutionary Transfer Optimization for Expensive Problems in Dynamic Environments&amp;rdquo;, arXiv CoRR abs/xxxx.xxxxx, 2022. It consists of the following parts:
+Appendix document of this paper can be found from this Dropbox link. Examples of the dynamically changing fitness landscape of both the moving peak benchmark problems (left hand side) and the moving peak benchmark with Gaussian peaks (right hand side).</description>
     </item>
     
     <item>
