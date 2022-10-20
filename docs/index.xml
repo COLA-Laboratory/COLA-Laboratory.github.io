@@ -7,26 +7,56 @@
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://example.com/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://example.com/docs/research/archive_reading/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/docs/research/archive_reading/</guid>
-      <description>Archive of Reading Group # Agenda (Year 2020) # Dec Surrogate Assisted Evolutionary Algorithms, Fan Li Dec 27
-[slides]
-RoboGrammar: Graph Grammar for Terrain-Optimized Robot Design, ACM Trans. Graphics. Jiahao Zhou Dec 20
-[ paper] [slides]
-Optimization, Fast and Slow: Optimally Switching Between Local and Bayesian Optimization, ICML 2018. Guozhao Wei Dec 13
-[ paper] [slides]
-Nov Ordinal Regression with Multiple Output CNN for Age Estimation, CVPR 2016. Guiyu Lai Nov 29</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://example.com/docs/research/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/research/projects/</guid>
       <description> Projects # Under construction </description>
+    </item>
+    
+    <item>
+      <title>Archive of COLA Seminar Series</title>
+      <link>https://example.com/docs/events/archive/archive_seminar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/docs/events/archive/archive_seminar/</guid>
+      <description> Archive of COLA Seminar Series # 2022 # </description>
+    </item>
+    
+    <item>
+      <title>Archive of Reading Group</title>
+      <link>https://example.com/docs/events/archive/archive_reading/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/docs/events/archive/archive_reading/</guid>
+      <description>Archive of Reading Group # Agenda (Year 2021) # June Learning from Multiple Cities: A Meta-Learning Approach for Spatial-Temporal Prediction
+WWW 2019
+paper | slides | Jiangjiao Xu | June 20
+Bayesian temporal factorization for multidimensional time series prediction
+IEEE PAMI 2021
+paper | slides | Jiangjiao Xu | June 13
+Discrete Fourier Transform and Random Fourier Features
+Data-Driven Science and Engineering, Chapter 2: 47&amp;ndash;83, 2019
+slides | Phoenix Williams | June 9</description>
+    </item>
+    
+    <item>
+      <title>Archive of Study Group</title>
+      <link>https://example.com/docs/events/archive/archive_study/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/docs/events/archive/archive_study/</guid>
+      <description> Archive # 2022 # </description>
+    </item>
+    
+    <item>
+      <title>COLA Seminar Series</title>
+      <link>https://example.com/docs/events/seminars/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/docs/events/seminars/</guid>
+      <description>COLA Seminar Series # This is our seminar series where we exchange ideas with guest speakers, keeping you up to date with the latest developments and inspiring research topics. Occasionally, COLA researchers present their own work as well. Agenda (Year 2021) # June Exeter-Leiden Symposium on Data-Driven Modeling and Optimization
+Website | Ke Li, Hao Wang | June 6 Previous seminar series can be found from our archive.</description>
     </item>
     
     <item>
@@ -109,11 +139,22 @@ DaNuoYi: Evolutionary Multi-Task Injection Testing on Web Application Firewalls<
     
     <item>
       <title>Reading Group</title>
-      <link>https://example.com/docs/research/readinggroup/</link>
+      <link>https://example.com/docs/events/readinggroup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/docs/research/readinggroup/</guid>
-      <description>Reading Group # The paper reading group meets weekly during the semester to discuss papers. Participation is open to all, guests are always welcome; if you are interested in receiving invitations contact the organizer. More about our reading group culture &amp;#43; Each week we will discuss a different paper. The paper to discuss is announced about one week in advance by the organizer. All participants are expected to read the paper before the meeting.</description>
+      <guid>https://example.com/docs/events/readinggroup/</guid>
+      <description>Reading Group # The paper reading group meets weekly during the semester to discuss papers. Participation is open to all, guests are always welcome; if you are interested in engaging with us, please feel free to contact Dr Ke Li. More about our reading group culture &amp;#43; The paper to discuss is announced about one week in advance by the presenter. All participants are expected to read the paper before the meeting.</description>
+    </item>
+    
+    <item>
+      <title>Study Group</title>
+      <link>https://example.com/docs/events/studygroup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/docs/events/studygroup/</guid>
+      <description>Study Group # The core purpose of this study group, which runs every Sunday afternoon, is to learn some fundamental knowledge pertinent to our research. Participation is usually expected to be our COLA members. However, if you are interested in engaging with us, please feel free to contact Dr Ke Li for a discussion. Agenda (Year 2022) # Nov Nouns: plurals, countable versus uncountable
+Academic Writing Series #1
+slides | video | Ke Li | November 4</description>
     </item>
     
     <item>
@@ -140,10 +181,10 @@ Appendix document of this paper can be found from this Dropbox link. Tables of a
     
     <item>
       <title>Symposium</title>
-      <link>https://example.com/docs/research/activities/exeter_leiden_symposium/</link>
+      <link>https://example.com/docs/events/activities/exeter_leiden_symposium/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/docs/research/activities/exeter_leiden_symposium/</guid>
+      <guid>https://example.com/docs/events/activities/exeter_leiden_symposium/</guid>
       <description>Exeter-Leiden Symposium on Data-Driven Modeling and Optimization # Objectives # Data has been playing an ever-growing role in artificial/computational intelligence. Such role goes beyond its typical use in neural networks and learning systems, encompassing also evolutionary and other meta-heuristic optimization algorithms. The objective of this symposium is to provide a unique and vibrant cohort for sharing and experiencing the emerging methodologies and applications of data-driven artificial/computational intelligence. It will offer keynotes, invited lectures and discussion groups given by experts from Exeter, Leiden and other high-profile institutions.</description>
     </item>
     

@@ -65,17 +65,22 @@
     <loc>https://example.com/academicons/academicons-1.9.0/README/</loc>
     <lastmod>2020-11-28T23:10:45+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/docs/research/archive_reading/</loc>
-    <lastmod>2021-01-31T14:51:37+00:00</lastmod>
-  </url><url>
     <loc>https://example.com/docs/research/projects/</loc>
     <lastmod>2020-11-28T23:10:45+00:00</lastmod>
   </url><url>
     <loc>https://example.com/academicons/</loc>
     <lastmod>2020-11-28T23:10:45+00:00</lastmod>
   </url><url>
+    <loc>https://example.com/docs/events/archive/archive_seminar/</loc>
+  </url><url>
+    <loc>https://example.com/docs/events/archive/archive_reading/</loc>
+  </url><url>
+    <loc>https://example.com/docs/events/archive/archive_study/</loc>
+  </url><url>
     <loc>https://example.com/posts/</loc>
     <lastmod>2020-11-28T23:10:45+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/docs/events/seminars/</loc>
   </url><url>
     <loc>https://example.com/docs/misc/ddl/</loc>
     <lastmod>2022-07-16T00:37:39+01:00</lastmod>
@@ -119,8 +124,9 @@
     <loc>https://example.com/docs/research/publications/</loc>
     <lastmod>2022-10-17T00:23:16+01:00</lastmod>
   </url><url>
-    <loc>https://example.com/docs/research/readinggroup/</loc>
-    <lastmod>2021-06-30T23:35:18+01:00</lastmod>
+    <loc>https://example.com/docs/events/readinggroup/</loc>
+  </url><url>
+    <loc>https://example.com/docs/events/studygroup/</loc>
   </url><url>
     <loc>https://example.com/docs/research/supp/supp_deto/</loc>
     <lastmod>2022-10-16T16:57:55+01:00</lastmod>
@@ -128,8 +134,7 @@
     <loc>https://example.com/docs/research/supp/supp_dmi/</loc>
     <lastmod>2022-05-28T11:41:27+08:00</lastmod>
   </url><url>
-    <loc>https://example.com/docs/research/activities/exeter_leiden_symposium/</loc>
-    <lastmod>2022-06-29T20:57:23+08:00</lastmod>
+    <loc>https://example.com/docs/events/activities/exeter_leiden_symposium/</loc>
   </url><url>
     <loc>https://example.com/docs/home/vacancies/</loc>
     <lastmod>2021-07-15T09:45:41+01:00</lastmod>
