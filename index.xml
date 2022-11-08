@@ -106,7 +106,7 @@ Website | Ke Li, Hao Wang | June 6 Previous seminar series can be found from our
       
       <guid>https://example.com/docs/misc/ddl/</guid>
       <description> Deadlines # Here are some important deadlines for the major conferences in artificial intelligence and machine learning (AI &amp;amp; ML), data mining (DM), natural language processing (NLP), software engineering (SE) and evolutionary computation (EC) domains.
-AI &amp;amp; ML IJCAI 2023: TBD ICML 2023: TBD ECML/PKDD 2023: TBD UAI 2022: February 25, 2022 NeurIPS 2022: May 17, 2022 AAAI 2023: August 15, 2022 ICLR 2023: September 28, 2022 AISTAS 2023: October 13, 2022 DM KDD 2023: TBD ICDM 2023: July 1, 2023 SDM 2023: October 14, 2022 CIKM 2023: TBD NLP ACL 2022: November 15, 2021 NAACL 2022: Jan 15, 2022 COLING 2022: May 15, 2022 EMNLP 2022: May 24, 2022 SE ISSTA 2022: Jan 28, 2022 FSE 2023: February 2, 2022 ASE 2023: TBD ICSE 2024: March 29, 2023 (1st round) | August 1, 2023 (2nd round) EC GECCO 2023: TBD WCCI 2022: January 31, 2022 PPSN 2022: April 13, 2022 IJCNN 2022: February 10, 2022 CEC 2023: January 13, 2023 SMC 2023: March 30, 2023 FOGA 2022: May 7, 2022 SSCI 2023: TBD </description>
+AI &amp;amp; ML IJCAI 2023: January 18, 2022 ICML 2023: January 26, 2022 ECML/PKDD 2023: TBD UAI 2022: February 25, 2022 NeurIPS 2022: May 17, 2022 AAAI 2023: August 15, 2022 ICLR 2023: September 28, 2022 AISTAS 2023: October 13, 2022 DM KDD 2023: TBD ICDM 2023: July 1, 2023 SDM 2023: October 14, 2022 CIKM 2023: TBD NLP ACL 2022: November 15, 2021 NAACL 2022: Jan 15, 2022 COLING 2022: May 15, 2022 EMNLP 2022: May 24, 2022 SE ISSTA 2022: Jan 28, 2022 FSE 2023: February 2, 2022 ASE 2023: TBD ICSE 2024: March 29, 2023 (1st round) | August 1, 2023 (2nd round) EC GECCO 2023: TBD WCCI 2022: January 31, 2022 PPSN 2022: April 13, 2022 IJCNN 2022: February 10, 2022 CEC 2023: January 13, 2023 SMC 2023: March 30, 2023 FOGA 2022: May 7, 2022 SSCI 2023: TBD </description>
     </item>
     
     <item>
@@ -172,9 +172,8 @@ UKRI FLF | Turing Fellow</description>
       <guid>https://example.com/docs/research/publications/</guid>
       <description>Publications # The copyrights of published papers are transferred to publishers. Misuse of any material posted here may result in plagiarism. + means my current/previous student or visitor. * means equal contribution To appear # Technical Report # A Data-Driven Evolutionary Transfer Optimization for Expensive Problems in Dynamic Environments
 Ke Li*, Renzhi Chen+*, Xin Yao
-CoRR abs/xxxx.xxxxx | October 2022
-PDF | Supp | BiB
-DaNuoYi: Evolutionary Multi-Task Injection Testing on Web Application Firewalls</description>
+CoRR abs/2211.02879 | November 2022
+PDF | Supp | BiB @article{LiCY22, author = {Ke Li and Renzhi Chen and Xin Yao}, title = {A Data-Driven Evolutionary Transfer Optimization for Expensive Problems in Dynamic Environments}, journal = {CoRR}, volume = {abs/2211.</description>
     </item>
     
     <item>
