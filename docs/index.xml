@@ -87,9 +87,8 @@ All the source code of EMOC are wrote in C++.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/research/grants/</guid>
-      <description>Grants #      hr.dashed { border-top: 1px dashed #bbb; } .grid-container { display: grid; grid-template-columns: 40% 60%; grid-gap: 5px; background-color: transparent; padding: 5px; }  We are grateful to have been generously supported by or closely working with the following funding bodies and industrial partners.
- Ongoing  Transfer Bayesian Optimization for Multi-Fidelity Data in Uncertain Environments
- European Network Fund |  #GP ENF5.10 |  PI |  £7,440 |  2021&amp;ndash;2022.</description>
+      <description>Grants #      hr.dashed { border-top: 1px dashed #bbb; } .grid-container { display: grid; grid-template-columns: 40% 60%; grid-gap: 5px; background-color: transparent; padding: 5px; }  We are grateful to have been generously supported by or closely working with the following funding bodies and industrial partners.  Ongoing  Transfer Optimisation System for Adaptive Automated Nature-Inspired Optimisation
+ UKRI Future Leaders Fellowship Phase 2:  #MR/X011135/1 |  PI |  £580,000 |  2023&amp;ndash;2026.</description>
     </item>
     
     <item>
