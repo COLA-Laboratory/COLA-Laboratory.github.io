@@ -17,7 +17,7 @@
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.a5f00dddfe7ef41e325d17ef835e16ef83a4399089fa8c583fe9f6a0e16d87e6.css" integrity="sha256-pfAN3f5&#43;9B4yXRfvg14W74OkOZCJ&#43;oxYP&#43;n2oOFth&#43;Y=">
-<script defer src="/en.search.min.e6d92c32260e1f7d34a2b16558d278c4ed3dbb345bc3170d6d64b748beea4ea4.js" integrity="sha256-5tksMiYOH300orFlWNJ4xO09uzRbwxcNbWS3SL7qTqQ="></script>
+<script defer src="/en.search.min.836932519167121d45bfbf8e4eb4b83abc876fddda69f8609e9a7442976fa951.js" integrity="sha256-g2kyUZFnEh1Fv7&#43;OTrS4OryHb93aafhgnpp0QpdvqVE="></script>
 
 <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk="></script>
 <!--
@@ -429,9 +429,13 @@ Joseph Billingsley+, <strong><ins>Ke Li</ins></strong>, Wang Miao, Geyong Min, N
 <p>Interactive Evolutionary Multi-Objective Optimization via Learning-to-Rank<br>
 <strong><ins>Ke Li</ins></strong>, Guiyu Lai+, Xin Yao<br>
 IEEE Trans. Evolutionary Computation (TEVC)<br>
-<i class='fa fa-file-text-o' style='font-size:16px'></i> <code>Abs</code> |
+<i class='fa fa-file-text-o' style='font-size:16px'></i> <a href="#/" onclick="toggle_visibility('abstract_LiLY22');"><code>Abs</code></a> |
 <i class='fa fa-file-pdf-o' style='font-size:16px'></i> 
-  <a href="https://www.dropbox.com/s/oljgs6l1vybajc4/main.pdf?dl=0"><code>PDF</code></a> | <i class='fa fa-folder-open-o' style='font-size:16px'></i> <code>Supp</code> | <i class='fa fa-quote-right' style='font-size:15px'></i> <a href="#/" onclick="toggle_visibility('to_appear_1');"><code>BiB</code></a>
+  <a href="https://www.dropbox.com/s/oljgs6l1vybajc4/main.pdf?dl=0"><code>PDF</code></a> | <i class='fa fa-folder-open-o' style='font-size:16px'></i> 
+  <a href="../supp/supp_ranknet"><code>Supp</code></a> | <i class='fa fa-quote-right' style='font-size:15px'></i> <a href="#/" onclick="toggle_visibility('to_appear_1');"><code>BiB</code></a>
+<pre class="bibtexpre" id="abstract_LiLY22" style="display: none;">
+In practical multi-criterion decision-making, it is cumbersome if a decision maker (DM) is asked to choose among a set of trade-off alternatives covering the whole Pareto-optimal front. This is a paradox in conventional evolutionary multi-objective optimization (EMO) that always aim to achieve a well balance between convergence and diversity. In essence, the ultimate goal of multi-objective optimization is to help a decision maker (DM) identify solution(s) of interest (SOI) achieving satisfactory trade-offs among multiple conflicting criteria. Bearing this in mind, this paper develops a framework for designing preference-based EMO algorithms to find SOI in an interactive manner. Its core idea is to involve human in the loop of EMO. After every several iterations, the DM is invited to elicit her feedback with regard to a couple of incumbent candidates. By collecting such information, her preference is progressively learned by a learning-to-rank neural network and then applied to guide the baseline EMO algorithm. Note that this framework is so general that any existing EMO algorithm can be applied in a plug-in manner. Experiments on 48 benchmark test problems with up to 10 objectives and a real-world multi-objective robot control problem fully demonstrate the effectiveness of our proposed algorithms for finding SOI.
+</pre>
 <pre class="bibtexpre" id="to_appear_1" style="display: none;">
 @article{LiLY22,
     author    = {Ke Li and
@@ -455,8 +459,12 @@ IEEE Trans. Evolutionary Computation (TEVC)<br>
 Renzhi Chen+, <strong><ins>Ke Li</ins></strong><br>
 Proc. of the 12th International Conference on Evolutionary Multi-Criterion Optimization 
   <a href="https://emo2023.liacs.leidenuniv.nl/">(EMO'23)</a><br>
-<i class='fa fa-file-text-o' style='font-size:16px'></i> <code>Abs</code></a> |
-<i class='fa fa-file-pdf-o' style='font-size:16px'></i> <code>PDF</code> | <i class='fa fa-quote-right' style='font-size:15px'></i> <code>BiB</code></a></p>
+<i class='fa fa-file-text-o' style='font-size:16px'></i> <a href="#/" onclick="toggle_visibility('abstract_ChenL23');"><code>Abs</code></a> |
+<i class='fa fa-file-pdf-o' style='font-size:16px'></i> <code>PDF</code> | <i class='fa fa-file-pdf-o' style='font-size:16px'></i> 
+  <a href="../../../supplementary/supp_mgd.pdf"><code>Supp</code></a> | <i class='fa fa-quote-right' style='font-size:15px'></i> <code>BiB</code></a>
+<pre class="bibtexpre" id="abstract_ChenL23" style="display: none;">
+Data-driven evolutionary multi-objective optimization (EMO) has been recognized as an effective approach for multi-objective optimization problems with expensive objective functions. The current research is mainly developed for problems with a 'regular' triangle-like Pareto-optimal front (PF), whereas the performance can significantly deteriorate when the PF consists of disconnected segments. Furthermore, the offspring reproduction in the current data-driven EMO does not fully leverage the latent information of the surrogate model. Bearing these considerations in mind, this paper proposes a data-driven EMO algorithm based on multiple-gradient descent. By leveraging the regularity information provided by the up-to-date surrogate model, it is able to progressively probe a set of well distributed candidate solutions with a convergence guarantee. In addition, its infill criterion recommends a batch of promising candidate solutions to conduct expensive objective function evaluations. Experiments on 33 benchmark test problem instances with disconnected PFs fully demonstrate the effectiveness of our proposed method against four selected peer algorithms.
+</pre></p>
 </li>
 <li>
 <p>Sparse Adversarial Attack via Bi-Objective Optimization<br>
