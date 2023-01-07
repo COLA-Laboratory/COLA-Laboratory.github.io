@@ -13,7 +13,7 @@
       
       <guid>https://example.com/posts/overleaf_naming/</guid>
       <description>Overleaf is a collaborative cloud-based LaTeX editor used for writing, editing and publishing scientific documents. In COLA laboratory, we use the Overleaf as the centralized place to manage our manuscripts. In order to make the projects be managed in an organized manner, a project is usually named as A_B_C.
- A: journal/conference name, e.g., TEVC/PPSN22 B: acronym of the algorithm, e.g., TBO2 C: first character of your name, e.</description>
+A: journal/conference name, e.g., TEVC/PPSN22 B: acronym of the algorithm, e.g., TBO2 C: first character of your name, e.g., RC This comes up to be a typical example: TEVC_TBO2_RC.</description>
     </item>
     
   </channel>
