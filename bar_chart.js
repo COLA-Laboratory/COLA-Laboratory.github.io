@@ -27,7 +27,6 @@ function plot(data){
     var g = svg.append("g")
             .attr("transform", "translate(" + left_margin + "," + 0 + ")")
 
-
     // axis
     g.append("g")
         .attr("transform", "translate(0," + (height-top_margin) + ")")
@@ -59,20 +58,19 @@ function plot(data){
             .attr("y", 30)
             .attr("fill", "currentColor")
             .attr("text-anchor", "start")
-            .text("Annual Number")
+            .text("Annual Statistics")
             .attr("font-family","Oxygen Mono"));
-
 
     g.append("g")
     .attr("transform", "translate("+(width-2*left_margin)+","+0+")")
     .call(d3.axisRight(zScale).ticks(4))
     .attr("font-family","Oxygen Mono")
     .call(g => g.append("text")
-            .attr("x", -45)
+            .attr("x", -70)
             .attr("y", 30)
             .attr("fill", "currentColor")
             .attr("text-anchor", "start")
-            .text("Total Number")
+            .text("Total Statistics")
             .attr("font-family","Oxygen Mono"));
 
     g.append("line")
@@ -83,7 +81,6 @@ function plot(data){
         .attr("stroke", "black")
         .attr("stroke-width", "1");
 
-
     g.append("line")
         .attr("x1", 0)
         .attr("y1", height-top_margin)
@@ -92,13 +89,11 @@ function plot(data){
         .attr("stroke", "black")
         .attr("stroke-width", "1");
 
-
     //line chart
     var line = d3.line()
         .x(function(d) { return xScale(d.year)+left_margin+0.5*xScale.bandwidth(); })
         .y(function(d) { return zScale(d.sum); })
         .curve(d3.curveMonotoneX)
-
 
     svg.append("path")
         .datum(data)
@@ -106,7 +101,7 @@ function plot(data){
         .attr("d", line)
         .style("fill", "none")
         .style("stroke", "black")
-        .style("stroke-width", "1.5");
+        .style("stroke-width", "1.0");
 
     svg.selectAll("dot")
         .data(data)
@@ -114,10 +109,9 @@ function plot(data){
         .append("circle")
         .attr("cx", function (d) { return xScale(d.year)+left_margin+0.5*xScale.bandwidth(); } )
         .attr("cy", function (d) { return zScale(d.sum); } )
-        .attr("r", 3)
+        .attr("r", 4)
         .style("fill", "black")
         .append("title").text(i => `Sum:${i.sum}`);
-
 
     //bar chart
     g.append('defs')
@@ -129,7 +123,7 @@ function plot(data){
         .append('path')
         .attr('d', 'M-1,1 l2,-2 M0,4 l4,-4 M3,5 l2,-2')
         .attr('stroke', '#000000')
-        .attr('stroke-width', 0.5);
+        .attr('stroke-width', 1.0);
 
     g.selectAll(".bar")
         .data(data)
@@ -153,7 +147,7 @@ function plot(data){
         .append('circle')
             .attr('cx', 0.5)
             .attr('cy', 0.5)
-            .attr('r', 0.5)
+            .attr('r', 0.7)
             .attr('fill', 'black');
 
     const bar = g.selectAll(".bar")
@@ -170,7 +164,7 @@ function plot(data){
         .text(i => `Conference:${i.conference}`);
 
     //legend
-    svg.append("rect").attr("x",205).attr("y",45).attr("width",135).attr("height",50).attr("fill","white").style("stroke", "black")
+    svg.append("rect").attr("x",205).attr("y",45).attr("width",145).attr("height",50).attr("fill","white").style("stroke", "black")
 
     svg.append("rect").attr("x",210).attr("y",50).attr("width",20).attr("height",10).attr("fill","url(#diagonalHatch)").style("stroke", "black")
 
@@ -180,6 +174,6 @@ function plot(data){
 
     svg.append("circle").attr("cx",220).attr("cy",85).attr("r", 3).style("fill", "black")
     svg.append("line").attr("x1", 210).attr("y1",85).attr("x2",230).attr("y2", 85).attr("stroke","black").attr("stroke-width","1.5")
-    svg.append("text").attr("x", 240).attr("y", 85).text("Total Number").attr("alignment-baseline","middle").style("font-size", "10px").attr("font-family","Oxygen Mono")
+    svg.append("text").attr("x", 240).attr("y", 85).text("Total Statistics").attr("alignment-baseline","middle").style("font-size", "10px").attr("font-family","Oxygen Mono")
 
 }
