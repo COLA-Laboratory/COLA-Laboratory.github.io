@@ -171,10 +171,10 @@ We have two papers accepted to EMO 2023. Congratulations to Renzhi and Phoenix! 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/research/publications/</guid>
-      <description>Publications # The copyrights of published papers are transferred to publishers. Misuse of any material posted here may result in plagiarism. + means my current/previous student or visitor. * means equal contribution To appear # Technical Report # A Data-Driven Evolutionary Transfer Optimization for Expensive Problems in Dynamic Environments
-Ke Li*, Renzhi Chen+*, Xin Yao
-CoRR abs/2211.02879 | November 2022
-PDF | Supp | BiB @article{LiCY22, author = {Ke Li and Renzhi Chen and Xin Yao}, title = {A Data-Driven Evolutionary Transfer Optimization for Expensive Problems in Dynamic Environments}, journal = {CoRR}, volume = {abs/2211.</description>
+      <description>Publications # The copyrights of published papers are transferred to publishers. Misuse of any material posted here may result in plagiarism. + means my current/previous student or visitor. * means equal contribution To appear # Technical Report # Quality Indicators for Preference-based Evolutionary Multi-objective Optimization Using a Reference Point: A Review and Analysis
+Ryoji Tanabe, Ke Li
+CoRR abs/2301.12148 | January 2023
+PDF | Supp | BiB @article{TanabeL23, author = {Ryoji Tanabe and Ke Li}, title = {Quality Indicators for Preference-based Evolutionary Multi-objective Optimization Using a Reference Point: A Review and Analysis}, journal = {CoRR}, volume = {abs/2301.</description>
     </item>
     
     <item>
