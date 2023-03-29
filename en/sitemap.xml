@@ -90,7 +90,7 @@
     <lastmod>2023-03-17T14:09:16+00:00</lastmod>
   </url><url>
     <loc>https://example.com/docs/</loc>
-    <lastmod>2023-03-27T10:53:19+08:00</lastmod>
+    <lastmod>2023-03-28T11:32:52+01:00</lastmod>
   </url><url>
     <loc>https://example.com/docs/research/emoc/</loc>
     <lastmod>2022-06-01T13:16:48+08:00</lastmod>
@@ -120,13 +120,13 @@
     <lastmod>2021-03-30T23:06:58+01:00</lastmod>
   </url><url>
     <loc>https://example.com/docs/home/members/</loc>
-    <lastmod>2023-03-01T21:20:15+00:00</lastmod>
+    <lastmod>2023-03-28T11:32:52+01:00</lastmod>
   </url><url>
     <loc>https://example.com/docs/home/news/</loc>
     <lastmod>2023-01-02T14:14:12+08:00</lastmod>
   </url><url>
     <loc>https://example.com/docs/research/publications/</loc>
-    <lastmod>2023-03-25T10:52:08+00:00</lastmod>
+    <lastmod>2023-03-28T11:32:52+01:00</lastmod>
   </url><url>
     <loc>https://example.com/docs/events/readinggroup/</loc>
     <lastmod>2022-10-20T23:04:04+01:00</lastmod>
@@ -148,6 +148,8 @@
   </url><url>
     <loc>https://example.com/docs/events/activities/turing_workshop/</loc>
     <lastmod>2023-03-27T10:53:19+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/docs/turing_workshop/</loc>
   </url><url>
     <loc>https://example.com/docs/home/vacancies/</loc>
     <lastmod>2022-12-01T11:35:53+08:00</lastmod>

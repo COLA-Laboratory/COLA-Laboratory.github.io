@@ -250,6 +250,16 @@ The source code of this paper can be found from our Github repo. Appendix docume
     </item>
     
     <item>
+      <title>Symposium</title>
+      <link>https://example.com/docs/turing_workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/docs/turing_workshop/</guid>
+      <description>Turing Workshop on Human-Centric Artificial and Computational Intelligence and Applications # Synopsis # Human-Centered artificial/computational intelligence (HCAI/CI) is an emerging discipline intent on creating AI/CI systems that amplify and augment rather than displace human abilities. Instead, HCAI/CI seeks to preserve human control in a way that ensures AI meets our needs while also operating in a reliable, robust, and transparent manner, delivering equitable outcomes, and respecting privacy.
+This workshop is designed to bring key data scientists and AI experts from both academia and industry to sharing up to date research and innovation developments themed on HCAI/CI, but also help identify the key challenges in stakeholders.</description>
+    </item>
+    
+    <item>
       <title>Vacancies</title>
       <link>https://example.com/docs/home/vacancies/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
