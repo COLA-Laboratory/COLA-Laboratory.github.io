@@ -134,7 +134,7 @@ We have two papers accepted to EMO 2023. Congratulations to Renzhi and Phoenix! 
       <guid>https://example.com/docs/research/publications/</guid>
       <description>Publications # The copyrights of published papers are transferred to publishers. Misuse of any material posted here may result in plagiarism. + means my current/previous student or visitor. * means equal contribution To appear # Technical Report # Evolutionary Multi-Objective Optimization for Virtual Network Function Placement
 Joseph Billingsley+, Ke Li, Geyong Min, Nektarios Georgalas
-CoRR abs/xxxx.xxxxx | March 2023
+CoRR abs/2106.14727 | March 2023
 PDF | Supp | BiB @article{BillingsleyLMMG22, author = {Joseph Billingsley and Ke Li and Wang Miao and Geyong Min and Nektarios Georgalas}, title = {Evolutionary Multi-Objective Virtual Network Function Placement: {A} Formal Model and Effective Algorithms}, journal = {CoRR}, volume = {abs/2106.</description>
     </item>
     
