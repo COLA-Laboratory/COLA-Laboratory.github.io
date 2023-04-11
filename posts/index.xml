@@ -11,8 +11,9 @@
       <pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/posts/pgfplots/</guid>
-      <description>TikZ is a powerful drawing package for academics who are using LaTeX for paper writing. Unlike other TeX packages, TikZ itself is really huge, its manual contains about 1100+ pages, 100+ chapters. Tens of other packages, and serveral GUI applications are based on TikZ.
-Instead of being comprehensive, this page mainly aims to provide a curated list of awesome TikZ templates frequently used in our COLA laboratory.</description>
+      <description> TikZ is a powerful drawing package for academics who are using LaTeX for paper writing. Unlike other TeX packages, TikZ itself is really huge, its manual contains about 1100+ pages, 100+ chapters. Tens of other packages, and serveral GUI applications are based on TikZ.
+Instead of being comprehensive, this page mainly aims to provide a curated list of awesome TikZ templates frequently used in our COLA laboratory.
+ Scatter plots #   </description>
     </item>
     
     <item>
@@ -22,7 +23,7 @@ Instead of being comprehensive, this page mainly aims to provide a curated list 
       
       <guid>https://example.com/posts/overleaf_naming/</guid>
       <description>Overleaf is a collaborative cloud-based LaTeX editor used for writing, editing and publishing scientific documents. In COLA laboratory, we use the Overleaf as the centralized place to manage our manuscripts. In order to make the projects be managed in an organized manner, a project is usually named as A_B_C.
-A: journal/conference name, e.g., TEVC/PPSN22 B: acronym of the algorithm, e.g., TBO2 C: first character of your name, e.g., RC This comes up to be a typical example: TEVC_TBO2_RC.</description>
+ A: journal/conference name, e.g., TEVC/PPSN22 B: acronym of the algorithm, e.g., TBO2 C: first character of your name, e.</description>
     </item>
     
     <item>
@@ -32,7 +33,7 @@ A: journal/conference name, e.g., TEVC/PPSN22 B: acronym of the algorithm, e.g.,
       
       <guid>https://example.com/posts/bibtex_rule/</guid>
       <description>Bibtex is a powerful tool to manage your references in scientific writing by using LaTeX. However, the bibtex sources can be messy in the wild. Here are some useful tips to prepare a beautiful and clean bibtex file.
-Instead of searching from Google, it might be more convenient to search the corresponding paper or author in DBLP. There is an option to choose the export record as the BibTeX. It will be more efficient to use some text editor like Vim to facilitate your editing.</description>
+ Instead of searching from Google, it might be more convenient to search the corresponding paper or author in DBLP. There is an option to choose the export record as the BibTeX.</description>
     </item>
     
   </channel>
