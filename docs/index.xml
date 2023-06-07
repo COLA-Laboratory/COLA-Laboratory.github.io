@@ -118,6 +118,17 @@ We have two papers accepted to EMO 2023. Congratulations to Renzhi and Phoenix! 
     
     <item>
       <title>Publications</title>
+      <link>https://example.com/docs/research/landscapes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/docs/research/landscapes/</guid>
+      <description>Graph-Based Fitness Landscape Analysis Leveraging the advanced tools developed in the field of network science to facilite the understanding of complex configurable systems in different domains.
+Our Work # Publications Analysis Methods Statistical Features Landscape Visualization High-Level Topological Features Case Studies Combinatorial Optimization Automated Machine Learning Software Engineering (Developer Note: the hyperlink of the contents is to be fixed later.)
+Publications # Exploring Structural Similarity in Fitness Landscapes via Graph Data Mining: A Case Study on Number Partitioning Problems</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
       <link>https://example.com/docs/research/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
