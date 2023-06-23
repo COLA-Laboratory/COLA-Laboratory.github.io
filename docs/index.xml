@@ -123,9 +123,10 @@ We have two papers accepted to EMO 2023. Congratulations to Renzhi and Phoenix! 
       
       <guid>https://example.com/docs/research/landscapes/</guid>
       <description>Graph-Based Fitness Landscape Analysis Leveraging the advanced tools developed in the field of network science to facilite the understanding of complex configurable systems in different domains.
-Our Work
-Publications Analysis Methods Statistical Features Landscape Visualization Embedded Features Case Studies Combinatorial Optimization Automated Machine Learning Software Engineering Resources
-Paper List of Landscape Analysis Survey Papers Exploratory Landscape Analysis (ELA) Benchmarks Algorithm Selection Problem Instance Space Analysis Fitness Landscape Analysis (FLA) Problem-Specific Landscape Visualization Paper List of AutoML Projects and Websites GBFLAT</description>
+Our Work # Publications # Exploring Structural Similarity in Fitness Landscapes via Graph Data Mining: A Case Study on Number Partitioning Problems
+Mingyu Huang and Ke Li
+Proc. of the 32nd International Joint Conference on Artificial Intelligence (IJCAI&#39;23)
+2023 | Conference Paper | Abs | PDF | Supp | BiB | One of the most common problem-solving heuristics is by analogy.</description>
     </item>
     
     <item>
@@ -134,10 +135,7 @@ Paper List of Landscape Analysis Survey Papers Exploratory Landscape Analysis (E
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/research/projects/</guid>
-      <description>Graph-Based Fitness Landscape Analysis Our Work # Publications # Exploring Structural Similarity in Fitness Landscapes via Graph Data Mining: A Case Study on Number Partitioning Problems
-Mingyu Huang and Ke Li
-Proc. of the 32nd International Joint Conference on Artificial Intelligence (IJCAI&#39;23)
-2023 | Conference Paper | Abs | PDF | Supp | BiB | One of the most common problem-solving heuristics is by analogy. For a given problem, a solver can be viewed as a strategic walk on its fitness landscape.</description>
+      <description> Projects # </description>
     </item>
     
     <item>
