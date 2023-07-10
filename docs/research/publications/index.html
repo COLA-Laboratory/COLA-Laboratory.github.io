@@ -2,22 +2,27 @@
 <html lang="en" dir=>
 
 <head>
-  <meta name="generator" content="Hugo 0.98.0" />
+  <meta name="generator" content="Hugo 0.111.3">
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Publications #       function toggle_visibility(id) { var e = document.getElementById(id); if(e.style.display == &#39;block&#39;) e.style.display = &#39;none&#39;; else e.style.display = &#39;block&#39;; } //Params: // id_prefix: the prefix of the id for the showing blocks // current_order: the order of the current block, start from 0 // total_num: the total number of showing blocks //Usage: // All the showing blocks should have id with the form &#39;id_prefix_#&#39;, e.">
+<meta name="description" content="Publications # The copyrights of published papers are transferred to publishers. Misuse of any material posted here may result in plagiarism. &#43; means my current/previous student or visitor. * means equal contribution To appear # Technical Report # Evolutionary Multi-Objective Optimization for Virtual Network Function Placement
+Joseph Billingsley&#43;, Ke Li, Geyong Min, Nektarios Georgalas
+CoRR abs/2106.14727 | March 2023
+PDF | Supp | BiB @article{BillingsleyLMMG22, author = {Joseph Billingsley and Ke Li and Wang Miao and Geyong Min and Nektarios Georgalas}, title = {Evolutionary Multi-Objective Virtual Network Function Placement: {A} Formal Model and Effective Algorithms}, journal = {CoRR}, volume = {abs/2106.">
 <meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Publications" />
-<meta property="og:description" content="Publications #       function toggle_visibility(id) { var e = document.getElementById(id); if(e.style.display == &#39;block&#39;) e.style.display = &#39;none&#39;; else e.style.display = &#39;block&#39;; } //Params: // id_prefix: the prefix of the id for the showing blocks // current_order: the order of the current block, start from 0 // total_num: the total number of showing blocks //Usage: // All the showing blocks should have id with the form &#39;id_prefix_#&#39;, e." />
+<meta property="og:description" content="Publications # The copyrights of published papers are transferred to publishers. Misuse of any material posted here may result in plagiarism. &#43; means my current/previous student or visitor. * means equal contribution To appear # Technical Report # Evolutionary Multi-Objective Optimization for Virtual Network Function Placement
+Joseph Billingsley&#43;, Ke Li, Geyong Min, Nektarios Georgalas
+CoRR abs/2106.14727 | March 2023
+PDF | Supp | BiB @article{BillingsleyLMMG22, author = {Joseph Billingsley and Ke Li and Wang Miao and Geyong Min and Nektarios Georgalas}, title = {Evolutionary Multi-Objective Virtual Network Function Placement: {A} Formal Model and Effective Algorithms}, journal = {CoRR}, volume = {abs/2106." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://example.com/docs/research/publications/" /><meta property="article:section" content="docs" />
 
-<meta property="article:modified_time" content="2023-06-02T10:41:17+08:00" />
-
+<meta property="article:modified_time" content="2023-07-08T21:58:45+01:00" />
 <title>Publications | COLA-Lab@Exeter</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.a5f00dddfe7ef41e325d17ef835e16ef83a4399089fa8c583fe9f6a0e16d87e6.css" integrity="sha256-pfAN3f5&#43;9B4yXRfvg14W74OkOZCJ&#43;oxYP&#43;n2oOFth&#43;Y=">
-<script defer src="/en.search.min.b5938053859c4e1352f8787216330751a16bf56da44d8f0d4a36eb4b5719956c.js" integrity="sha256-tZOAU4WcThNS&#43;HhyFjMHUaFr9W2kTY8NSjbrS1cZlWw="></script>
+<script defer src="/en.search.min.8592fd2e43835d2ef6fab8eb9b8969ee6ad1bdb888a636e37e28032f8bd9887d.js" integrity="sha256-hZL9LkODXS72&#43;rjrm4lp7mrRvbiIpjbjfigDL4vZiH0="></script>
 
 <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk="></script>
 <!--
@@ -536,16 +541,6 @@ In science and engineering, multi-objective optimization problems usually contai
 </pre></p>
 </li>
 <li>
-<p>Black-Box Sparse Adversarial Attack via Multi-Objective Optimisation<br>
-Phoenix Williams+, <strong><ins>Ke Li</ins></strong><br>
-Proc. of 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
-  <a href="https://cvpr2023.thecvf.com/">(CVPR'23)</a><br>
-<i class='fa fa-file-text-o' style='font-size:16px'></i> <a href="#/" onclick="toggle_visibility('abstract_WilliamsL23');"><code>Abs</code></a>  | <i class='fa fa-file-pdf-o' style='font-size:16px'></i> <code>PDF</code> | <i class='fa fa-quote-right' style='font-size:15px'></i> <code>BiB</code> | <i class='fa fa-bar-chart-o' style='font-size:16px'></i> ≈25%
-<pre class="bibtexpre" id="abstract_WilliamsL23" style="display: none;">
-Deep neural networks (DNNs) are susceptible to adversarial images, raising concerns about their reliability in safety-critical tasks. Sparse adversarial attacks, which limit the number of modified pixels, have shown to be highly effective in causing DNNs to misclassify. However, existing methods often struggle to simultaneously minimize the number of modified pixels and the size of the modifications, often requiring a large number of queries and assuming unrestricted access to the targeted DNN. In contrast, other methods that limit the number of modified pixels often permit unbounded modifications, making them easily detectable. To address these limitations, we propose a novel multi-objective sparse attack algorithm that efficiently minimizes the number of modified pixels and their size during the attack process. Our algorithm draws inspiration from evolutionary computation and incorporates a mechanism for prioritizing objectives that aligns with an attacker's goals. Our approach outperforms existing sparse attacks on CIFAR-10 and ImageNet trained DNN classifiers while requiring only a small query budget, attaining competitive attack success rates while perturbing fewer pixels. Overall, our proposed attack algorithm provides a solution to the limitations of current sparse attack methods by jointly minimizing the number of modified pixels and their size. Our results demonstrate the effectiveness of our approach in restricted scenarios, highlighting its potential to enhance DNN security.
-</pre></p>
-</li>
-<li>
 <p>Evolutionary Bi-level Optimization via Multi-objective Transformation Based Lower Level Search<br>
 Lei Chen, Hai-Lin Liu, <strong><ins>Ke Li</ins></strong>, Kay Chen Tan<br>
 IEEE Trans. Evolutionary Computation (TEVC)<br>
@@ -689,6 +684,17 @@ Computers &amp; Electrical Engineering, 105: 108474, 2023<br>
   <a class="anchor" href="#i-classfa-fa-cubes-stylefont-size18pxi-conference">#</a>
 </h3>
 <ul>
+<li>
+<p>Black-Box Sparse Adversarial Attack via Multi-Objective Optimisation<br>
+Phoenix Williams+, <strong><ins>Ke Li</ins></strong><br>
+Proc. of 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
+  <a href="https://cvpr2023.thecvf.com/">(CVPR'23)</a>, p. 12291-12301, June, 2023.<br>
+<i class='fa fa-file-text-o' style='font-size:16px'></i> <a href="#/" onclick="toggle_visibility('abstract_WilliamsL23');"><code>Abs</code></a>  | <i class='fa fa-file-pdf-o' style='font-size:16px'></i> 
+  <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Williams_Black-Box_Sparse_Adversarial_Attack_via_Multi-Objective_Optimisation_CVPR_2023_paper.pdf"><code>PDF</code></a> | <i class='fa fa-quote-right' style='font-size:15px'></i> <code>BiB</code> | <i class='fa fa-bar-chart-o' style='font-size:16px'></i> ≈25%
+<pre class="bibtexpre" id="abstract_WilliamsL23" style="display: none;">
+Deep neural networks (DNNs) are susceptible to adversarial images, raising concerns about their reliability in safety-critical tasks. Sparse adversarial attacks, which limit the number of modified pixels, have shown to be highly effective in causing DNNs to misclassify. However, existing methods often struggle to simultaneously minimize the number of modified pixels and the size of the modifications, often requiring a large number of queries and assuming unrestricted access to the targeted DNN. In contrast, other methods that limit the number of modified pixels often permit unbounded modifications, making them easily detectable. To address these limitations, we propose a novel multi-objective sparse attack algorithm that efficiently minimizes the number of modified pixels and their size during the attack process. Our algorithm draws inspiration from evolutionary computation and incorporates a mechanism for prioritizing objectives that aligns with an attacker's goals. Our approach outperforms existing sparse attacks on CIFAR-10 and ImageNet trained DNN classifiers while requiring only a small query budget, attaining competitive attack success rates while perturbing fewer pixels. Overall, our proposed attack algorithm provides a solution to the limitations of current sparse attack methods by jointly minimizing the number of modified pixels and their size. Our results demonstrate the effectiveness of our approach in restricted scenarios, highlighting its potential to enhance DNN security.
+</pre></p>
+</li>
 <li>
 <p>Data-Driven Evolutionary Multi-Objective Optimization Based on Multiple-Gradient Descent for Disconnected Pareto Fronts<br>
 Renzhi Chen+, <strong><ins>Ke Li</ins></strong><br>
@@ -3479,9 +3485,9 @@ Proc. of 2009 WRI World Congress on Computer Science and Information Engineering
 
 
 
-  <div><a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/commit/5df2efdb1d95d9417d2b1fd97512c151a078c6cf" title='Last modified by Ke LI | June 2, 2023' target="_blank" rel="noopener">
+  <div><a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/commit/359a3a8c8b9c9924b1b3cbd514b0b490f1f1fb78" title='Last modified by JerryI00 | July 9, 2023' target="_blank" rel="noopener">
       <img src="/svg/calendar.svg" class="book-icon" alt="Calendar" />
-      <span>June 2, 2023</span>
+      <span>July 9, 2023</span>
     </a>
   </div>
 
