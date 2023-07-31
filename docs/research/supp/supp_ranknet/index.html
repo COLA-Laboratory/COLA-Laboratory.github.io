@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en" dir=>
+
+<head>
+  <meta name="generator" content="Hugo 0.106.0">
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Supplementary Materials # This website maintains the supplementary materials related to the following paper:
+Ke Li, Guiyu Lai&#43;, Xin Yao, &ldquo;Interactive Evolutionary Multi-Objective Optimization via Learning-to-Rank&rdquo;, IEEE Trans. Evol. Comput., accepted for publication, 2022. It consists of the following parts:
+The source code of this paper can be found from our Github repo. Appendix document of this paper can be found from this Dropbox link. Video clips of the best policy obtained by different algorithms.">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Supplementary" />
+<meta property="og:description" content="Supplementary Materials # This website maintains the supplementary materials related to the following paper:
+Ke Li, Guiyu Lai&#43;, Xin Yao, &ldquo;Interactive Evolutionary Multi-Objective Optimization via Learning-to-Rank&rdquo;, IEEE Trans. Evol. Comput., accepted for publication, 2022. It consists of the following parts:
+The source code of this paper can be found from our Github repo. Appendix document of this paper can be found from this Dropbox link. Video clips of the best policy obtained by different algorithms." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://example.com/docs/research/supp/supp_ranknet/" /><meta property="article:section" content="docs" />
+
+<meta property="article:modified_time" content="2022-12-29T17:20:33+08:00" />
+
+<title>Supplementary | COLA-Lab@Exeter</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.a5f00dddfe7ef41e325d17ef835e16ef83a4399089fa8c583fe9f6a0e16d87e6.css" integrity="sha256-pfAN3f5&#43;9B4yXRfvg14W74OkOZCJ&#43;oxYP&#43;n2oOFth&#43;Y=">
+<script defer src="/en.search.min.fd8ad26c6a87f248445a3384b187d8dee17d06d83a53adcdebea29033a5857aa.js" integrity="sha256-/YrSbGqH8khEWjOEsYfY3uF9Btg6U63N6&#43;opAzpYV6o="></script>
+
+<script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk="></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body dir=>
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/"><img src="/colalab.png" alt="Logo" /><span>COLA-Lab@Exeter</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  <ul>
+<li><strong>Home</strong>
+<ul>
+<li>
+  <a href="/docs/home/members/">Members</a></li>
+<li>
+  <a href="/docs/home/vacancies/">Vacancies</a></li>
+</ul>
+</li>
+<li><strong>Research</strong>
+<ul>
+<li>
+  <a href="/docs/research/publications/">Publications</a></li>
+<li>
+  <a href="/docs/research/landscapes/">Landscape Analysis</a></li>
+<li>
+  <a href="/docs/research/projects/">Projects</a></li>
+<li>
+  <a href="/docs/research/grants/">Grants</a></li>
+<li>
+  <a href="/docs/research/emoc/">EMOC</a></li>
+</ul>
+</li>
+<li><strong>Events</strong>
+<ul>
+<li>
+  <a href="/docs/events/studygroup/">Study Group</a></li>
+<li>
+  <a href="/docs/events/readinggroup/">Reading Group</a></li>
+<li>
+  <a href="/docs/events/seminars/">COLA Seminar Series</a></li>
+</ul>
+</li>
+<li><strong>Misc</strong>
+<ul>
+<li>
+  <a href="/docs/misc/dtec/">ECTC TF</a></li>
+<li>
+  <a href="/docs/misc/ddl/">Deadlines</a>
+<br /></li>
+</ul>
+</li>
+</ul>
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="/posts/" >
+        Blog
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+    </aside>
+    
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Supplementary</strong>
+
+  <label for="toc-control">
+    
+  </label>
+</div>
+
+
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="supplementary-materials">
+  Supplementary Materials
+  <a class="anchor" href="#supplementary-materials">#</a>
+</h1>
+<link rel="stylesheet" href="/academicons/academicons-1.9.0/css/academicons.min.css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<head>
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<p>This website maintains the supplementary materials related to the following paper:</p>
+<blockquote class="book-hint info">
+  <strong><ins>Ke Li</ins></strong>, Guiyu Lai+, Xin Yao, &ldquo;Interactive Evolutionary Multi-Objective Optimization via Learning-to-Rank&rdquo;, IEEE Trans. Evol. Comput., accepted for publication, 2022.
+</blockquote>
+
+<p>It consists of the following parts:</p>
+<ul>
+<li>The source code of this paper can be found from our <i class='fa fa-github-square' style='font-size:16px'></i> 
+  <a href="https://github.com/COLA-Laboratory/ranknet">Github repo</a>.</li>
+<li>Appendix document of this paper can be found from this <i class='fa fa-dropbox' style='font-size:16px'></i> 
+  <a href="https://www.dropbox.com/s/77bq1zooeebuyp8/supp.pdf?dl=0">Dropbox link</a>.</li>
+<li>Video clips of the best policy obtained by different algorithms. In particular, 
+<link rel="stylesheet" href="/katex/katex.min.css" />
+<script defer src="/katex/katex.min.js"></script>
+<script defer src="/katex/auto-render.min.js" onload="renderMathInElement(document.body);"></script><span>
+  \(f_1\)
+</span>
+ is the x-axis speed, <span>
+  \(f_2\)
+</span>
+ is the y-axis speed, <span>
+  \(f_3 \text{ is the energy consumption} \)
+</span>
+
+<ul>
+<li><ins>BC-EMO</ins>: <span>
+  \( (f_1=68.45730, f_2=111.72400, f_3=95.55980)^\top \)
+</span>
+</li>
+<li><ins>NEMO-0</ins>: <span>
+  \( (f_1=68.45730, f_2=111.72400, f_3=95.55980)^\top \)
+</span>
+</li>
+<li><ins>I-MOEA/D-PLVF</ins>: <span>
+  \( (f_1=156.62800, f_2=30.54620, f_3=75.83200)^\top \)
+</span>
+</li>
+<li><ins>IEMO/D</ins>: <span>
+  \( (f_1=66.09890, f_2=61.94570, f_3=75.91520)^\top \)
+</span>
+</li>
+<li><ins>I-NSGA-II/LTR</ins>: <span>
+  \( (f_1=100.52500, f_2=96.36920, f_3=100.34000)^\top \)
+</span>
+</li>
+<li><ins>I-MOEA/D/LTR</ins>: <span>
+  \( (f_1=114.31000, f_2=68.71040, f_3=102.49200)^\top \)
+</span>
+</li>
+<li><ins>I-R2-IBEA/LTR</ins>: <span>
+  \( (f_1=120.48400, f_2=74.36900, f_3=111.71900)^\top \)
+</span>
+</li>
+</ul>
+</li>
+</ul>
+<div align="left">
+<img src="/media/gifs/ranknet/bcemo.gif" width = "300px" align=center title="Moving peak benchmark" />
+<img src="/media/gifs/ranknet/nemo_0.gif" width = "300px" align=center title="Moving peak benchmark with Gaussian peaks" />
+<img src="/media/gifs/ranknet/i_moead_plvf.gif" width = "300px" align=center title="Moving peak benchmark with Gaussian peaks" /><br>
+<img src="/media/gifs/ranknet/iemod.gif" width = "300px" align=center title="Moving peak benchmark" />
+<img src="/media/gifs/ranknet/i_moead_ltr.gif" width = "300px" align=center title="Moving peak benchmark with Gaussian peaks" />
+<img src="/media/gifs/ranknet/i_nsga2_ltr.gif" width = "300px" align=center title="Moving peak benchmark with Gaussian peaks" /><br>
+<img src="/media/gifs/ranknet/i_ibea_ltr.gif" width = "300px" align=center title="Moving peak benchmark with Gaussian peaks" />
+</div>
+<p>Please cite the paper by using the following bibtex.</p>
+<pre tabindex="0"><code>@article{LiLY22,
+    author    = {Ke Li and
+                 Guiyu Lai and
+                 Xin Yao},
+    title     = {Interactive Evolutionary Multi-Objective Optimization via Learning-to-Rank},
+    journal   = {{IEEE} Trans. Evol. Comput.},
+    pages     = {1--15},
+    year      = {2022},
+    note      = {accepted for publication}
+}
+</code></pre></article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+  
+
+
+  
+
+  
+
+  
+
+
+
+<div class="book-languages" tabindex="0" aria-haspopup="true">
+  <ul>
+    <li class="flex align-center">
+      <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+      English
+    </li> 
+  </ul>
+
+  <ul class="book-languages-list">
+    
+    <li class="active">
+      <a href="https://example.com/" class="flex align-center">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        English
+      </a>
+    </li>
+    
+    <li class="">
+      <a href="https://example.com/ru/" class="flex align-center">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        Russian
+      </a>
+    </li>
+    
+    <li class="">
+      <a href="https://example.com/zh/" class="flex align-center">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        Chinese
+      </a>
+    </li>
+    
+  </ul>
+</div>
+
+
+
+
+  <div><a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/commit/a647f3ae6b7746924e38f045eee00fab80c9faa2" title='Last modified by Ke LI | December 29, 2022' target="_blank" rel="noopener">
+      <img src="/svg/calendar.svg" class="book-icon" alt="Calendar" />
+      <span>December 29, 2022</span>
+    </a>
+  </div>
+
+
+
+  <div>
+    <a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/edit/master/exampleSite/content/docs/research/supp/supp_ranknet.md" target="_blank" rel="noopener">
+      <img src="/svg/edit.svg" class="book-icon" alt="Edit" />
+      <span>Edit this page</span>
+    </a>
+  </div>
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
