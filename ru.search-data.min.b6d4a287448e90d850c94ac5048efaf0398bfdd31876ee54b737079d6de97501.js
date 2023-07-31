@@ -1,1 +1,0 @@
-"use strict";(function(){const e={split:/[^a-zа-яё0-9\w]/gi};e.doc={id:"id",field:["title","content"],store:["title","href","section"]};const t=FlexSearch.create("balance",e);window.bookSearchIndex=t})()
