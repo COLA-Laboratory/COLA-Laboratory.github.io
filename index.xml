@@ -218,7 +218,7 @@ slides | Ke Li | December 25</description>
       
       <guid>https://example.com/docs/research/supp/supp_deto/</guid>
       <description>Supplementary Materials # This website maintains the supplementary materials related to the following paper:
-Ke Li+, Renzhi Chen+, Xin Yao, &amp;ldquo;A Data-Driven Evolutionary Transfer Optimization for Expensive Problems in Dynamic Environments&amp;rdquo;, arXiv CoRR abs/xxxx.xxxxx, 2022. It consists of the following parts:
+Ke Li+, Renzhi Chen+, Xin Yao, &amp;ldquo;A Data-Driven Evolutionary Transfer Optimization for Expensive Problems in Dynamic Environments&amp;rdquo;, IEEE Trans. Evolutionary Computation, in press, 2023. It consists of the following parts:
 Appendix document of this paper can be found from our Dropbox link. Examples of the dynamically changing fitness landscape of both the moving peak benchmark problems (left hand side) and the moving peak benchmark with Gaussian peaks (right hand side).</description>
     </item>
     
