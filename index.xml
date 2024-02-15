@@ -183,11 +183,11 @@ Proc. of the 32nd International Joint Conference on Artificial Intelligence (IJC
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/research/publications/</guid>
-      <description>Publications # The copyrights of published papers are transferred to publishers. Misuse of any material posted here may result in plagiarism. + means my current/previous student or visitor. * means equal contribution To appear # Technical Report # Unlocking the Secrets of Software Configuration Landscapes-Ruggedness, Accessibility, Escapability, and Transferability
-Mingyu Huang+, Peili Mao+, Ke Li
-CoRR abs/2201.01429 | February 2024
+      <description>Publications # The copyrights of published papers are transferred to publishers. Misuse of any material posted here may result in plagiarism. + means my current/previous student or visitor. * means equal contribution To appear # Technical Report # Multi-Fidelity Methods for Optimization: A Survey
+Ke Li, Fan Li
+CoRR abs/xxxx.xxxxx | February 2024
 PDF | Supp | BiB
-Human-in-the-Loop Policy Optimization for Preference-Based Multi-Objective Reinforcement Learning</description>
+Unlocking the Secrets of Software Configuration Landscapes-Ruggedness, Accessibility, Escapability, and Transferability</description>
     </item>
     
     <item>
