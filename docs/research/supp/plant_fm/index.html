@@ -5,17 +5,15 @@
   <meta name="generator" content="Hugo 0.101.0" />
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Supplementary Materials # This website maintains the supplementary materials related to the following paper:
-Ke Li, Renzhi Chen, &ldquo;Batched Data-Driven Evolutionary Multi-Objective Optimization Based on Manifold Interpolation&rdquo;, IEEE Trans. Evol. Comput., accepted for publication, 2022. It consists of the following parts:
-The source code of this paper can be found from our Github repo. Appendix document of this paper can be found from this Dropbox link. Tables of all comparison results can be found in this Dropbox link.">
+<meta name="description" content="Plant RNA Foundation Model Project # This website maintains the supplementary materials related to the following paper:
+Haopeng Yu, Heng Yang&#43;, Yiliang Ding, Ke Li &ldquo;PlantRNA-FM: A Plant RNA Foundation Model for Exploration RNA Functions in Plants&rdquo;, submitted to Nature Machine Intelligence, under review, 2024. The complex language of plant RNA encodes a vast array of biological regulatory elements that orchestrate crucial aspects of plant growth, development, and adaptation to environmental stresses.">
 <meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Supplementary" />
-<meta property="og:description" content="Supplementary Materials # This website maintains the supplementary materials related to the following paper:
-Ke Li, Renzhi Chen, &ldquo;Batched Data-Driven Evolutionary Multi-Objective Optimization Based on Manifold Interpolation&rdquo;, IEEE Trans. Evol. Comput., accepted for publication, 2022. It consists of the following parts:
-The source code of this paper can be found from our Github repo. Appendix document of this paper can be found from this Dropbox link. Tables of all comparison results can be found in this Dropbox link." />
+<meta property="og:description" content="Plant RNA Foundation Model Project # This website maintains the supplementary materials related to the following paper:
+Haopeng Yu, Heng Yang&#43;, Yiliang Ding, Ke Li &ldquo;PlantRNA-FM: A Plant RNA Foundation Model for Exploration RNA Functions in Plants&rdquo;, submitted to Nature Machine Intelligence, under review, 2024. The complex language of plant RNA encodes a vast array of biological regulatory elements that orchestrate crucial aspects of plant growth, development, and adaptation to environmental stresses." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://example.com/docs/research/supp/supp_dmi/" /><meta property="article:section" content="docs" />
+<meta property="og:url" content="https://example.com/docs/research/supp/plant_fm/" /><meta property="article:section" content="docs" />
 
-<meta property="article:modified_time" content="2022-10-27T23:27:39+01:00" />
+
 
 <title>Supplementary | COLA-Lab@Exeter</title>
 <link rel="manifest" href="/manifest.json">
@@ -161,9 +159,9 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><h1 id="supplementary-materials">
-  Supplementary Materials
-  <a class="anchor" href="#supplementary-materials">#</a>
+  <article class="markdown"><h1 id="plant-rna-foundation-model-project">
+  Plant RNA Foundation Model Project
+  <a class="anchor" href="#plant-rna-foundation-model-project">#</a>
 </h1>
 <link rel="stylesheet" href="/academicons/academicons-1.9.0/css/academicons.min.css"/>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -174,31 +172,45 @@ https://github.com/alex-shpak/hugo-book
 </head>
 <p>This website maintains the supplementary materials related to the following paper:</p>
 <blockquote class="book-hint info">
-  <strong><ins>Ke Li</ins></strong>, Renzhi Chen, &ldquo;Batched Data-Driven Evolutionary Multi-Objective Optimization Based on Manifold Interpolation&rdquo;, IEEE Trans. Evol. Comput., accepted for publication, 2022.
+  Haopeng Yu, Heng Yang+, Yiliang Ding, <strong><ins>Ke Li</ins></strong> &ldquo;PlantRNA-FM: A Plant RNA Foundation Model for Exploration RNA Functions in Plants&rdquo;, submitted to Nature Machine Intelligence, under review, 2024.
 </blockquote>
 
-<p>It consists of the following parts:</p>
+<div align="center">
+<img src="../fm_figs/schematic_fm.JPG" width = "900px" align=center title="Moving peak benchmark" />
+</div>
+The complex language of plant RNA encodes a vast array of biological regulatory elements that orchestrate crucial aspects of plant growth, development, and adaptation to environmental stresses. Recent advancements in large-scale pre-trained foundation models (FMs) have demonstrate ed their immense potential to decipher the complex language of nucleotide sequences. In this study, we introduce PlantRNA-FM, a one-of-a-kind FM designed specifically for plant RNA research. PlantRNA-FM is a specialised plant RNA foundation model pre-trained on an extensive dataset spanning 1,124 diverse plant species. PlantRNA-FM demonstrated superior performance in plant-specific downstream tasks, such as plant RNA annotation prediction and plant RNA translation efficiency prediction, surpassing state-of-the-art models with F1 score improvements of up to 7.78% and 4.51%, respectively. The inclusion of RNA structure information during the pre-training phase further enhanced the model's performance, highlighting the importance of RNA structure in RNA functions. Moreover, the interpretability of PlantRNA-FM can be leveraged to explain the contribution of RNA sequence composition to downstream tasks. Furthermore, we identified and experimentally validated RNA G-quadruplexes that lead to low translational efficiency. Our findings demonstrate the power of PlantRNA-FM in deciphering the complex regulatory mechanisms encoded in plant RNA sequences, providing new insights into plant biology.
+<hr>
+<p>PlantRNA-FM demonstrates superior performance on plant-specific downstream tasks:</p>
+<div align="center">
+<img src="../fm_figs/task_fm.JPG" width = "900px" align=center title="Moving peak benchmark" />
+</div>
 <ul>
-<li>The source code of this paper can be found from our <i class='fa fa-github-square' style='font-size:16px'></i> 
-  <a href="https://github.com/COLA-Laboratory/DMI">Github repo</a>.</li>
-<li>Appendix document of this paper can be found from this <i class='fa fa-dropbox' style='font-size:16px'></i> 
-  <a href="https://www.dropbox.com/s/d3hpfgc06vzf3hz/main.pdf?dl=0">Dropbox link</a>.</li>
-<li>Tables of all comparison results can be found in this <i class='fa fa-dropbox' style='font-size:16px'></i> 
-  <a href="https://www.dropbox.com/s/jhiitzrr6aczroi/tables.pdf?dl=0">Dropbox link</a>.</li>
-<li>Figures of all comparison results of the population distributions of on different benchmark test problems can be found in this <i class='fa fa-dropbox' style='font-size:16px'></i> 
-  <a href="https://www.dropbox.com/s/xqhexkxyqkowbmx/pop_plots.pdf?dl=0">Dropbox link</a>.</li>
+<li>Annotation prediction</li>
 </ul>
-<p>Please cite the paper by using the following bibtex.</p>
-<pre tabindex="0"><code>@article{LiC22,
-    author    = {Ke Li and
-                 Renzhi Chen},
-    title     = {Batched Data-Driven Evolutionary Multi-Objective Optimization Based on Manifold Interpolation},
-    journal   = {{IEEE} Trans. Evol. Comput.},
-    pages     = {1--15},
-    year      = {2022},
-    note      = {accepted for publication}
-}
-</code></pre></article>
+<div align="center">
+<img src="../fm_figs/Arabidobsis_region.JPG" width = "400px" align=center title="Moving peak benchmark" />
+<img src="../fm_figs/Rice_region.JPG" width = "400px" align=center title="Moving peak benchmark" />
+</div>
+<ul>
+<li>Translation efficiency prediction</li>
+</ul>
+<div align="center">
+<img src="../fm_figs/Arabidobsis_TE.JPG" width = "400px" align=center title="Moving peak benchmark" />
+<img src="../fm_figs/Rice_TE.JPG" width = "400px" align=center title="Moving peak benchmark" />
+</div>
+<hr>
+<p>PlantRNA-FM has the capability to be explainable.</p>
+<div align="center">
+<img src="../fm_figs/xai.JPG" width = "900px" align=center title="Moving peak benchmark" />
+</div>
+<div align="center">
+<img src="../fm_figs/invivo2.JPG" width = "900px" align=center title="Moving peak benchmark" />
+</div>
+<blockquote class="book-hint warning">
+  We are keen on promoting reproducibility and transparency in scientific research. Since this manuscript is currently submitted for possible publication, the source codes used in our empirical study will be publicly available after its acceptance.
+</blockquote>
+
+</article>
  
       
 
@@ -254,16 +266,10 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-  <div><a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/commit/75e6f50bb753f9ea353689a5d22d06560dc6aa8e" title='Last modified by JerryI00 | October 27, 2022' target="_blank" rel="noopener">
-      <img src="/svg/calendar.svg" class="book-icon" alt="Calendar" />
-      <span>October 27, 2022</span>
-    </a>
-  </div>
-
 
 
   <div>
-    <a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/edit/master/exampleSite/content/docs/research/supp/supp_dmi.md" target="_blank" rel="noopener">
+    <a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/edit/master/exampleSite/content/docs/research/supp/plant_fm.md" target="_blank" rel="noopener">
       <img src="/svg/edit.svg" class="book-icon" alt="Edit" />
       <span>Edit this page</span>
     </a>
