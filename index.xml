@@ -183,11 +183,8 @@ Proc. of the 32nd International Joint Conference on Artificial Intelligence (IJC
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/research/publications/</guid>
-      <description>Publications # The copyrights of published papers are transferred to publishers. Misuse of any material posted here may result in plagiarism. + means my current/previous student or visitor. * means equal contribution To appear # Technical Report # PlantRNA-FM: A Plant RNA Foundation Model for Exploration RNA Functions in Plants
-Haopeng Yu, Heng Yang+, Yiliang Ding, Ke Li
-biArXiv xxxxxx | May 2024
-PDF | Project | BiB
-A Survey of Decomposition-Based Evolutionary Multi-Objective Optimization: Part II-A Data Science Perspective</description>
+      <description>Publications # The copyrights of published papers are transferred to publishers. Misuse of any material posted here may result in plagiarism. + means my current/previous student or visitor. * means equal contribution To appear # Technical Report # PlantRNA-FM: An Interpretable RNA Foundation Model for Exploration Functional RNA Motifs in Plants
+Haopeng Yu, Heng Yang+, Wenqing Sun, Zongyun Yan, Xiaofei Yang, Huakun Zhang, Yiliang Ding, Ke Li biArXiv 2024.06.24.600509 | May 2024</description>
     </item>
     
     <item>
@@ -217,7 +214,10 @@ slides | Ke Li | December 25</description>
       
       <guid>https://example.com/docs/research/supp/plant_fm/</guid>
       <description>Plant RNA Foundation Model Project # This website maintains the supplementary materials related to the following paper:
-Haopeng Yu, Heng Yang+, Yiliang Ding, Ke Li &amp;ldquo;PlantRNA-FM: A Plant RNA Foundation Model for Exploration RNA Functions in Plants&amp;rdquo;, submitted to Nature Machine Intelligence, under review, 2024. The complex language of plant RNA encodes a vast array of biological regulatory elements that orchestrate crucial aspects of plant growth, development, and adaptation to environmental stresses.</description>
+Haopeng Yu, Heng Yang+, Wenqing Sun, Zongyun Yan, Xiaofei Yang, Huakun Zhang, Yiliang Ding, Ke Li &amp;ldquo;PlantRNA-FM: An Interpretable RNA Foundation Model for Exploration Functional RNA Motifs in Plants&amp;rdquo;, submitted to Nature Machine Intelligence, under review, 2024.
+https://doi.org/10.1101/2024.06.24.600509
+biArXiv 2024.06.24.600509 | Code | Supp
+The complex &#39;language&#39; of plant RNA encodes a vast array of biological regulatory elements that orchestrate crucial aspects of plant growth, development, and adaptation to environmental stresses.</description>
     </item>
     
     <item>
