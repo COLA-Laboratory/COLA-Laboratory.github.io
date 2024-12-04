@@ -13,7 +13,7 @@
       <guid>https://example.com/posts/pgfplots/</guid>
       <description> TikZ is a powerful drawing package for academics who are using LaTeX for paper writing. Unlike other TeX packages, TikZ itself is really huge, its manual contains about 1100+ pages, 100+ chapters. Tens of other packages, and serveral GUI applications are based on TikZ.
 Instead of being comprehensive, this page mainly aims to provide a curated list of awesome TikZ templates frequently used in our COLA laboratory.
- Scatter plots #   </description>
+Scatter plots # </description>
     </item>
     
     <item>
@@ -23,7 +23,7 @@ Instead of being comprehensive, this page mainly aims to provide a curated list 
       
       <guid>https://example.com/posts/overleaf_naming/</guid>
       <description>Overleaf is a collaborative cloud-based LaTeX editor used for writing, editing and publishing scientific documents. In COLA laboratory, we use the Overleaf as the centralized place to manage our manuscripts. In order to make the projects be managed in an organized manner, a project is usually named as A_B_C.
- A: journal/conference name, e.g., TEVC/PPSN22 B: acronym of the algorithm, e.g., TBO2 C: first character of your name, e.</description>
+A: journal/conference name, e.g., TEVC/PPSN22 B: acronym of the algorithm, e.g., TBO2 C: first character of your name, e.g., RC This comes up to be a typical example: TEVC_TBO2_RC.</description>
     </item>
     
     <item>
@@ -33,7 +33,7 @@ Instead of being comprehensive, this page mainly aims to provide a curated list 
       
       <guid>https://example.com/posts/bibtex_rule/</guid>
       <description>Bibtex is a powerful tool to manage your references in scientific writing by using LaTeX. However, the bibtex sources can be messy in the wild. Here are some useful tips to prepare a beautiful and clean bibtex file.
- Instead of searching from Google, it might be more convenient to search the corresponding paper or author in DBLP. There is an option to choose the export record as the BibTeX.</description>
+Instead of searching from Google, it might be more convenient to search the corresponding paper or author in DBLP. There is an option to choose the export record as the BibTeX. It will be more efficient to use some text editor like Vim to facilitate your editing.</description>
     </item>
     
     <item>
@@ -42,8 +42,8 @@ Instead of being comprehensive, this page mainly aims to provide a curated list 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/academicons/academicons-1.9.0/README/</guid>
-      <description>What is Academicons? #  Academicons is a specialist icon font for academics. It contains icons for websites and organisations related to academia that are often missing from mainstream font packages. It can be used by itself, but its primary purpose is to be used as a supplementary package alongside a larger icon set. Go here to view the full icon set along with instructions for their use.
-Requesting new icons #  New icons can be requested by creating an issue here.</description>
+      <description>What is Academicons? # Academicons is a specialist icon font for academics. It contains icons for websites and organisations related to academia that are often missing from mainstream font packages. It can be used by itself, but its primary purpose is to be used as a supplementary package alongside a larger icon set. Go here to view the full icon set along with instructions for their use.
+Requesting new icons # New icons can be requested by creating an issue here.</description>
     </item>
     
     <item>
@@ -52,8 +52,8 @@ Requesting new icons #  New icons can be requested by creating an issue here.</d
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/events/archive/archive_seminar/</guid>
-      <description>  Archive of COLA Seminar Series #  2022 #  Agenda (Year 2021) #  June  Exeter-Leiden Symposium on Data-Driven Modeling and Optimization
- Website |  Ke Li, Hao Wang |  June 6   </description>
+      <description> Archive of COLA Seminar Series # 2022 # Agenda (Year 2021) # June Exeter-Leiden Symposium on Data-Driven Modeling and Optimization
+Website | Ke Li, Hao Wang | June 6 </description>
     </item>
     
     <item>
@@ -62,11 +62,14 @@ Requesting new icons #  New icons can be requested by creating an issue here.</d
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/events/archive/archive_reading/</guid>
-      <description>Archive of Reading Group #  Agenda (Year 2022) #  Oct  Optimizing Millions of Hyperparameters by Implicit Differentiation
+      <description>Archive of Reading Group # Agenda (Year 2022) # Oct Optimizing Millions of Hyperparameters by Implicit Differentiation
 AISTAS 2020
- paper |  slides |  Han Guo |  October 16   Agenda (Year 2021) #  June   Learning from Multiple Cities: A Meta-Learning Approach for Spatial-Temporal Prediction
+paper | slides | Han Guo | October 16 Agenda (Year 2021) # June Learning from Multiple Cities: A Meta-Learning Approach for Spatial-Temporal Prediction
 WWW 2019
- paper |  slides |  Jiangjiao Xu |  June 20</description>
+paper | slides | Jiangjiao Xu | June 20
+Bayesian temporal factorization for multidimensional time series prediction
+IEEE PAMI 2021
+paper | slides | Jiangjiao Xu | June 13</description>
     </item>
     
     <item>
@@ -75,7 +78,7 @@ WWW 2019
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/events/archive/archive_study/</guid>
-      <description>  Archive #  2022 #  </description>
+      <description> Archive # 2022 # </description>
     </item>
     
     <item>
@@ -84,8 +87,8 @@ WWW 2019
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/events/seminars/</guid>
-      <description>COLA Seminar Series #     This is our seminar series where we exchange ideas with guest speakers, keeping you up to date with the latest developments and inspiring research topics. Occasionally, COLA researchers present their own work as well.  Agenda (Year 2023) #  April  Turing Workshop on Human-Centric AI and Applications
- Website |  Ke Li |  April 26-28    Previous seminar series can be found from our archive.</description>
+      <description>COLA Seminar Series # This is our seminar series where we exchange ideas with guest speakers, keeping you up to date with the latest developments and inspiring research topics. Occasionally, COLA researchers present their own work as well. Agenda (Year 2023) # April Turing Workshop on Human-Centric AI and Applications
+Website | Ke Li | April 26-28 Previous seminar series can be found from our archive.</description>
     </item>
     
     <item>
@@ -94,8 +97,8 @@ WWW 2019
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/misc/ddl/</guid>
-      <description>Deadlines #  Here are some important deadlines for the major conferences in artificial intelligence and machine learning (AI &amp;amp; ML), data mining (DM), natural language processing (NLP), software engineering (SE) and evolutionary computation (EC) domains.
-AI  IJCAI 2024: January 17, 2024 ECAI 2024: April 25, 2024 AAAI 2024: August 15, 2023 ICLR 2024: September 28, 2023  ML  ICML 2024: Feburary 1, 2024 AutoML 2024: Feburary 29, 2024 ECML/PKDD 2024: March 22, 2024 UAI 2024: February 9, 2024 NeurIPS 2023: May 17, 2023 AISTAS 2024: October 13, 2024  CV  CVPR 2024: November 17, 2024 ICCV 2023: March 8, 2023 ECCV 2022: March 7, 2022  DM  KDD 2023: February 2, 2023 ICDM 2023: July 1, 2023 SDM 2023: October 14, 2022 CIKM 2023: June 2, 2023  NLP  ACL 2022: November 15, 2021 NAACL 2022: Jan 15, 2022 COLING 2022: May 15, 2022 EMNLP 2022: May 24, 2022  SE  ISSTA 2024: December 15, 2023 (1st round) | April 12, 2024 (2nd round) FSE 2024: September 28, 2023 ASE 2024: June 7, 2024 ICSE 2025: March 22, 2024 (1st round) | August 2, 2024 (2nd round) ICSME 2023: April 27, 2023 ICPC 2023: December 19, 2022 ESEM 2023: May 2, 2023 ISSRE 2023: May 22, 2023 SANER 2023: October 21, 2022 ICST 2023: January 27, 2023 QRS 2022: September 10, 2022 MSR: January 16, 2023  EC  GECCO 2024: February 1, 2024 WCCI 2024: January 15, 2024 PPSN 2024: April 5, 2024 CEC 2023: January 13, 2023 SMC 2023: April 15, 2023 FOGA 2022: May 7, 2022 SSCI 2023: June 30, 2023   </description>
+      <description> Deadlines # Here are some important deadlines for the major conferences in artificial intelligence and machine learning (AI &amp;amp; ML), data mining (DM), natural language processing (NLP), software engineering (SE) and evolutionary computation (EC) domains.
+AI IJCAI 2024: January 17, 2024 ECAI 2024: April 25, 2024 AAAI 2024: August 15, 2023 ICLR 2024: September 28, 2023 ML ICML 2024: Feburary 1, 2024 AutoML 2024: Feburary 29, 2024 ECML/PKDD 2024: March 22, 2024 UAI 2024: February 9, 2024 NeurIPS 2023: May 17, 2023 AISTAS 2024: October 13, 2024 CV CVPR 2024: November 17, 2024 ICCV 2023: March 8, 2023 ECCV 2022: March 7, 2022 DM KDD 2023: February 2, 2023 ICDM 2023: July 1, 2023 SDM 2023: October 14, 2022 CIKM 2023: June 2, 2023 NLP ACL 2022: November 15, 2021 NAACL 2022: Jan 15, 2022 COLING 2022: May 15, 2022 EMNLP 2022: May 24, 2022 SE ISSTA 2024: December 15, 2023 (1st round) | April 12, 2024 (2nd round) FSE 2024: September 28, 2023 ASE 2024: June 7, 2024 ICSE 2025: March 22, 2024 (1st round) | August 2, 2024 (2nd round) ICSME 2023: April 27, 2023 ICPC 2023: December 19, 2022 ESEM 2023: May 2, 2023 ISSRE 2023: May 22, 2023 SANER 2023: October 21, 2022 ICST 2023: January 27, 2023 QRS 2022: September 10, 2022 MSR: January 16, 2023 EC GECCO 2024: February 1, 2024 WCCI 2024: January 15, 2024 PPSN 2024: April 5, 2024 CEC 2023: January 13, 2023 SMC 2023: April 15, 2023 FOGA 2022: May 7, 2022 SSCI 2023: June 30, 2023 </description>
     </item>
     
     <item>
@@ -106,10 +109,10 @@ AI  IJCAI 2024: January 17, 2024 ECAI 2024: April 25, 2024 AAAI 2024: August 15,
       <guid>https://example.com/docs/research/emoc/</guid>
       <description>EMOC stands for Evolutionary Multi-objective Optimization in C++ which is a framework for single-objective and multi-objective optimization.
 For more information about installation and usage, please refer to the document site.
- Features #    Rich algorithms and problems
+Features # Rich algorithms and problems
 EMOC implemented about 30 algorithms and more than 80 test problems which both include single-objective and multi-objective types.
-  Developed in C++ and Cross-platform
-All the source code of EMOC are wrote in C++.</description>
+Developed in C++ and Cross-platform
+All the source code of EMOC are wrote in C++. So the running efficiency is guaranteed when comparing other implementation with python, java or matlab.</description>
     </item>
     
     <item>
@@ -118,8 +121,9 @@ All the source code of EMOC are wrote in C++.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/research/grants/</guid>
-      <description>Grants #      hr.dashed { border-top: 1px dashed #bbb; } .grid-container { display: grid; grid-template-columns: 40% 60%; grid-gap: 5px; background-color: transparent; padding: 5px; }  We are grateful to have been generously supported by or closely working with the following funding bodies and industrial partners.  Ongoing  Knowledge-Driven Evolutionary Multi-Objective Search for Automated Software Configuration Tuning
- Kan Tong Po Fellowship 2023 |  #KTP\R1\231017 |  PI |  £3,000 |  2023&amp;ndash;2024.</description>
+      <description>Grants # We are grateful to have been generously supported by or closely working with the following funding bodies and industrial partners. Ongoing Knowledge-Driven Evolutionary Multi-Objective Search for Automated Software Configuration Tuning
+Kan Tong Po Fellowship 2023 | #KTP\R1\231017 | PI | £3,000 | 2023&amp;ndash;2024. EASY-CROSS: Secure and Modular Border Control Platform Supporting Handheld Biometric Scanning Devices for Verifying Travellers Crossing EU Land and Sea Borders
+MSCA Staff Exchange 2022 | #TBD | Co-I | €613,185 | 2024&amp;ndash;2027.</description>
     </item>
     
     <item>
@@ -128,7 +132,7 @@ All the source code of EMOC are wrote in C++.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/misc/dtec/</guid>
-      <description>IEEE CIS Task Force 12 #  Task Force on Decomposition-based Techniques in Evolutionary Computation Objectives #  As the name suggests, the basic idea of the decomposition-based technique is to transform the original complex problem into simplified subproblem(s) so as to facilitate the optimization. Decomposition-based techniques have been widely used for solving both single- and multi-objective optimization problems. More specifically, in single-objective optimization, especially for the large-scale scenarios, which consider a tremendous amount of decision variables, the decomposition-based technique contains three aspects: 1) analyzing and understanding the fitness landscape and modularity structure of the underlying problem; 2) decomposing the original complex problem into several loosely coupled or independent subproblems based on the learnt characteristics; 3) using a meta-heuristic to solve these subproblems in a sequential or concurrent manner.</description>
+      <description>IEEE CIS Task Force 12 # Task Force on Decomposition-based Techniques in Evolutionary Computation Objectives # As the name suggests, the basic idea of the decomposition-based technique is to transform the original complex problem into simplified subproblem(s) so as to facilitate the optimization. Decomposition-based techniques have been widely used for solving both single- and multi-objective optimization problems. More specifically, in single-objective optimization, especially for the large-scale scenarios, which consider a tremendous amount of decision variables, the decomposition-based technique contains three aspects: 1) analyzing and understanding the fitness landscape and modularity structure of the underlying problem; 2) decomposing the original complex problem into several loosely coupled or independent subproblems based on the learnt characteristics; 3) using a meta-heuristic to solve these subproblems in a sequential or concurrent manner.</description>
     </item>
     
     <item>
@@ -137,7 +141,8 @@ All the source code of EMOC are wrote in C++.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/home/members/</guid>
-      <description>Members #      hr.dashed { border-top: 1px dashed #bbb; } .grid-container { display: grid; grid-template-columns: 15% 35% 15% 35%; grid-gap: 15px; background-color: transparent; padding: 5px; align-content: left; }   Lookup table of acronyms in this page. &amp;#43;   EMO: evolutionary multi-objective optimization BO: Bayesian optimization BLO: bi-level optimization MFO: multi-fidelity optimization CO: constrained optimization DO: dynamic optimization MCM: Monte Carlo method    LA: landscape analysis TL: transfer learning MTL: multi-task learning LL: life-long learning GP: Gaussian processes NLP: natural language processing SE: software engineering VNF: virtual network functions         Faculty #   Dr Ke Li</description>
+      <description>Members # Lookup table of acronyms in this page. &amp;#43; EMO: evolutionary multi-objective optimization BO: Bayesian optimization BLO: bi-level optimization MFO: multi-fidelity optimization CO: constrained optimization DO: dynamic optimization MCM: Monte Carlo method LA: landscape analysis TL: transfer learning MTL: multi-task learning LL: life-long learning GP: Gaussian processes NLP: natural language processing SE: software engineering VNF: virtual network functions Faculty # Dr Ke Li
+UKRI FLF | Turing Fellow</description>
     </item>
     
     <item>
@@ -146,8 +151,8 @@ All the source code of EMOC are wrote in C++.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/home/news/</guid>
-      <description>News Archive #  2023 #  Dec   Our paper on &amp;ldquo;Constrained Bayesian Optimization Under Partial Observations: Balanced Improvements and Provable Convergence&amp;rdquo; has been accepted to AAAI 2024. In this paper, Shengbo did a very beautiful and rigorous theoretical discussion on how to carefully explore constraint boundary in partially observable environments. Very well done!  December 9
-  Our paper on &amp;ldquo;DaNuoYi: Evolutionary Multi-Task Injection Testing on Web Application Firewalls&amp;rdquo; has been accepted IEEE Transactions on Software Engineering.</description>
+      <description>News Archive # 2023 # Dec Our paper on &amp;ldquo;Constrained Bayesian Optimization Under Partial Observations: Balanced Improvements and Provable Convergence&amp;rdquo; has been accepted to AAAI 2024. In this paper, Shengbo did a very beautiful and rigorous theoretical discussion on how to carefully explore constraint boundary in partially observable environments. Very well done! December 9
+Our paper on &amp;ldquo;DaNuoYi: Evolutionary Multi-Task Injection Testing on Web Application Firewalls&amp;rdquo; has been accepted IEEE Transactions on Software Engineering.</description>
     </item>
     
     <item>
@@ -156,7 +161,11 @@ All the source code of EMOC are wrote in C++.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/research/landscapes/</guid>
-      <description>function toggle_visibility(id) { var e = document.getElementById(id); if(e.style.display == &#39;block&#39;) e.style.display = &#39;none&#39;; else e.style.display = &#39;block&#39;; } function toggle_visibility_extend(id_prefix, current_order, total_num) { // get all ids for different blocks var id_array = []; for(var i = 0;i  hr.dashed { border-top: 1px dashed #bbb; } .grid-container { display: grid; grid-template-columns: 40% 60%; grid-gap: 5px; background-color: transparent; padding: 5px; } .bibtexpre{ background-color:#F8F8FA; border-radius:5px; border: 2px solid #D8D8DA; margin:10px; white-space: pre-wrap; word-wrap: break-word; } .</description>
+      <description>Graph-Based Fitness Landscape Analysis Leveraging the advanced tools developed in the field of network science to facilite the understanding of complex configurable systems in different domains.
+Our Work # Publications # Exploring Structural Similarity in Fitness Landscapes via Graph Data Mining: A Case Study on Number Partitioning Problems
+Mingyu Huang and Ke Li
+Proc. of the 32nd International Joint Conference on Artificial Intelligence (IJCAI&#39;23)
+2023 | Conference Paper | Abs | PDF | Supp | BiB | One of the most common problem-solving heuristics is by analogy.</description>
     </item>
     
     <item>
@@ -165,7 +174,7 @@ All the source code of EMOC are wrote in C++.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/research/projects/</guid>
-      <description>Projects #  (This section is currently under development)</description>
+      <description>Projects # (This section is currently under development)</description>
     </item>
     
     <item>
@@ -174,7 +183,11 @@ All the source code of EMOC are wrote in C++.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/research/publications/</guid>
-      <description>Publications #       function toggle_visibility(id) { var e = document.getElementById(id); if(e.style.display == &#39;block&#39;) e.style.display = &#39;none&#39;; else e.style.display = &#39;block&#39;; } //Params: // id_prefix: the prefix of the id for the showing blocks // current_order: the order of the current block, start from 0 // total_num: the total number of showing blocks //Usage: // All the showing blocks should have id with the form &#39;id_prefix_#&#39;, e.</description>
+      <description>Publications # The copyrights of published papers are transferred to publishers. Misuse of any material posted here may result in plagiarism. + means my current/previous student or visitor. * means equal contribution To appear # Technical Report # A Survey of Decomposition-Based Evolutionary Multi-Objective Optimization: Part II-A Data Science Perspective
+Mingyu Huang+, Ke Li
+CoRR abs/2404.14228 | April 2024
+PDF | Supp | BiB
+Multi-Fidelity Methods for Optimization: A Survey</description>
     </item>
     
     <item>
@@ -183,7 +196,7 @@ All the source code of EMOC are wrote in C++.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/events/readinggroup/</guid>
-      <description>Reading Group #     The paper reading group meets weekly during the semester to discuss papers. Participation is open to all, guests are always welcome; if you are interested in engaging with us, please feel free to contact Dr Ke Li.   More about our reading group culture &amp;#43;  The paper to discuss is announced about one week in advance by the presenter. All participants are expected to read the paper before the meeting.</description>
+      <description>Reading Group # The paper reading group meets weekly during the semester to discuss papers. Participation is open to all, guests are always welcome; if you are interested in engaging with us, please feel free to contact Dr Ke Li. More about our reading group culture &amp;#43; The paper to discuss is announced about one week in advance by the presenter. All participants are expected to read the paper before the meeting.</description>
     </item>
     
     <item>
@@ -192,7 +205,9 @@ All the source code of EMOC are wrote in C++.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/events/studygroup/</guid>
-      <description>Study Group #     The core purpose of this study group, which runs every Sunday afternoon, is to learn some fundamental knowledge pertinent to our research. Participation is usually expected to be our COLA members. However, if you are interested in engaging with us, please feel free to contact Dr Ke Li for a discussion.  Agenda (Year 2022) #  Dec   Zero article: no article</description>
+      <description>Study Group # The core purpose of this study group, which runs every Sunday afternoon, is to learn some fundamental knowledge pertinent to our research. Participation is usually expected to be our COLA members. However, if you are interested in engaging with us, please feel free to contact Dr Ke Li for a discussion. Agenda (Year 2022) # Dec Zero article: no article
+Academic Writing Series #7
+slides | Ke Li | December 25</description>
     </item>
     
     <item>
@@ -201,11 +216,11 @@ All the source code of EMOC are wrote in C++.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/research/supp/plant_fm/</guid>
-      <description>Plant RNA Foundation Model Project #     This website maintains the supplementary materials related to the following paper:
+      <description>Plant RNA Foundation Model Project # This website maintains the supplementary materials related to the following paper:
 Haopeng Yu, Heng Yang+, Wenqing Sun, Zongyun Yan, Xiaofei Yang, Huakun Zhang, Yiliang Ding, Ke Li &amp;ldquo;PlantRNA-FM: An Interpretable RNA Foundation Model for Exploration Functional RNA Motifs in Plants&amp;rdquo;, accpeted to Nature Machine Intelligence, 2024.
- https://doi.org/10.1101/2024.06.24.600509
- biArXiv 2024.06.24.600509 |  Code |  Supp
-  The complex &#39;language&#39; of plant RNA encodes a vast array of biological regulatory elements that orchestrate crucial aspects of plant growth, development, and adaptation to environmental stresses.</description>
+https://doi.org/10.1101/2024.06.24.600509
+biArXiv 2024.06.24.600509 | Code | Supp
+The complex &#39;language&#39; of plant RNA encodes a vast array of biological regulatory elements that orchestrate crucial aspects of plant growth, development, and adaptation to environmental stresses.</description>
     </item>
     
     <item>
@@ -214,9 +229,9 @@ Haopeng Yu, Heng Yang+, Wenqing Sun, Zongyun Yan, Xiaofei Yang, Huakun Zhang, Yi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/research/supp/supp_deto/</guid>
-      <description>Supplementary Materials #     This website maintains the supplementary materials related to the following paper:
-Ke Li+, Renzhi Chen+, Xin Yao, &amp;ldquo;A Data-Driven Evolutionary Transfer Optimization for Expensive Problems in Dynamic Environments&amp;rdquo;, IEEE Trans. Evolutionary Computation, in press, 2023.  It consists of the following parts:
- Appendix document of this paper can be found from our  Dropbox link. Examples of the dynamically changing fitness landscape of both the moving peak benchmark problems (left hand side) and the moving peak benchmark with Gaussian peaks (right hand side).</description>
+      <description>Supplementary Materials # This website maintains the supplementary materials related to the following paper:
+Ke Li+, Renzhi Chen+, Xin Yao, &amp;ldquo;A Data-Driven Evolutionary Transfer Optimization for Expensive Problems in Dynamic Environments&amp;rdquo;, IEEE Trans. Evolutionary Computation, in press, 2023. It consists of the following parts:
+Appendix document of this paper can be found from our Dropbox link. Examples of the dynamically changing fitness landscape of both the moving peak benchmark problems (left hand side) and the moving peak benchmark with Gaussian peaks (right hand side).</description>
     </item>
     
     <item>
@@ -225,9 +240,9 @@ Ke Li+, Renzhi Chen+, Xin Yao, &amp;ldquo;A Data-Driven Evolutionary Transfer Op
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/research/supp/supp_dmi/</guid>
-      <description>Supplementary Materials #     This website maintains the supplementary materials related to the following paper:
-Ke Li, Renzhi Chen, &amp;ldquo;Batched Data-Driven Evolutionary Multi-Objective Optimization Based on Manifold Interpolation&amp;rdquo;, IEEE Trans. Evol. Comput., accepted for publication, 2022.  It consists of the following parts:
- The source code of this paper can be found from our  Github repo. Appendix document of this paper can be found from this  Dropbox link.</description>
+      <description>Supplementary Materials # This website maintains the supplementary materials related to the following paper:
+Ke Li, Renzhi Chen, &amp;ldquo;Batched Data-Driven Evolutionary Multi-Objective Optimization Based on Manifold Interpolation&amp;rdquo;, IEEE Trans. Evol. Comput., accepted for publication, 2022. It consists of the following parts:
+The source code of this paper can be found from our Github repo. Appendix document of this paper can be found from this Dropbox link. Tables of all comparison results can be found in this Dropbox link.</description>
     </item>
     
     <item>
@@ -236,9 +251,9 @@ Ke Li, Renzhi Chen, &amp;ldquo;Batched Data-Driven Evolutionary Multi-Objective 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/research/supp/supp_pbmorl/</guid>
-      <description>Supplementary Materials #     This website maintains the supplementary materials related to the following paper:
-Ke Li, Han Guo+, &amp;ldquo;Human-in-the-Loop Policy Optimization for Preference-Based Multi-Objective Reinforcement Learning&amp;rdquo;, submitted for peer review, 2024.  It consists of the following parts:
- The source code of this paper can be found from our  Github repo. Video clips of the preferred policy obtained by our proposed PBMORL. Supplementary figures in addition to the experimental results reported in the manuscript can be found in this  PDF.</description>
+      <description>Supplementary Materials # This website maintains the supplementary materials related to the following paper:
+Ke Li, Han Guo+, &amp;ldquo;Human-in-the-Loop Policy Optimization for Preference-Based Multi-Objective Reinforcement Learning&amp;rdquo;, submitted for peer review, 2024. It consists of the following parts:
+The source code of this paper can be found from our Github repo. Video clips of the preferred policy obtained by our proposed PBMORL. Supplementary figures in addition to the experimental results reported in the manuscript can be found in this PDF.</description>
     </item>
     
     <item>
@@ -247,9 +262,9 @@ Ke Li, Han Guo+, &amp;ldquo;Human-in-the-Loop Policy Optimization for Preference
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/research/supp/supp_ranknet/</guid>
-      <description>Supplementary Materials #     This website maintains the supplementary materials related to the following paper:
-Ke Li, Guiyu Lai+, Xin Yao, &amp;ldquo;Interactive Evolutionary Multi-Objective Optimization via Learning-to-Rank&amp;rdquo;, IEEE Trans. Evol. Comput., accepted for publication, 2022.  It consists of the following parts:
- The source code of this paper can be found from our  Github repo. Appendix document of this paper can be found from this  Dropbox link.</description>
+      <description>Supplementary Materials # This website maintains the supplementary materials related to the following paper:
+Ke Li, Guiyu Lai+, Xin Yao, &amp;ldquo;Interactive Evolutionary Multi-Objective Optimization via Learning-to-Rank&amp;rdquo;, IEEE Trans. Evol. Comput., accepted for publication, 2022. It consists of the following parts:
+The source code of this paper can be found from our Github repo. Appendix document of this paper can be found from this Dropbox link. Video clips of the best policy obtained by different algorithms.</description>
     </item>
     
     <item>
@@ -258,7 +273,7 @@ Ke Li, Guiyu Lai+, Xin Yao, &amp;ldquo;Interactive Evolutionary Multi-Objective 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/events/activities/exeter_leiden_symposium/</guid>
-      <description>Exeter-Leiden Symposium on Data-Driven Modeling and Optimization #      function toggle_visibility(id) { var e = document.getElementById(id); if(e.style.display == &#39;block&#39;) e.style.display = &#39;none&#39;; else e.style.display = &#39;block&#39;; }   hr.dashed { border-top: 1px dashed #bbb; } .grid-container { display: grid; grid-template-columns: 40% 60%; grid-gap: 5px; background-color: transparent; padding: 5px; } .bibtexpre{ background-color:#F8F8FA; border-radius:5px; border: 2px solid #D8D8DA; margin:10px; white-space: pre-wrap; word-wrap: break-word; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; }   Objectives #  Data has been playing an ever-growing role in artificial/computational intelligence.</description>
+      <description>Exeter-Leiden Symposium on Data-Driven Modeling and Optimization # Objectives # Data has been playing an ever-growing role in artificial/computational intelligence. Such role goes beyond its typical use in neural networks and learning systems, encompassing also evolutionary and other meta-heuristic optimization algorithms. The objective of this symposium is to provide a unique and vibrant cohort for sharing and experiencing the emerging methodologies and applications of data-driven artificial/computational intelligence. It will offer keynotes, invited lectures and discussion groups given by experts from Exeter, Leiden and other high-profile institutions.</description>
     </item>
     
     <item>
@@ -267,7 +282,7 @@ Ke Li, Guiyu Lai+, Xin Yao, &amp;ldquo;Interactive Evolutionary Multi-Objective 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/events/activities/turing_workshop/</guid>
-      <description>Turing Workshop on Human-Centric Artificial and Computational Intelligence and Applications #      function toggle_visibility(id) { var e = document.getElementById(id); if(e.style.display == &#39;block&#39;) e.style.display = &#39;none&#39;; else e.style.display = &#39;block&#39;; }   hr.dashed { border-top: 1px dashed #bbb; } .grid-container { display: grid; grid-template-columns: 40% 60%; grid-gap: 5px; background-color: transparent; padding: 5px; } .bibtexpre{ background-color:#F8F8FA; border-radius:5px; border: 2px solid #D8D8DA; margin:10px; white-space: pre-wrap; word-wrap: break-word; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; }   Objectives #  Data has been playing an ever-growing role in artificial/computational intelligence.</description>
+      <description>Turing Workshop on Human-Centric Artificial and Computational Intelligence and Applications # Objectives # Data has been playing an ever-growing role in artificial/computational intelligence. Such role goes beyond its typical use in neural networks and learning systems, encompassing also evolutionary and other meta-heuristic optimization algorithms. The objective of this symposium is to provide a unique and vibrant cohort for sharing and experiencing the emerging methodologies and applications of data-driven artificial/computational intelligence.</description>
     </item>
     
     <item>
@@ -276,7 +291,8 @@ Ke Li, Guiyu Lai+, Xin Yao, &amp;ldquo;Interactive Evolutionary Multi-Objective 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/turing_workshop/</guid>
-      <description>Turing Workshop on Human-Centric Artificial and Computational Intelligence and Applications #      function toggle_visibility(id) { var e = document.getElementById(id); if(e.style.display == &#39;block&#39;) e.style.display = &#39;none&#39;; else e.style.display = &#39;block&#39;; }   hr.dashed { border-top: 1px dashed #bbb; } .grid-container { display: grid; grid-template-columns: 40% 60%; grid-gap: 5px; background-color: transparent; padding: 5px; } .bibtexpre{ background-color:#F8F8FA; border-radius:5px; border: 2px solid #D8D8DA; margin:10px; white-space: pre-wrap; word-wrap: break-word; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; }   Synopsis #  Human-Centered artificial/computational intelligence (HCAI/CI) is an emerging discipline intent on creating AI/CI systems that amplify and augment rather than displace human abilities.</description>
+      <description>Turing Workshop on Human-Centric Artificial and Computational Intelligence and Applications # Synopsis # Human-Centered artificial/computational intelligence (HCAI/CI) is an emerging discipline intent on creating AI/CI systems that amplify and augment rather than displace human abilities. Instead, HCAI/CI seeks to preserve human control in a way that ensures AI meets our needs while also operating in a reliable, robust, and transparent manner, delivering equitable outcomes, and respecting privacy.
+This workshop is designed to bring key data scientists and AI experts from both academia and industry to sharing up to date research and innovation developments themed on HCAI/CI, but also help identify the key challenges in stakeholders.</description>
     </item>
     
     <item>
@@ -285,7 +301,8 @@ Ke Li, Guiyu Lai+, Xin Yao, &amp;ldquo;Interactive Evolutionary Multi-Objective 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/turing_workshop/</guid>
-      <description>Turing Workshop on Human-Centric Artificial and Computational Intelligence and Applications #      function toggle_visibility(id) { var e = document.getElementById(id); if(e.style.display == &#39;block&#39;) e.style.display = &#39;none&#39;; else e.style.display = &#39;block&#39;; }   hr.dashed { border-top: 1px dashed #bbb; } .grid-container { display: grid; grid-template-columns: 40% 60%; grid-gap: 5px; background-color: transparent; padding: 5px; } .bibtexpre{ background-color:#F8F8FA; border-radius:5px; border: 2px solid #D8D8DA; margin:10px; white-space: pre-wrap; word-wrap: break-word; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; }   Synopsis #  Human-Centered artificial/computational intelligence (HCAI/CI) is an emerging discipline intent on creating AI/CI systems that amplify and augment rather than displace human abilities.</description>
+      <description>Turing Workshop on Human-Centric Artificial and Computational Intelligence and Applications # Synopsis # Human-Centered artificial/computational intelligence (HCAI/CI) is an emerging discipline intent on creating AI/CI systems that amplify and augment rather than displace human abilities. Instead, HCAI/CI seeks to preserve human control in a way that ensures AI meets our needs while also operating in a reliable, robust, and transparent manner, delivering equitable outcomes, and respecting privacy.
+This workshop is designed to bring key data scientists and AI experts from both academia and industry to sharing up to date research and innovation developments themed on HCAI/CI, but also help identify the key challenges in stakeholders.</description>
     </item>
     
     <item>
@@ -294,9 +311,9 @@ Ke Li, Guiyu Lai+, Xin Yao, &amp;ldquo;Interactive Evolutionary Multi-Objective 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/home/vacancies/</guid>
-      <description>Vacancies #    We very much welcome and support applications from underrepresented groups and from people of all shapes, shades, and genders. If you are uncertain about your possible role in our team, please do not hesitate to get in touch with Ke Li.
+      <description>Vacancies # We very much welcome and support applications from underrepresented groups and from people of all shapes, shades, and genders. If you are uncertain about your possible role in our team, please do not hesitate to get in touch with Ke Li.
 PhD There are multiple opportunities available at the University of Exeter to fund your PhD study.
- China Scholarship Council (Chinese Students): The University of Exeter is proud to offer up to 50 full-time PhD scholarships in collaboration with the China Scholarship Council (CSC).</description>
+China Scholarship Council (Chinese Students): The University of Exeter is proud to offer up to 50 full-time PhD scholarships in collaboration with the China Scholarship Council (CSC).</description>
     </item>
     
   </channel>
