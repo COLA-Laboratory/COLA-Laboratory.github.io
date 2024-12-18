@@ -176,10 +176,10 @@ slides | Ke Li | December 25</description>
       
       <guid>https://example.com/docs/research/supp/plant_fm/</guid>
       <description>Plant RNA Foundation Model Project # This website maintains the supplementary materials related to the following paper:
-Haopeng Yu, Heng Yang+, Wenqing Sun, Zongyun Yan, Xiaofei Yang, Huakun Zhang, Yiliang Ding, Ke Li &amp;ldquo;PlantRNA-FM: An Interpretable RNA Foundation Model for Exploration Functional RNA Motifs in Plants&amp;rdquo;, accpeted to Nature Machine Intelligence, 2024.
-https://doi.org/10.1101/2024.06.24.600509
-biArXiv 2024.06.24.600509 | Code | Supp
-The complex &#39;language&#39; of plant RNA encodes a vast array of biological regulatory elements that orchestrate crucial aspects of plant growth, development, and adaptation to environmental stresses.</description>
+An Interpretable RNA Foundation Model for Exploration Functional RNA Motifs in Plants
+Haopeng Yu, Heng Yang+, Wenqing Sun, Zongyun Yan, Xiaofei Yang, Huakun Zhang, Yiliang Ding, Ke Li 10.1038/s42256-024-00946-z
+biArXiv 2024.06.24.600509 Nature Machine Intelligence (NMI), 6: 1616&amp;ndash;1625, 2024
+Code | Supp | BiB The complex &#39;language&#39; of plant RNA encodes a vast array of biological regulatory elements that orchestrate crucial aspects of plant growth, development, and adaptation to environmental stresses.</description>
     </item>
     
     <item>
