@@ -110,8 +110,7 @@ UKRI FLF | Turing Fellow</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/docs/home/news/</guid>
-      <description>News Archive # 2023 # Dec Our paper on &amp;ldquo;Constrained Bayesian Optimization Under Partial Observations: Balanced Improvements and Provable Convergence&amp;rdquo; has been accepted to AAAI 2024. In this paper, Shengbo did a very beautiful and rigorous theoretical discussion on how to carefully explore constraint boundary in partially observable environments. Very well done! December 9
-Our paper on &amp;ldquo;DaNuoYi: Evolutionary Multi-Task Injection Testing on Web Application Firewalls&amp;rdquo; has been accepted IEEE Transactions on Software Engineering.</description>
+      <description>News Archive # 2024 # Dec Our paper &amp;ldquo;Rethinking Performance Analysis for Configurable Software Systems: A Case Study from a Fitness Landscape Perspective&amp;rdquo; has been accepted to ISSTA 2025. This is another line of our hardcore endeavour towards fitness landscape analysis for highly complex black-box systems. Our KDD 2025 work is about the machine learning system, while this work is about configurable software systems. This is a really intriguing area and we are moving towards building a software platform to facilitate and scale up such analysis to any black-boxes, such as biological systems where the fitness landscapes are from.</description>
     </item>
     
     <item>
