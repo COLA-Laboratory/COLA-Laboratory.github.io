@@ -65,6 +65,33 @@
     <loc>https://example.com/academicons/academicons-1.9.0/README/</loc>
     <lastmod>2020-11-28T23:10:45+00:00</lastmod>
   </url><url>
+    <loc>https://example.com/docs/shortcodes/</loc>
+    <lastmod>2022-05-22T11:21:35+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/docs/shortcodes/buttons/</loc>
+    <lastmod>2022-05-22T11:21:35+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/docs/shortcodes/columns/</loc>
+    <lastmod>2022-05-22T11:21:35+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/docs/shortcodes/details/</loc>
+    <lastmod>2022-05-22T11:21:35+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/docs/shortcodes/expand/</loc>
+    <lastmod>2022-05-22T11:21:35+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/docs/shortcodes/hints/</loc>
+    <lastmod>2022-05-22T11:21:35+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/docs/shortcodes/katex/</loc>
+    <lastmod>2022-05-22T11:21:35+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/docs/shortcodes/mermaid/</loc>
+    <lastmod>2022-05-22T11:21:35+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/docs/shortcodes/tabs/</loc>
+    <lastmod>2022-05-22T11:21:35+08:00</lastmod>
+  </url><url>
     <loc>https://example.com/academicons/</loc>
     <lastmod>2020-11-28T23:10:45+00:00</lastmod>
   </url><url>
@@ -96,7 +123,7 @@
     <lastmod>2023-09-29T00:42:26+01:00</lastmod>
   </url><url>
     <loc>https://example.com/</loc>
-    <lastmod>2025-02-13T11:37:52+00:00</lastmod>
+    <lastmod>2025-02-22T12:22:32+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
