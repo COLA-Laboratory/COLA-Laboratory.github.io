@@ -13,8 +13,8 @@ function plot(data){
     const Y = d3.map(data, d=>d.conference);
 
     xDomain = X;
-    yDomain = [0, 16];
-    zDomain = [0,140];
+    yDomain = [0, 20];
+    zDomain = [0,145];
     xDomain = new d3.InternSet(xDomain)
 
 
