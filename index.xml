@@ -6,6 +6,15 @@
     <description>Recent content in Home on COLA-Lab@Exeter</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Evaluation beyond accuracy</title>
+      <link>https://example.com/posts/NeurIPS25_MH_GraphFLA/</link>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/posts/NeurIPS25_MH_GraphFLA/</guid>
+      <description>TLDR: GraphFLA enables efficient characterization of landscape features of arbitrary sequence-fitness landscapes, thereby augments the performance evaluation of genomic models Abstract # Machine learning models increasingly map biological sequence-fitness landscapes across various modalities to predict mutational effects. Effective evaluation of these models requires benchmarks derived from empirical data. However, current benchmarks often lack detailed topographical information regarding the underlying fitness landscape, which hampers interpretation and comparison of model performance. Here, we introduce GraphFLA, a Python framework that constructs and analyzes fitness landscapes from diverse modalities (DNA, RNA, protein, and beyond), accommodating datasets up to millions of mutants.</description>
+    </item>
+    
+    <item>
       <title>How to use TikZ in scientific plotting?</title>
       <link>https://example.com/posts/pgfplots/</link>
       <pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate>
