@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>overleaf on COLA-Lab@Exeter</title>
+    <title>Overleaf on COLA-Lab@Exeter</title>
     <link>https://example.com/tags/overleaf/</link>
-    <description>Recent content in overleaf on COLA-Lab@Exeter</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 25 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/overleaf/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content in Overleaf on COLA-Lab@Exeter</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 25 Mar 2022 23:19:20 +0800</lastBuildDate>
+    <atom:link href="https://example.com/tags/overleaf/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to name your Overleaf project?</title>
       <link>https://example.com/posts/overleaf_naming/</link>
       <pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://example.com/posts/overleaf_naming/</guid>
-      <description>Overleaf is a collaborative cloud-based LaTeX editor used for writing, editing and publishing scientific documents. In COLA laboratory, we use the Overleaf as the centralized place to manage our manuscripts. In order to make the projects be managed in an organized manner, a project is usually named as A_B_C.
-A: journal/conference name, e.g., TEVC/PPSN22 B: acronym of the algorithm, e.g., TBO2 C: first character of your name, e.g., RC This comes up to be a typical example: TEVC_TBO2_RC.</description>
+      <description>&lt;div class=&#34;item1&#34; style=&#34;text-align:center&#34;&gt;&#xA;    &lt;img src=&#34;https://example.com/media/overleaf.jpeg&#34; width=&#34;300px&#34;, height=&#34;100px&#34;, class=&#34;center&#34;&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;&#xA;  &lt;a href=&#34;https://overleaf.com/&#34;&gt;Overleaf&lt;/a&gt; is a collaborative cloud-based LaTeX editor used for writing, editing and publishing scientific documents. In COLA laboratory, we use the Overleaf as the centralized place to manage our manuscripts. In order to make the projects be managed in an organized manner, a project is usually named as &lt;code&gt;A_B_C&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;A&lt;/code&gt;: journal/conference name, e.g., TEVC/PPSN22&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;B&lt;/code&gt;: acronym of the algorithm, e.g., TBO2&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;C&lt;/code&gt;: first character of your name, e.g., RC&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This comes up to be a typical example: &lt;code&gt;TEVC_TBO2_RC&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

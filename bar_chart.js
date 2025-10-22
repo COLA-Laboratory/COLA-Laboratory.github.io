@@ -14,7 +14,7 @@ function plot(data){
 
     xDomain = X;
     yDomain = [0, 20];
-    zDomain = [0,145];
+    zDomain = [0,155];
     xDomain = new d3.InternSet(xDomain)
 
 

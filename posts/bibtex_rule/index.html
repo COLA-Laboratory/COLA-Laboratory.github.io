@@ -1,27 +1,42 @@
 <!DOCTYPE html>
-<html lang="en" dir=>
+<html lang="en" dir=ZgotmplZ>
 
 <head>
-  <meta name="generator" content="Hugo 0.104.0" />
+  <meta name="generator" content="Hugo 0.152.0">
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Bibtex is a powerful tool to manage your references in scientific writing by using LaTeX. However, the bibtex sources can be messy in the wild. Here are some useful tips to prepare a beautiful and clean bibtex file.
-Instead of searching from Google, it might be more convenient to search the corresponding paper or author in DBLP. There is an option to choose the export record as the BibTeX. It will be more efficient to use some text editor like Vim to facilitate your editing.">
-<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="How to prepare your bibtex file?" />
-<meta property="og:description" content="Bibtex is a powerful tool to manage your references in scientific writing by using LaTeX. However, the bibtex sources can be messy in the wild. Here are some useful tips to prepare a beautiful and clean bibtex file.
-Instead of searching from Google, it might be more convenient to search the corresponding paper or author in DBLP. There is an option to choose the export record as the BibTeX. It will be more efficient to use some text editor like Vim to facilitate your editing." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://example.com/posts/bibtex_rule/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2022-02-25T00:00:00+00:00" />
-<meta property="article:modified_time" content="2022-03-22T20:57:55+08:00" />
+<meta name="description" content="
+    
 
+Bibtex is a powerful tool to manage your references in scientific writing by using LaTeX. However, the bibtex sources can be messy in the wild. Here are some useful tips to prepare a beautiful and clean bibtex file.
+
+Instead of searching from Google, it might be more convenient to search the corresponding paper or author in 
+  DBLP. There is an option to choose the export record as the BibTeX.
+It will be more efficient to use some text editor like Vim to facilitate your editing. However, there is a steep learning curve to manage the Vim.
+Be careful to include unnecessary components in your bib. For example, it will take extra space if you include url and doi. Note that most publishers have a strict rule on the page length.
+If the corresponding paper is not published yet, i.e., just accepted or in press, there is usually NO pages, volume and number related information. Instead, we just need to amend a note component in the bibtex: note={accepted for publication}.
+
+In the following paragraphs, we mainly focus on three types of publications to give you some tangible examples.">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:url" content="https://example.com/posts/bibtex_rule/">
+  <meta property="og:site_name" content="COLA-Lab@Exeter">
+  <meta property="og:title" content="How to prepare your bibtex file?">
+  <meta property="og:description" content="Bibtex is a powerful tool to manage your references in scientific writing by using LaTeX. However, the bibtex sources can be messy in the wild. Here are some useful tips to prepare a beautiful and clean bibtex file.
+Instead of searching from Google, it might be more convenient to search the corresponding paper or author in DBLP. There is an option to choose the export record as the BibTeX. It will be more efficient to use some text editor like Vim to facilitate your editing. However, there is a steep learning curve to manage the Vim. Be careful to include unnecessary components in your bib. For example, it will take extra space if you include url and doi. Note that most publishers have a strict rule on the page length. If the corresponding paper is not published yet, i.e., just accepted or in press, there is usually NO pages, volume and number related information. Instead, we just need to amend a note component in the bibtex: note={accepted for publication}. In the following paragraphs, we mainly focus on three types of publications to give you some tangible examples.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2022-02-25T00:00:00+00:00">
+    <meta property="article:modified_time" content="2022-03-22T20:57:55+08:00">
+    <meta property="article:tag" content="Latex">
 <title>How to prepare your bibtex file? | COLA-Lab@Exeter</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
-<link rel="stylesheet" href="/book.min.a5f00dddfe7ef41e325d17ef835e16ef83a4399089fa8c583fe9f6a0e16d87e6.css" integrity="sha256-pfAN3f5&#43;9B4yXRfvg14W74OkOZCJ&#43;oxYP&#43;n2oOFth&#43;Y=">
-<script defer src="/en.search.min.cb53f7b733c8e8707576d4a89e760c46a0d480f80a5cef179fa3d218d5e1ba74.js" integrity="sha256-y1P3tzPI6HB1dtSonnYMRqDUgPgKXO8Xn6PSGNXhunQ="></script>
+<link rel="stylesheet" href="/book.min.d0463cd2c9a415f20d51a0539d59f89f1a2b1156e3b23acee59120c341713350.css" integrity="sha256-0EY80smkFfINUaBTnVn4nxorEVbjsjrO5ZEgw0FxM1A=">
+<script defer src="/en.search.min.352fd2efd453b3a0913239feee58d9bf05a5aff6904b5017c7dc297d9baa5ec0.js" integrity="sha256-NS/S79RTs6CRMjn&#43;7ljZvwWlr/aQS1AXx9wpfZuqXsA="></script>
 
 <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk="></script>
+
+
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -30,7 +45,7 @@ https://github.com/alex-shpak/hugo-book
   
 </head>
 
-<body dir=>
+<body dir=ZgotmplZ>
   <input type="checkbox" class="hidden toggle" id="menu-control" />
   <input type="checkbox" class="hidden toggle" id="toc-control" />
   <main class="container flex">
@@ -171,14 +186,14 @@ https://github.com/alex-shpak/hugo-book
   
   <div>
     
-      <a href="/categories/COLA-rules/">COLA rules</a>
+      <a href="/categories/COLA-rules/">COLA Rules</a>
   </div>
   
 
   
   <div>
     
-      <a href="/tags/latex/">latex</a>
+      <a href="/tags/latex/">Latex</a>
   </div>
   
 
@@ -368,7 +383,7 @@ https://github.com/alex-shpak/hugo-book
 
 
   <div>
-    <a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/edit/master/exampleSite/content/posts/bibtex_rule.md" target="_blank" rel="noopener">
+    <a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/edit/master/exampleSite//posts/bibtex_rule.md" target="_blank" rel="noopener">
       <img src="/svg/edit.svg" class="book-icon" alt="Edit" />
       <span>Edit this page</span>
     </a>

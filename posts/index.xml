@@ -4,46 +4,36 @@
     <title>Blog on COLA-Lab@Exeter</title>
     <link>https://example.com/posts/</link>
     <description>Recent content in Blog on COLA-Lab@Exeter</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://example.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://example.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Evaluation beyond accuracy</title>
       <link>https://example.com/posts/NeurIPS25_MH_GraphFLA/</link>
       <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://example.com/posts/NeurIPS25_MH_GraphFLA/</guid>
-      <description>TLDR: GraphFLA enables efficient characterization of landscape features of arbitrary sequence-fitness landscapes, thereby augments the performance evaluation of genomic models Abstract # Machine learning models increasingly map biological sequence-fitness landscapes across various modalities to predict mutational effects. Effective evaluation of these models requires benchmarks derived from empirical data. However, current benchmarks often lack detailed topographical information regarding the underlying fitness landscape, which hampers interpretation and comparison of model performance. Here, we introduce GraphFLA, a Python framework that constructs and analyzes fitness landscapes from diverse modalities (DNA, RNA, protein, and beyond), accommodating datasets up to millions of mutants.</description>
+      <description>&lt;blockquote class=&#34;book-hint info&#34;&gt;&#xA;  &lt;strong&gt;TLDR:&lt;/strong&gt; GraphFLA enables efficient characterization of landscape features of arbitrary sequence-fitness landscapes, thereby augments the performance evaluation of genomic models&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;&#xA;  &lt;img src=&#34;https://example.com/media/graphfla_intro.png&#34; alt=&#34;Overview Figure of GraphFLA&#34; /&gt;&lt;/p&gt;&#xA;&lt;hr/&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;&#xA;  Abstract&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#abstract&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Machine learning models increasingly map biological sequence-fitness landscapes across various modalities to predict mutational effects. Effective evaluation of these models requires benchmarks derived from empirical data. However, current benchmarks often lack detailed topographical information regarding the underlying fitness landscape, which hampers interpretation and comparison of model performance.&#xA;Here, we introduce GraphFLA, a Python framework that constructs and analyzes fitness landscapes from diverse modalities (DNA, RNA, protein, and beyond), accommodating datasets up to millions of mutants. GraphFLA calculates 20 biologically relevant features that characterize 4 fundamental aspects of landscape topography.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to use TikZ in scientific plotting?</title>
       <link>https://example.com/posts/pgfplots/</link>
       <pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://example.com/posts/pgfplots/</guid>
-      <description> TikZ is a powerful drawing package for academics who are using LaTeX for paper writing. Unlike other TeX packages, TikZ itself is really huge, its manual contains about 1100+ pages, 100+ chapters. Tens of other packages, and serveral GUI applications are based on TikZ.
-Instead of being comprehensive, this page mainly aims to provide a curated list of awesome TikZ templates frequently used in our COLA laboratory.
-Scatter plots # </description>
+      <description>&lt;div class=&#34;item1&#34; style=&#34;text-align:center&#34;&gt;&#xA;    &lt;img src=&#34;https://example.com/media/tikz.jpeg&#34; width=&#34;500px&#34;, height=&#34;150px&#34;, class=&#34;center&#34;&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;TikZ is a powerful drawing package for academics who are using LaTeX for paper writing. Unlike other TeX packages, TikZ itself is really huge, its manual contains about 1100+ pages, 100+ chapters. Tens of other packages, and serveral GUI applications are based on TikZ.&lt;/p&gt;&#xA;&lt;p&gt;Instead of being comprehensive, this page mainly aims to provide a curated list of awesome TikZ templates frequently used in our COLA laboratory.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;scatter-plots&#34;&gt;&#xA;  Scatter plots&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#scatter-plots&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;div class=&#34;item1&#34; style=&#34;text-align:left&#34;&gt;&#xA;    &lt;img src=&#34;https://example.com/posts/pgfplots/scatter_plot_2d.jpg&#34; width=&#34;300px&#34;, height=&#34;250px&#34;, class=&#34;center&#34;&gt;&#xA;&lt;/div&gt;</description>
     </item>
-    
     <item>
       <title>How to name your Overleaf project?</title>
       <link>https://example.com/posts/overleaf_naming/</link>
       <pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://example.com/posts/overleaf_naming/</guid>
-      <description>Overleaf is a collaborative cloud-based LaTeX editor used for writing, editing and publishing scientific documents. In COLA laboratory, we use the Overleaf as the centralized place to manage our manuscripts. In order to make the projects be managed in an organized manner, a project is usually named as A_B_C.
-A: journal/conference name, e.g., TEVC/PPSN22 B: acronym of the algorithm, e.g., TBO2 C: first character of your name, e.g., RC This comes up to be a typical example: TEVC_TBO2_RC.</description>
+      <description>&lt;div class=&#34;item1&#34; style=&#34;text-align:center&#34;&gt;&#xA;    &lt;img src=&#34;https://example.com/media/overleaf.jpeg&#34; width=&#34;300px&#34;, height=&#34;100px&#34;, class=&#34;center&#34;&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;&#xA;  &lt;a href=&#34;https://overleaf.com/&#34;&gt;Overleaf&lt;/a&gt; is a collaborative cloud-based LaTeX editor used for writing, editing and publishing scientific documents. In COLA laboratory, we use the Overleaf as the centralized place to manage our manuscripts. In order to make the projects be managed in an organized manner, a project is usually named as &lt;code&gt;A_B_C&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;A&lt;/code&gt;: journal/conference name, e.g., TEVC/PPSN22&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;B&lt;/code&gt;: acronym of the algorithm, e.g., TBO2&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;C&lt;/code&gt;: first character of your name, e.g., RC&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This comes up to be a typical example: &lt;code&gt;TEVC_TBO2_RC&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to prepare your bibtex file?</title>
       <link>https://example.com/posts/bibtex_rule/</link>
       <pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://example.com/posts/bibtex_rule/</guid>
-      <description>Bibtex is a powerful tool to manage your references in scientific writing by using LaTeX. However, the bibtex sources can be messy in the wild. Here are some useful tips to prepare a beautiful and clean bibtex file.
-Instead of searching from Google, it might be more convenient to search the corresponding paper or author in DBLP. There is an option to choose the export record as the BibTeX. It will be more efficient to use some text editor like Vim to facilitate your editing.</description>
+      <description>&lt;div class=&#34;item1&#34; style=&#34;text-align:center&#34;&gt;&#xA;    &lt;img src=&#34;https://example.com/media/bibtex.jpeg&#34; width=&#34;225px&#34;, height=&#34;60px&#34;, class=&#34;center&#34;&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;Bibtex is a powerful tool to manage your references in scientific writing by using LaTeX. However, the bibtex sources can be messy in the wild. Here are some useful tips to prepare a beautiful and clean bibtex file.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Instead of searching from Google, it might be more convenient to search the corresponding paper or author in &#xA;  &lt;a href=&#34;https://dblp.org/&#34;&gt;DBLP&lt;/a&gt;. There is an option to choose the &lt;code&gt;export record&lt;/code&gt; as the &lt;code&gt;BibTeX&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;li&gt;It will be more efficient to use some text editor like &lt;code&gt;Vim&lt;/code&gt; to facilitate your editing. However, there is a steep learning curve to manage the &lt;code&gt;Vim&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Be careful to include unnecessary components in your bib. For example, it will take extra space if you include &lt;code&gt;url&lt;/code&gt; and &lt;code&gt;doi&lt;/code&gt;. Note that most publishers have a strict rule on the page length.&lt;/li&gt;&#xA;&lt;li&gt;If the corresponding paper is not published yet, i.e., just accepted or in press, there is usually &lt;strong&gt;NO&lt;/strong&gt; &lt;code&gt;pages&lt;/code&gt;, &lt;code&gt;volume&lt;/code&gt; and &lt;code&gt;number&lt;/code&gt; related information. Instead, we just need to amend a &lt;code&gt;note&lt;/code&gt; component in the bibtex: note={accepted for publication}.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;In the following paragraphs, we mainly focus on three types of publications to give you some tangible examples.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
