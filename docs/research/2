@@ -967,7 +967,7 @@ Proc. of the 20th Annual Conference on Genetic and Evolutionary Computation (GEC
   booktitle = {Proceedings of the Genetic and Evolutionary Computation Conference
                Companion, {GECCO} 2018, Kyoto, Japan, July 15-19, 2018},
   pages     = {907--936},
-  publisher = {{ACM}},
+  publisher = {ACM},
   year      = {2018},
   url       = {https://doi.org/10.1145/3205651.3207856},
   doi       = {10.1145/3205651.3207856},
@@ -1158,7 +1158,7 @@ Proc. of 2014 International Conference on Machine Learning and Cybernetics (ICML
                  Sam Kwong and
                  Ran Wang and
                  Ke Li},
-    title     = {{AN} indicator-based selection multi-objective evolutionary algorithm
+    title     = {AN indicator-based selection multi-objective evolutionary algorithm
         with preference for multi-class ensemble},
     booktitle = {ICMLC'14: Proc. of the 2014 International Conference on Machine Learning and Cybernetics},
     pages     = {147--152},
