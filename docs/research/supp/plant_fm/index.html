@@ -2,65 +2,58 @@
 <html lang="en" dir=ZgotmplZ>
 
 <head>
-  <meta name="generator" content="Hugo 0.152.2">
-  <meta charset="UTF-8">
+  <meta name="generator" content="Hugo 0.159.2">
+  <!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="
-  Plant RNA Foundation Model Project
-  #
-
-
-
-
-
-
-
-
-This website maintains the supplementary materials related to the following paper:
-
-  An Interpretable RNA Foundation Model for Exploration Functional RNA Motifs in Plants
-Haopeng Yu, Heng Yang&#43;, Wenqing Sun, Zongyun Yan, Xiaofei Yang, Huakun Zhang, Yiliang Ding, Ke Li 
- 
-  10.1038/s42256-024-00946-z
- 
-  biArXiv 2024.06.24.600509 
-Nature Machine Intelligence (NMI), 6: 1616&ndash;1625, 2024
- 
-  Code |  
-  Supp |  BiB
-
-
-
-
-
-The complex &#39;language&#39; of plant RNA encodes a vast array of biological regulatory elements that orchestrate crucial aspects of plant growth, development, and adaptation to environmental stresses. Recent advancements in foundation models (FMs) have demonstrated their unprecedented potential to decipher complex ‘language’ in biology. In this study, we introduced PlantRNA-FM, a novel high-performance and interpretable RNA FM specifically designed based on RNA features including both sequence and structure. PlantRNA-FM was pre-trained on an extensive dataset, integrating RNA sequences and RNA structure information from 1,124 distinct plant species. PlantRNA-FM exhibits superior performance in plant-specific downstream tasks, such as plant RNA annotation prediction and RNA translation efficiency (TE) prediction. Compared to the second-best FMs, PlantRNA-FM achieved an F1 score improvement of up to 52.45% in RNA genic region annotation prediction and up to 15.30% in translation efficiency prediction, respectively. Our PlantRNA-FM is empowered by our interpretable framework that facilitates the identification of biologically functional RNA sequence and structure motifs, including both RNA secondary and tertiary structure motifs across transcriptomes. Through experimental validations, we revealed novel translation-associated RNA motifs in plants. Our PlantRNA-FM also highlighted the importance of the position information of these functional RNA motifs in genic regions. Taken together, our PlantRNA-FM facilitates the exploration of functional RNA motifs across the complexity of transcriptomes, empowering plant scientists with novel capabilities for programming RNA codes in plants.
-
-PlantRNA-FM demonstrates superior performance on plant-specific downstream tasks:">
-<meta name="theme-color" content="#FFFFFF"><meta property="og:url" content="https://example.com/docs/research/supp/plant_fm/">
+<meta name="description" content=" Plant RNA Foundation Model Project # This website maintains the supplementary materials related to the following paper:
+An Interpretable RNA Foundation Model for Exploration Functional RNA Motifs in Plants
+Haopeng Yu, Heng Yang&#43;, Wenqing Sun, Zongyun Yan, Xiaofei Yang, Huakun Zhang, Yiliang Ding, **Ke Li** [10.1038/s42256-024-00946-z](https://www.nature.com/articles/s42256-024-00946-z?utm_source=rct_congratemailt&amp;utm_medium=email&amp;utm_campaign=oa_20241218&amp;utm_content=10.1038/s42256-024-00946-z)
+[biArXiv 2024.06.24.600509](https://www.biorxiv.org/content/10.1101/2024.06.24.600509v2.abstract) Nature Machine Intelligence (NMI), 6: 1616--1625, 2024
+[`Code`](https://huggingface.co/yangheng/PlantRNA-FM) | [`Supp`](https://www.biorxiv.org/content/10.1101/2024.06.24.600509v2.supplementary-material) | `BiB` The complex &#39;language&#39; of plant RNA encodes a vast array of biological regulatory elements that orchestrate crucial aspects of plant growth, development, and adaptation to environmental stresses. Recent advancements in foundation models (FMs) have demonstrated their unprecedented potential to decipher complex ‘language’ in biology. In this study, we introduced PlantRNA-FM, a novel high-performance and interpretable RNA FM specifically designed based on RNA features including both sequence and structure. PlantRNA-FM was pre-trained on an extensive dataset, integrating RNA sequences and RNA structure information from 1,124 distinct plant species. PlantRNA-FM exhibits superior performance in plant-specific downstream tasks, such as plant RNA annotation prediction and RNA translation efficiency (TE) prediction. Compared to the second-best FMs, PlantRNA-FM achieved an F1 score improvement of up to 52.45% in RNA genic region annotation prediction and up to 15.30% in translation efficiency prediction, respectively. Our PlantRNA-FM is empowered by our interpretable framework that facilitates the identification of biologically functional RNA sequence and structure motifs, including both RNA secondary and tertiary structure motifs across transcriptomes. Through experimental validations, we revealed novel translation-associated RNA motifs in plants. Our PlantRNA-FM also highlighted the importance of the position information of these functional RNA motifs in genic regions. Taken together, our PlantRNA-FM facilitates the exploration of functional RNA motifs across the complexity of transcriptomes, empowering plant scientists with novel capabilities for programming RNA codes in plants. PlantRNA-FM demonstrates superior performance on plant-specific downstream tasks:
+">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="https://example.com/docs/research/supp/plant_fm/">
   <meta property="og:site_name" content="COLA-Lab@Exeter">
   <meta property="og:title" content="Supplementary">
   <meta property="og:description" content="Plant RNA Foundation Model Project # This website maintains the supplementary materials related to the following paper:
 An Interpretable RNA Foundation Model for Exploration Functional RNA Motifs in Plants
-Haopeng Yu, Heng Yang&#43;, Wenqing Sun, Zongyun Yan, Xiaofei Yang, Huakun Zhang, Yiliang Ding, Ke Li 10.1038/s42256-024-00946-z
-biArXiv 2024.06.24.600509 Nature Machine Intelligence (NMI), 6: 1616–1625, 2024
-Code | Supp | BiB The complex &#39;language&#39; of plant RNA encodes a vast array of biological regulatory elements that orchestrate crucial aspects of plant growth, development, and adaptation to environmental stresses. Recent advancements in foundation models (FMs) have demonstrated their unprecedented potential to decipher complex ‘language’ in biology. In this study, we introduced PlantRNA-FM, a novel high-performance and interpretable RNA FM specifically designed based on RNA features including both sequence and structure. PlantRNA-FM was pre-trained on an extensive dataset, integrating RNA sequences and RNA structure information from 1,124 distinct plant species. PlantRNA-FM exhibits superior performance in plant-specific downstream tasks, such as plant RNA annotation prediction and RNA translation efficiency (TE) prediction. Compared to the second-best FMs, PlantRNA-FM achieved an F1 score improvement of up to 52.45% in RNA genic region annotation prediction and up to 15.30% in translation efficiency prediction, respectively. Our PlantRNA-FM is empowered by our interpretable framework that facilitates the identification of biologically functional RNA sequence and structure motifs, including both RNA secondary and tertiary structure motifs across transcriptomes. Through experimental validations, we revealed novel translation-associated RNA motifs in plants. Our PlantRNA-FM also highlighted the importance of the position information of these functional RNA motifs in genic regions. Taken together, our PlantRNA-FM facilitates the exploration of functional RNA motifs across the complexity of transcriptomes, empowering plant scientists with novel capabilities for programming RNA codes in plants. PlantRNA-FM demonstrates superior performance on plant-specific downstream tasks:">
+Haopeng Yu, Heng Yang&#43;, Wenqing Sun, Zongyun Yan, Xiaofei Yang, Huakun Zhang, Yiliang Ding, **Ke Li** [10.1038/s42256-024-00946-z](https://www.nature.com/articles/s42256-024-00946-z?utm_source=rct_congratemailt&amp;utm_medium=email&amp;utm_campaign=oa_20241218&amp;utm_content=10.1038/s42256-024-00946-z)
+[biArXiv 2024.06.24.600509](https://www.biorxiv.org/content/10.1101/2024.06.24.600509v2.abstract) Nature Machine Intelligence (NMI), 6: 1616--1625, 2024
+[`Code`](https://huggingface.co/yangheng/PlantRNA-FM) | [`Supp`](https://www.biorxiv.org/content/10.1101/2024.06.24.600509v2.supplementary-material) | `BiB` The complex &#39;language&#39; of plant RNA encodes a vast array of biological regulatory elements that orchestrate crucial aspects of plant growth, development, and adaptation to environmental stresses. Recent advancements in foundation models (FMs) have demonstrated their unprecedented potential to decipher complex ‘language’ in biology. In this study, we introduced PlantRNA-FM, a novel high-performance and interpretable RNA FM specifically designed based on RNA features including both sequence and structure. PlantRNA-FM was pre-trained on an extensive dataset, integrating RNA sequences and RNA structure information from 1,124 distinct plant species. PlantRNA-FM exhibits superior performance in plant-specific downstream tasks, such as plant RNA annotation prediction and RNA translation efficiency (TE) prediction. Compared to the second-best FMs, PlantRNA-FM achieved an F1 score improvement of up to 52.45% in RNA genic region annotation prediction and up to 15.30% in translation efficiency prediction, respectively. Our PlantRNA-FM is empowered by our interpretable framework that facilitates the identification of biologically functional RNA sequence and structure motifs, including both RNA secondary and tertiary structure motifs across transcriptomes. Through experimental validations, we revealed novel translation-associated RNA motifs in plants. Our PlantRNA-FM also highlighted the importance of the position information of these functional RNA motifs in genic regions. Taken together, our PlantRNA-FM facilitates the exploration of functional RNA motifs across the complexity of transcriptomes, empowering plant scientists with novel capabilities for programming RNA codes in plants. PlantRNA-FM demonstrates superior performance on plant-specific downstream tasks:">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="docs">
     <meta property="article:modified_time" content="2024-12-18T10:53:32+08:00">
+
+
+  <meta itemprop="name" content="Supplementary">
+  <meta itemprop="description" content="Plant RNA Foundation Model Project # This website maintains the supplementary materials related to the following paper:
+An Interpretable RNA Foundation Model for Exploration Functional RNA Motifs in Plants
+Haopeng Yu, Heng Yang&#43;, Wenqing Sun, Zongyun Yan, Xiaofei Yang, Huakun Zhang, Yiliang Ding, **Ke Li** [10.1038/s42256-024-00946-z](https://www.nature.com/articles/s42256-024-00946-z?utm_source=rct_congratemailt&amp;utm_medium=email&amp;utm_campaign=oa_20241218&amp;utm_content=10.1038/s42256-024-00946-z)
+[biArXiv 2024.06.24.600509](https://www.biorxiv.org/content/10.1101/2024.06.24.600509v2.abstract) Nature Machine Intelligence (NMI), 6: 1616--1625, 2024
+[`Code`](https://huggingface.co/yangheng/PlantRNA-FM) | [`Supp`](https://www.biorxiv.org/content/10.1101/2024.06.24.600509v2.supplementary-material) | `BiB` The complex &#39;language&#39; of plant RNA encodes a vast array of biological regulatory elements that orchestrate crucial aspects of plant growth, development, and adaptation to environmental stresses. Recent advancements in foundation models (FMs) have demonstrated their unprecedented potential to decipher complex ‘language’ in biology. In this study, we introduced PlantRNA-FM, a novel high-performance and interpretable RNA FM specifically designed based on RNA features including both sequence and structure. PlantRNA-FM was pre-trained on an extensive dataset, integrating RNA sequences and RNA structure information from 1,124 distinct plant species. PlantRNA-FM exhibits superior performance in plant-specific downstream tasks, such as plant RNA annotation prediction and RNA translation efficiency (TE) prediction. Compared to the second-best FMs, PlantRNA-FM achieved an F1 score improvement of up to 52.45% in RNA genic region annotation prediction and up to 15.30% in translation efficiency prediction, respectively. Our PlantRNA-FM is empowered by our interpretable framework that facilitates the identification of biologically functional RNA sequence and structure motifs, including both RNA secondary and tertiary structure motifs across transcriptomes. Through experimental validations, we revealed novel translation-associated RNA motifs in plants. Our PlantRNA-FM also highlighted the importance of the position information of these functional RNA motifs in genic regions. Taken together, our PlantRNA-FM facilitates the exploration of functional RNA motifs across the complexity of transcriptomes, empowering plant scientists with novel capabilities for programming RNA codes in plants. PlantRNA-FM demonstrates superior performance on plant-specific downstream tasks:">
+  <meta itemprop="dateModified" content="2024-12-18T10:53:32+08:00">
+  <meta itemprop="wordCount" content="339">
+
 <title>Supplementary | COLA-Lab@Exeter</title>
+<link rel="icon" href="/favicon.png" >
 <link rel="manifest" href="/manifest.json">
-<link rel="icon" href="/favicon.png" type="image/x-icon">
-<link rel="stylesheet" href="/book.min.d0463cd2c9a415f20d51a0539d59f89f1a2b1156e3b23acee59120c341713350.css" integrity="sha256-0EY80smkFfINUaBTnVn4nxorEVbjsjrO5ZEgw0FxM1A=">
-<script defer src="/en.search.min.6a14dc3c2781e557b9bd3caf74a99e7583f5ad6bf27c061c44e7d98ae47971d4.js" integrity="sha256-ahTcPCeB5Ve5vTyvdKmedYP1rWvyfAYcROfZiuR5cdQ="></script>
-
-<script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk="></script>
+<link rel="canonical" href="https://example.com/docs/research/supp/plant_fm/">
+<link rel="stylesheet" href="/book.min.99c080e59869778fa4e875fd533269c8d5d64ed1f18776b55b0ee693595b2076.css" integrity="sha256-mcCA5Zhpd4&#43;k6HX9UzJpyNXWTtHxh3a1Ww7mk1lbIHY=" crossorigin="anonymous">
 
 
-<!--
-Made with Book Theme
-https://github.com/alex-shpak/hugo-book
--->
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/en.search.min.e7da356d5c9d4204bde2994cb2dfa3bf17a1043d580af6f8270e9ef6965f6b62.js" integrity="sha256-59o1bVydQgS94plMst&#43;jvxehBD1YCvb4Jw6e9pZfa2I=" crossorigin="anonymous"></script>
+
+  <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk=" crossorigin="anonymous"></script>
+
+
 
   
 </head>
@@ -73,19 +66,61 @@ https://github.com/alex-shpak/hugo-book
     <aside class="book-menu">
       
   <nav>
-<h2 class="book-brand">
-  <a href="/"><img src="/colalab.png" alt="Logo" /><span>COLA-Lab@Exeter</span>
-  </a>
+<h2 class="book-brand"><a class="flex align-center" href="/"><img src="/colalab.png" alt="COLA-Lab@Exeter" /></a>
 </h2>
 
 
-<div class="book-search">
-  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+<div class="book-search hidden">
+  <input id="book-search-input" type="text" 
+    placeholder="Search"
+    aria-label="Search"
+    maxlength="64" data-hotkeys="s/" />
   <div class="book-search-spinner hidden"></div>
   <ul id="book-search-results"></ul>
 </div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
 
 
+
+  
+
+
+  
+    
+  
+    
+  
+
+
+
+<ul class="book-languages">
+  <li>
+    <input type="checkbox" id="languages" class="toggle" />
+    <label for="languages" class="flex">
+      <a role="button">
+        <img src="/icons/translate.svg" class="book-icon" alt="Languages" />
+        English
+      </a>
+      <img src="/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+
+    <ul>
+      
+      <li>
+        <a href="/ru/" class="flex flex-auto">
+          Russian
+        </a>
+      </li>
+      
+      <li>
+        <a href="/zh/" class="flex flex-auto">
+          Chinese
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+</ul>
 
 
 
@@ -143,19 +178,7 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-
-  
-<ul>
-  
-  <li>
-    <a href="/posts/" >
-        Blog
-      </a>
-  </li>
-  
-</ul>
-
-
+<ul><li><a href="/posts/" title="Blog">blog</a></li></ul>
 
 
 
@@ -177,10 +200,10 @@ https://github.com/alex-shpak/hugo-book
         
   <div class="flex align-center justify-between">
   <label for="menu-control">
-    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+    <img src="/icons/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>Supplementary</strong>
+  <h3>Supplementary</h3>
 
   <label for="toc-control">
     
@@ -207,18 +230,15 @@ https://github.com/alex-shpak/hugo-book
 </head>
 <p>This website maintains the supplementary materials related to the following paper:</p>
 <blockquote class="book-hint info">
-  An Interpretable RNA Foundation Model for Exploration Functional RNA Motifs in Plants<br>
-Haopeng Yu, Heng Yang+, Wenqing Sun, Zongyun Yan, Xiaofei Yang, Huakun Zhang, Yiliang Ding, <strong><ins>Ke Li</ins></strong> <br>
-<i class="ai ai-springer ai-lg"></i> 
-  <a href="https://www.nature.com/articles/s42256-024-00946-z?utm_source=rct_congratemailt&amp;utm_medium=email&amp;utm_campaign=oa_20241218&amp;utm_content=10.1038/s42256-024-00946-z">10.1038/s42256-024-00946-z</a><br>
-<i class="ai ai-biorxiv ai-lg"></i> 
-  <a href="https://www.biorxiv.org/content/10.1101/2024.06.24.600509v2.abstract">biArXiv 2024.06.24.600509</a> <br>
-Nature Machine Intelligence (NMI), 6: 1616&ndash;1625, 2024<br>
-<i class='fa fa-file-code-o' style='font-size:16px'></i> 
-  <a href="https://huggingface.co/yangheng/PlantRNA-FM"><code>Code</code></a> | <i class='fa fa-folder-open-o' style='font-size:16px'></i> 
-  <a href="https://www.biorxiv.org/content/10.1101/2024.06.24.600509v2.supplementary-material"><code>Supp</code></a> | <i class='fa fa-quote-right' style='font-size:15px'></i> <code>BiB</code>
-</blockquote>
 
+An Interpretable RNA Foundation Model for Exploration Functional RNA Motifs in Plants<br>
+Haopeng Yu, Heng Yang+, Wenqing Sun, Zongyun Yan, Xiaofei Yang, Huakun Zhang, Yiliang Ding, **<ins>Ke Li</ins>** <br>
+<i class="ai ai-springer ai-lg"></i> [10.1038/s42256-024-00946-z](https://www.nature.com/articles/s42256-024-00946-z?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=oa_20241218&utm_content=10.1038/s42256-024-00946-z)<br>
+<i class="ai ai-biorxiv ai-lg"></i> [biArXiv 2024.06.24.600509](https://www.biorxiv.org/content/10.1101/2024.06.24.600509v2.abstract) <br>
+Nature Machine Intelligence (NMI), 6: 1616--1625, 2024<br>
+<i class='fa fa-file-code-o' style='font-size:16px'></i> [`Code`](https://huggingface.co/yangheng/PlantRNA-FM) | <i class='fa fa-folder-open-o' style='font-size:16px'></i> [`Supp`](https://www.biorxiv.org/content/10.1101/2024.06.24.600509v2.supplementary-material) | <i class='fa fa-quote-right' style='font-size:15px'></i> `BiB`
+
+</blockquote>
 <div align="center">
 <img src="../fm_figs/schematic_fm.JPG" width = "900px" align=center title="Moving peak benchmark" />
 </div>
@@ -251,9 +271,9 @@ The complex 'language' of plant RNA encodes a vast array of biological regulator
 <img src="../fm_figs/invivo2.JPG" width = "900px" align=center title="Moving peak benchmark" />
 </div>
 <blockquote class="book-hint warning">
-  We are keen on promoting reproducibility and transparency in scientific research. Since this manuscript is currently submitted for possible publication, the source codes used in our empirical study will be publicly available after its acceptance.
-</blockquote>
 
+We are keen on promoting reproducibility and transparency in scientific research. Since this manuscript is currently submitted for possible publication, the source codes used in our empirical study will be publicly available after its acceptance.
+</blockquote>
 </article>
  
       
@@ -262,70 +282,43 @@ The complex 'language' of plant RNA encodes a vast array of biological regulator
         
   <div class="flex flex-wrap justify-between">
 
-  
+<div>
 
+</div>
 
-  
+<div>
 
-  
+</div>
 
-  
-
-
-
-<div class="book-languages" tabindex="0" aria-haspopup="true">
-  <ul>
-    <li class="flex align-center">
-      <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
-      English
-    </li> 
-  </ul>
-
-  <ul class="book-languages-list">
-    
-    <li class="active">
-      <a href="https://example.com/" class="flex align-center">
-        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
-        English
-      </a>
-    </li>
-    
-    <li class="">
-      <a href="https://example.com/ru/" class="flex align-center">
-        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
-        Russian
-      </a>
-    </li>
-    
-    <li class="">
-      <a href="https://example.com/zh/" class="flex align-center">
-        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
-        Chinese
-      </a>
-    </li>
-    
-  </ul>
 </div>
 
 
 
 
-  <div><a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/commit/9365724dc071991dc3fd1331f7221c25326364a5" title='Last modified by Ke LI | December 18, 2024' target="_blank" rel="noopener">
-      <img src="/svg/calendar.svg" class="book-icon" alt="Calendar" />
-      <span>December 18, 2024</span>
-    </a>
+
+  
+  
+  
+  <div class="flex flex-wrap justify-between">
+    <span>
+    
+      <a href="/docs/events/studygroup/" class="flex align-center">
+        <img src="/icons/backward.svg" class="book-icon" alt="Backward" />
+        <span>Study Group</span>
+      </a>
+    
+    </span>
+    <span>
+    
+      <a href="/docs/research/supp/supp_deto/" class="flex align-center">
+        <span>Supplementary</span>
+        <img src="/icons/forward.svg" class="book-icon" alt="Forward" />
+      </a>
+    
+    </span>
   </div>
+  
 
-
-
-  <div>
-    <a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/edit/master/exampleSite//docs/research/supp/plant_fm.md" target="_blank" rel="noopener">
-      <img src="/svg/edit.svg" class="book-icon" alt="Edit" />
-      <span>Edit this page</span>
-    </a>
-  </div>
-
-</div>
 
  
         

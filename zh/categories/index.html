@@ -2,33 +2,42 @@
 <html lang="zh" dir=ZgotmplZ>
 
 <head>
-  <meta name="generator" content="Hugo 0.152.2">
-  <meta charset="UTF-8">
+  <meta name="generator" content="Hugo 0.159.2">
+  <!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
-<meta name="theme-color" content="#FFFFFF"><meta property="og:url" content="https://example.com/zh/categories/">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="https://example.com/zh/categories/">
   <meta property="og:site_name" content="COLA-Lab@Exeter">
   <meta property="og:title" content="Categories">
   <meta property="og:locale" content="zh">
   <meta property="og:type" content="website">
+
+
+  <meta itemprop="name" content="Categories">
+
 <title>Categories | COLA-Lab@Exeter</title>
+<link rel="icon" href="/favicon.png" >
 <link rel="manifest" href="/manifest.json">
-<link rel="icon" href="/favicon.png" type="image/x-icon">
-<link rel="alternate" hreflang="en" href="https://example.com/categories/" title="Categories">
+<link rel="canonical" href="https://example.com/zh/categories/">
+  <link rel="alternate" hreflang="en" href="https://example.com/categories/" title="Categories">
+  <link rel="alternate" hreflang="ru" href="https://example.com/ru/categories/" title="Categories">
+<link rel="stylesheet" href="/book.min.99c080e59869778fa4e875fd533269c8d5d64ed1f18776b55b0ee693595b2076.css" integrity="sha256-mcCA5Zhpd4&#43;k6HX9UzJpyNXWTtHxh3a1Ww7mk1lbIHY=" crossorigin="anonymous">
 
-<link rel="alternate" hreflang="ru" href="https://example.com/ru/categories/" title="Categories">
 
-<link rel="stylesheet" href="/book.min.d0463cd2c9a415f20d51a0539d59f89f1a2b1156e3b23acee59120c341713350.css" integrity="sha256-0EY80smkFfINUaBTnVn4nxorEVbjsjrO5ZEgw0FxM1A=">
-<script defer src="/zh.search.min.870222825c6efd9d17ed636ebf016c1cef27e99899f196adba35dc66579bef22.js" integrity="sha256-hwIiglxu/Z0X7WNuvwFsHO8n6ZiZ8ZatujXcZleb7yI="></script>
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/zh.search.min.870222825c6efd9d17ed636ebf016c1cef27e99899f196adba35dc66579bef22.js" integrity="sha256-hwIiglxu/Z0X7WNuvwFsHO8n6ZiZ8ZatujXcZleb7yI=" crossorigin="anonymous"></script>
 
-<script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk="></script>
+  <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk=" crossorigin="anonymous"></script>
 
 
 <link rel="alternate" type="application/rss+xml" href="https://example.com/zh/categories/index.xml" title="COLA-Lab@Exeter" />
-<!--
-Made with Book Theme
-https://github.com/alex-shpak/hugo-book
--->
 
   
 </head>
@@ -41,19 +50,65 @@ https://github.com/alex-shpak/hugo-book
     <aside class="book-menu">
       
   <nav>
-<h2 class="book-brand">
-  <a href="/zh"><img src="/colalab.png" alt="Logo" /><span>COLA-Lab@Exeter</span>
-  </a>
+<h2 class="book-brand"><a class="flex align-center" href="/"><img src="/colalab.png" alt="COLA-Lab@Exeter" /></a>
 </h2>
 
 
-<div class="book-search">
-  <input type="text" id="book-search-input" placeholder="搜索" aria-label="搜索" maxlength="64" data-hotkeys="s/" />
+<div class="book-search hidden">
+  <input id="book-search-input" type="text" 
+    placeholder="搜索"
+    aria-label="搜索"
+    maxlength="64" data-hotkeys="s/" />
   <div class="book-search-spinner hidden"></div>
   <ul id="book-search-results"></ul>
 </div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
 
 
+
+  
+
+
+  
+    
+  
+    
+  
+
+
+  
+
+  
+
+
+<ul class="book-languages">
+  <li>
+    <input type="checkbox" id="languages" class="toggle" />
+    <label for="languages" class="flex">
+      <a role="button">
+        <img src="/icons/translate.svg" class="book-icon" alt="Languages" />
+        Chinese
+      </a>
+      <img src="/icons/chevron-right.svg" class="book-icon" alt="展开" />
+    </label>
+
+    <ul>
+      
+      <li>
+        <a href="/categories/" class="flex flex-auto">
+          English
+        </a>
+      </li>
+      
+      <li>
+        <a href="/ru/categories/" class="flex flex-auto">
+          Russian
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+</ul>
 
 
 
@@ -64,8 +119,6 @@ https://github.com/alex-shpak/hugo-book
 
 
   
-
-
 
 
 
@@ -90,14 +143,12 @@ https://github.com/alex-shpak/hugo-book
         
   <div class="flex align-center justify-between">
   <label for="menu-control">
-    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+    <img src="/icons/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>Categories</strong>
+  <h3>Categories</h3>
 
   <label for="toc-control">
-    
-    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
     
   </label>
 </div>
@@ -111,7 +162,7 @@ https://github.com/alex-shpak/hugo-book
   
     
     <li class="book-section-flat">
-      <strong>Categories</strong>
+      <a>Categories</a>
       <ul>
       
       </ul>
@@ -120,7 +171,7 @@ https://github.com/alex-shpak/hugo-book
   
     
     <li class="book-section-flat">
-      <strong>Tags</strong>
+      <a>Tags</a>
       <ul>
       
       </ul>
@@ -148,53 +199,14 @@ https://github.com/alex-shpak/hugo-book
         
   <div class="flex flex-wrap justify-between">
 
-  
+<div>
 
+</div>
 
-  
+<div>
 
-  
+</div>
 
-  
-
-
-  
-
-  
-
-
-<div class="book-languages" tabindex="0" aria-haspopup="true">
-  <ul>
-    <li class="flex align-center">
-      <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
-      Chinese
-    </li> 
-  </ul>
-
-  <ul class="book-languages-list">
-    
-    <li class="">
-      <a href="https://example.com/categories/" class="flex align-center">
-        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
-        English
-      </a>
-    </li>
-    
-    <li class="">
-      <a href="https://example.com/ru/categories/" class="flex align-center">
-        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
-        Russian
-      </a>
-    </li>
-    
-    <li class="active">
-      <a href="https://example.com/zh/" class="flex align-center">
-        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
-        Chinese
-      </a>
-    </li>
-    
-  </ul>
 </div>
 
 
@@ -202,7 +214,6 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-</div>
 
  
         
@@ -223,7 +234,7 @@ https://github.com/alex-shpak/hugo-book
   
     
     <li class="book-section-flat">
-      <strong>Categories</strong>
+      <a>Categories</a>
       <ul>
       
       </ul>
@@ -232,7 +243,7 @@ https://github.com/alex-shpak/hugo-book
   
     
     <li class="book-section-flat">
-      <strong>Tags</strong>
+      <a>Tags</a>
       <ul>
       
       </ul>
