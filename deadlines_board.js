@@ -18,6 +18,7 @@
   const filtersElement = document.getElementById("deadline-filters");
   const resetElement = document.getElementById("deadline-reset");
   const summaryElement = document.getElementById("deadline-summary");
+  const selectionElement = document.getElementById("deadline-selection");
   const messageElement = document.getElementById("deadline-message");
   const upcomingSection = document.getElementById("deadline-upcoming-section");
   const upcomingCount = document.getElementById("deadline-upcoming-count");
@@ -242,6 +243,7 @@
       });
 
     renderSummary(visibleConferences.length, upcoming.length, ongoing.length, archived.length);
+    renderSelectionStatus();
     renderSection(upcomingSection, upcomingGrid, upcomingCount, upcoming, "upcoming", now);
     renderSection(ongoingSection, ongoingGrid, ongoingCount, ongoing, "ongoing", now);
     renderSection(pastSection, pastGrid, pastCount, archived, "archived", now);
@@ -276,8 +278,41 @@
     summaryElement.innerHTML =
       createStat(totalVisible, "venues visible") +
       createStat(upcomingCountValue, "upcoming") +
-      createStat(ongoingCountValue, "ongoing") +
+      createStat(ongoingCountValue, "upcoming conferences") +
       createStat(archivedCountValue, "archived");
+  }
+
+  function renderSelectionStatus() {
+    const orderedSelectedSubjects = subjects.filter(function (subject) {
+      return selectedSubjects.has(subject.code);
+    });
+    const showingLabel = '<span class="deadline-board__selection-label">Showing:</span>';
+
+    if (orderedSelectedSubjects.length === allSubjectCodes.length) {
+      selectionElement.innerHTML =
+        showingLabel +
+        '<span class="deadline-board__selection-text">all areas</span>';
+      resetElement.textContent = "All areas";
+      return;
+    }
+
+    selectionElement.innerHTML =
+      showingLabel +
+      orderedSelectedSubjects
+        .map(function (subject) {
+          return (
+            '<span class="deadline-board__selection-chip" style="--subject-color: ' +
+            subject.color +
+            "; --subject-soft: " +
+            hexToRgba(subject.color, 0.12) +
+            '">' +
+            escapeHtml(subject.label) +
+            "</span>"
+          );
+        })
+        .join("");
+
+    resetElement.textContent = "Show all areas";
   }
 
   function createStat(value, label) {
@@ -351,7 +386,7 @@
     if (!upcomingCountValue && ongoingCountValue) {
       messageElement.hidden = false;
       messageElement.textContent =
-        "No upcoming deadlines remain in the current selection. Venues with passed deadlines but conference dates still ahead stay under ongoing, while finished conferences move to the archive.";
+        "No upcoming deadlines remain in the current selection. Venues with passed deadlines but conference dates still ahead stay under upcoming conferences, while finished conferences move to the archive.";
       return;
     }
 
@@ -401,14 +436,17 @@
             escapeHtml(countdownLabel) +
             "</span>"
           : "";
-        const timeLabel = deadline.timeLabel
-          ? '<span class="deadline-card__deadline-time">' + escapeHtml(deadline.timeLabel) + "</span>"
+        const timeParts = getDisplayTimeParts(deadline.timeLabel);
+        const timeLabelMarkup = timeParts.time
+          ? '<span class="deadline-card__deadline-time">' + escapeHtml(timeParts.time) + "</span>"
+          : "";
+        const timeZoneMarkup = timeParts.zone
+          ? '<span class="deadline-card__deadline-zone">' + escapeHtml(timeParts.zone) + "</span>"
           : "";
         const deadlineClassName = "deadline-card__deadline" + (isElapsed ? " deadline-card__deadline--elapsed" : "");
 
         return (
           '<div class="' + deadlineClassName + '">' +
-          '<span class="deadline-card__deadline-content">' +
           '<span class="deadline-card__deadline-label">' +
           escapeHtml(deadline.label) +
           "</span>" +
@@ -419,8 +457,8 @@
           '">' +
           dateFormatter.format(deadline.displayDateObject) +
           "</time>" +
-          timeLabel +
-          "</span>" +
+          timeLabelMarkup +
+          timeZoneMarkup +
           "</span>" +
           countdownBadge +
           "</div>"
@@ -523,7 +561,7 @@
 
   function getStatusLabel(status) {
     if (status === "ongoing") {
-      return "Ongoing";
+      return "Conference Soon";
     }
 
     if (status === "archived") {
@@ -574,6 +612,25 @@
     }
 
     return createCountdownPart(daysLeft, "d");
+  }
+
+  function getDisplayTimeParts(timeLabel) {
+    const normalized = String(timeLabel || "").trim();
+
+    if (!normalized) {
+      return { time: "", zone: "" };
+    }
+
+    const parts = normalized.split(/\s+/);
+
+    if (parts.length === 1) {
+      return { time: normalized, zone: "" };
+    }
+
+    return {
+      time: parts.slice(0, -1).join(" "),
+      zone: parts[parts.length - 1]
+    };
   }
 
   function buildDeadlineDateObject(date, time24, utcOffset) {
