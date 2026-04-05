@@ -11,6 +11,9 @@
   const conferences = payload.conferences || [];
   const subjectMap = new Map(subjects.map((subject) => [subject.code, subject]));
   const allSubjectCodes = subjects.map((subject) => subject.code);
+  const defaultSubjectCodes = ["AI", "ML", "CV"].filter(function (code) {
+    return subjectMap.has(code);
+  });
 
   const filtersElement = document.getElementById("deadline-filters");
   const resetElement = document.getElementById("deadline-reset");
@@ -19,6 +22,9 @@
   const upcomingSection = document.getElementById("deadline-upcoming-section");
   const upcomingCount = document.getElementById("deadline-upcoming-count");
   const upcomingGrid = document.getElementById("deadline-upcoming");
+  const ongoingSection = document.getElementById("deadline-ongoing-section");
+  const ongoingCount = document.getElementById("deadline-ongoing-count");
+  const ongoingGrid = document.getElementById("deadline-ongoing");
   const pastSection = document.getElementById("deadline-past-section");
   const pastCount = document.getElementById("deadline-past-count");
   const pastGrid = document.getElementById("deadline-past");
@@ -29,6 +35,20 @@
     day: "numeric",
     year: "numeric"
   });
+  const monthMap = {
+    jan: 0,
+    feb: 1,
+    mar: 2,
+    apr: 3,
+    may: 4,
+    jun: 5,
+    jul: 6,
+    aug: 7,
+    sep: 8,
+    oct: 9,
+    nov: 10,
+    dec: 11
+  };
 
   let selectedSubjects = getInitialSubjectSelection();
   let archiveExpanded = false;
@@ -61,13 +81,15 @@
       .map((value) => value.trim().toUpperCase())
       .filter((value) => subjectMap.has(value));
 
-    return new Set(requested.length ? requested : allSubjectCodes);
+    return new Set(requested.length ? requested : defaultSubjectCodes.length ? defaultSubjectCodes : allSubjectCodes);
   }
 
   function normalizeConference(conference) {
     const locations = normalizeStringArray(conference.locations || conference.location);
     const conferenceDates = normalizeStringArray(conference.conference_dates);
     const schedule = normalizeSchedule(conference.schedule, locations, conferenceDates);
+    const conferenceYear = getConferenceYear(conference.title, schedule);
+    const conferenceEndTimestamp = getConferenceEndTimestamp(schedule);
     const deadlines = (conference.deadlines || [])
       .map(function (deadline) {
         const timeLabel = deadline.time_label || "11:59PM AOE";
@@ -79,6 +101,7 @@
         return {
           label: deadline.label || "Deadline",
           date: deadline.date,
+          year: Number(String(deadline.date).slice(0, 4)),
           timeLabel: timeLabel,
           hasExactTime: true,
           dayTimestamp: displayDateObject.getTime(),
@@ -99,6 +122,8 @@
       title: conference.title,
       subjects: conference.subjects || [],
       website: conference.website || "",
+      conferenceYear: conferenceYear,
+      conferenceEndTimestamp: conferenceEndTimestamp,
       schedule: schedule,
       note: conference.note || "",
       deadlines: deadlines
@@ -162,6 +187,8 @@
 
   function renderBoard() {
     const now = new Date();
+    const currentYear = now.getFullYear();
+    const nowTimestamp = now.getTime();
 
     const visibleConferences = normalizedConferences
       .filter(function (conference) {
@@ -179,36 +206,77 @@
         return Object.assign({}, conference, {
           nextDeadline: nextDeadline,
           latestDeadline: latestDeadline,
-          isPast: nextDeadline === null
+          status: getConferenceStatus(
+            nextDeadline,
+            latestDeadline,
+            conference.conferenceEndTimestamp,
+            conference.conferenceYear,
+            currentYear,
+            nowTimestamp
+          )
         });
       });
 
     const upcoming = visibleConferences
       .filter(function (conference) {
-        return !conference.isPast;
+        return conference.status === "upcoming";
       })
       .sort(function (left, right) {
         return left.nextDeadline.timestamp - right.nextDeadline.timestamp;
       });
 
-    const archived = visibleConferences
+    const ongoing = visibleConferences
       .filter(function (conference) {
-        return conference.isPast;
+        return conference.status === "ongoing";
       })
       .sort(function (left, right) {
         return right.latestDeadline.timestamp - left.latestDeadline.timestamp;
       });
 
-    renderSummary(visibleConferences.length, upcoming.length, archived.length);
-    renderSection(upcomingSection, upcomingGrid, upcomingCount, upcoming, false, now);
-    renderSection(pastSection, pastGrid, pastCount, archived, true, now);
-    renderMessage(visibleConferences.length, upcoming.length, archived.length);
+    const archived = visibleConferences
+      .filter(function (conference) {
+        return conference.status === "archived";
+      })
+      .sort(function (left, right) {
+        return right.latestDeadline.timestamp - left.latestDeadline.timestamp;
+      });
+
+    renderSummary(visibleConferences.length, upcoming.length, ongoing.length, archived.length);
+    renderSection(upcomingSection, upcomingGrid, upcomingCount, upcoming, "upcoming", now);
+    renderSection(ongoingSection, ongoingGrid, ongoingCount, ongoing, "ongoing", now);
+    renderSection(pastSection, pastGrid, pastCount, archived, "archived", now);
+    renderMessage(visibleConferences.length, upcoming.length, ongoing.length, archived.length);
   }
 
-  function renderSummary(totalVisible, upcomingCountValue, archivedCountValue) {
+  function getConferenceStatus(nextDeadline, latestDeadline, conferenceEndTimestamp, conferenceYear, currentYear, nowTimestamp) {
+    if (nextDeadline) {
+      return "upcoming";
+    }
+
+    if (conferenceEndTimestamp) {
+      return conferenceEndTimestamp >= nowTimestamp ? "ongoing" : "archived";
+    }
+
+    if (conferenceYear > currentYear) {
+      return "ongoing";
+    }
+
+    if (conferenceYear === currentYear) {
+      return "ongoing";
+    }
+
+    if (latestDeadline && latestDeadline.year >= currentYear) {
+      return "ongoing";
+    }
+
+    return "archived";
+  }
+
+  function renderSummary(totalVisible, upcomingCountValue, ongoingCountValue, archivedCountValue) {
     summaryElement.innerHTML =
       createStat(totalVisible, "venues visible") +
       createStat(upcomingCountValue, "upcoming") +
+      createStat(ongoingCountValue, "ongoing") +
       createStat(archivedCountValue, "archived");
   }
 
@@ -221,14 +289,12 @@
     );
   }
 
-  function renderSection(sectionElement, gridElement, countElement, items, archived, now) {
+  function renderSection(sectionElement, gridElement, countElement, items, sectionKey, now) {
     sectionElement.hidden = items.length === 0;
-    countElement.textContent = items.length ? countLabel(items.length, archived ? "venue" : "deadline set") : "";
-    gridElement.innerHTML = items.map(function (conference) {
-      return renderConferenceCard(conference, now);
-    }).join("");
+    countElement.textContent = items.length ? getSectionCountLabel(items.length, sectionKey) : "";
+    gridElement.innerHTML = renderSubjectGroups(items, now);
 
-    if (archived) {
+    if (sectionKey === "archived") {
       pastToggle.hidden = items.length === 0;
       pastToggle.setAttribute("aria-expanded", archiveExpanded ? "true" : "false");
       pastToggle.textContent = archiveExpanded ? "Hide archive" : "Show archive";
@@ -238,17 +304,61 @@
     }
   }
 
-  function renderMessage(totalVisible, upcomingCountValue, archivedCountValue) {
+  function getSectionCountLabel(value, sectionKey) {
+    if (sectionKey === "upcoming") {
+      return countLabel(value, "deadline set");
+    }
+
+    if (sectionKey === "ongoing") {
+      return countLabel(value, "venue");
+    }
+
+    return countLabel(value, "venue");
+  }
+
+  function renderSubjectGroups(items, now) {
+    return subjects
+      .map(function (subject) {
+        const groupedItems = items.filter(function (conference) {
+          return getPrimarySubjectCode(conference.subjects) === subject.code;
+        });
+
+        if (!groupedItems.length) {
+          return "";
+        }
+
+        return (
+          '<div class="deadline-board__subject-group">' +
+          '<div class="deadline-board__subject-grid">' +
+          groupedItems.map(function (conference) {
+            return renderConferenceCard(conference, now);
+          }).join("") +
+          "</div>" +
+          "</div>"
+        );
+      })
+      .filter(Boolean)
+      .join("");
+  }
+
+  function renderMessage(totalVisible, upcomingCountValue, ongoingCountValue, archivedCountValue) {
     if (!totalVisible) {
       messageElement.hidden = false;
       messageElement.textContent = "No venues match the current filters. Try adding another research area.";
       return;
     }
 
+    if (!upcomingCountValue && ongoingCountValue) {
+      messageElement.hidden = false;
+      messageElement.textContent =
+        "No upcoming deadlines remain in the current selection. Venues with passed deadlines but conference dates still ahead stay under ongoing, while finished conferences move to the archive.";
+      return;
+    }
+
     if (!upcomingCountValue && archivedCountValue) {
       messageElement.hidden = false;
       messageElement.textContent =
-        "No upcoming deadlines are in the current selection yet, so the archive below is shown for next-cycle planning.";
+        "No upcoming deadlines are in the current selection. Finished conferences are still shown in the archive for next-cycle planning.";
       return;
     }
 
@@ -278,6 +388,7 @@
 
     const deadlineItems = conference.deadlines
       .map(function (deadline) {
+        const isElapsed = deadline.timestamp < now.getTime();
         const countdownLabel = getCountdownLabel(deadline, now);
         const countdownBadge = countdownLabel
           ? '<span class="deadline-card__deadline-badge" data-deadline-timestamp="' +
@@ -293,9 +404,10 @@
         const timeLabel = deadline.timeLabel
           ? '<span class="deadline-card__deadline-time">' + escapeHtml(deadline.timeLabel) + "</span>"
           : "";
+        const deadlineClassName = "deadline-card__deadline" + (isElapsed ? " deadline-card__deadline--elapsed" : "");
 
         return (
-          '<div class="deadline-card__deadline">' +
+          '<div class="' + deadlineClassName + '">' +
           '<span class="deadline-card__deadline-content">' +
           '<span class="deadline-card__deadline-label">' +
           escapeHtml(deadline.label) +
@@ -320,8 +432,8 @@
       ? '<p class="deadline-card__note">' + escapeHtml(conference.note) + "</p>"
       : "";
 
-    const statusLabel = conference.isPast ? "Archived" : "Upcoming";
-    const statusClass = conference.isPast ? "deadline-card__status deadline-card__status--past" : "deadline-card__status deadline-card__status--upcoming";
+    const statusLabel = getStatusLabel(conference.status);
+    const statusClass = "deadline-card__status deadline-card__status--" + conference.status;
     const scheduleItems = conference.schedule
       .map(function (entry) {
         const parts = [];
@@ -357,28 +469,30 @@
 
     return (
       '<article class="deadline-card deadline-card--' +
-      (conference.isPast ? "past" : "upcoming") +
+      conference.status +
       '" style="--deadline-accent: ' +
       accent +
       "; --deadline-accent-soft: " +
-      hexToRgba(accent, conference.isPast ? 0.06 : 0.12) +
+      hexToRgba(accent, conference.status === "archived" ? 0.06 : conference.status === "ongoing" ? 0.09 : 0.12) +
       '">' +
       '<div class="deadline-card__header">' +
-      "<div>" +
-      '<div class="deadline-card__subjects">' +
-      subjectChips +
-      "</div>" +
+      '<div class="deadline-card__header-main">' +
       '<h4 class="deadline-card__title">' +
       (conference.website
         ? '<a href="' + escapeHtml(conference.website) + '" target="_blank" rel="noopener">' + escapeHtml(conference.title) + "</a>"
         : escapeHtml(conference.title)) +
       "</h4>" +
       "</div>" +
+      '<div class="deadline-card__header-tags">' +
+      '<div class="deadline-card__subjects">' +
+      subjectChips +
+      "</div>" +
       '<span class="' +
       statusClass +
       '">' +
       statusLabel +
       "</span>" +
+      "</div>" +
       "</div>" +
       metaRow +
       '<div class="deadline-card__deadlines">' +
@@ -393,6 +507,30 @@
     const first = subjectMap.get(subjectCodes[0]);
 
     return first ? first.color : "#0055bb";
+  }
+
+  function getPrimarySubjectCode(subjectCodes) {
+    if (!subjectCodes || !subjectCodes.length) {
+      return "";
+    }
+
+    const visibleSubjectCode = subjectCodes.find(function (code) {
+      return selectedSubjects.has(code);
+    });
+
+    return visibleSubjectCode || subjectCodes[0];
+  }
+
+  function getStatusLabel(status) {
+    if (status === "ongoing") {
+      return "Ongoing";
+    }
+
+    if (status === "archived") {
+      return "Archived";
+    }
+
+    return "Upcoming";
   }
 
   function countLabel(value, noun) {
@@ -521,6 +659,82 @@
     }
 
     return result;
+  }
+
+  function getConferenceYear(title, schedule) {
+    const scheduleYear = (schedule || []).reduce(function (year, entry) {
+      return year || extractYear(entry.dates);
+    }, 0);
+
+    return scheduleYear || extractYear(title);
+  }
+
+  function getConferenceEndTimestamp(schedule) {
+    return (schedule || []).reduce(function (latest, entry) {
+      const nextTimestamp = parseScheduleEndTimestamp(entry.dates);
+
+      return nextTimestamp > latest ? nextTimestamp : latest;
+    }, 0);
+  }
+
+  function parseScheduleEndTimestamp(value) {
+    const normalized = String(value || "")
+      .replace(/\s+/g, " ")
+      .trim();
+
+    if (!normalized) {
+      return 0;
+    }
+
+    const crossMonthMatch = normalized.match(
+      /^([A-Za-z]+)\s+\d{1,2}\s*[-–—]\s*([A-Za-z]+)\s+(\d{1,2}),\s*(20\d{2})$/
+    );
+
+    if (crossMonthMatch) {
+      return buildDateTimestamp(crossMonthMatch[4], crossMonthMatch[2], crossMonthMatch[3]);
+    }
+
+    const sameMonthMatch = normalized.match(
+      /^([A-Za-z]+)\s+\d{1,2}\s*[-–—]\s*(\d{1,2}),\s*(20\d{2})$/
+    );
+
+    if (sameMonthMatch) {
+      return buildDateTimestamp(sameMonthMatch[3], sameMonthMatch[1], sameMonthMatch[2]);
+    }
+
+    const singleDayMatch = normalized.match(/^([A-Za-z]+)\s+(\d{1,2}),\s*(20\d{2})$/);
+
+    if (singleDayMatch) {
+      return buildDateTimestamp(singleDayMatch[3], singleDayMatch[1], singleDayMatch[2]);
+    }
+
+    return 0;
+  }
+
+  function buildDateTimestamp(year, monthLabel, day) {
+    const monthIndex = monthMap[String(monthLabel || "").slice(0, 3).toLowerCase()];
+
+    if (monthIndex === undefined) {
+      return 0;
+    }
+
+    const timestamp = new Date(
+      Number(year),
+      monthIndex,
+      Number(day),
+      23,
+      59,
+      59,
+      999
+    ).getTime();
+
+    return Number.isNaN(timestamp) ? 0 : timestamp;
+  }
+
+  function extractYear(value) {
+    const match = String(value || "").match(/\b(20\d{2})\b/);
+
+    return match ? Number(match[1]) : 0;
   }
 
   function iconMapPin() {
