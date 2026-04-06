@@ -421,50 +421,7 @@
       })
       .join("");
 
-    const deadlineItems = conference.deadlines
-      .map(function (deadline) {
-        const isElapsed = deadline.timestamp < now.getTime();
-        const countdownLabel = getCountdownLabel(deadline, now);
-        const countdownBadge = countdownLabel
-          ? '<span class="deadline-card__deadline-badge" data-deadline-timestamp="' +
-            deadline.timestamp +
-            '" data-day-timestamp="' +
-            deadline.dayTimestamp +
-            '" data-has-exact-time="' +
-            (deadline.hasExactTime ? "true" : "false") +
-            '">' +
-            escapeHtml(countdownLabel) +
-            "</span>"
-          : "";
-        const timeParts = getDisplayTimeParts(deadline.timeLabel);
-        const timeLabelMarkup = timeParts.time
-          ? '<span class="deadline-card__deadline-time">' + escapeHtml(timeParts.time) + "</span>"
-          : "";
-        const timeZoneMarkup = timeParts.zone
-          ? '<span class="deadline-card__deadline-zone">' + escapeHtml(timeParts.zone) + "</span>"
-          : "";
-        const deadlineClassName = "deadline-card__deadline" + (isElapsed ? " deadline-card__deadline--elapsed" : "");
-
-        return (
-          '<div class="' + deadlineClassName + '">' +
-          '<span class="deadline-card__deadline-label">' +
-          escapeHtml(deadline.label) +
-          "</span>" +
-          '<span class="deadline-card__deadline-separator" aria-hidden="true">|</span>' +
-          '<span class="deadline-card__deadline-date">' +
-          '<time datetime="' +
-          deadline.date +
-          '">' +
-          dateFormatter.format(deadline.displayDateObject) +
-          "</time>" +
-          timeLabelMarkup +
-          timeZoneMarkup +
-          "</span>" +
-          countdownBadge +
-          "</div>"
-        );
-      })
-      .join("");
+    const deadlineItems = renderDeadlineItems(conference.deadlines, now);
 
     const note = conference.note
       ? '<p class="deadline-card__note">' + escapeHtml(conference.note) + "</p>"
@@ -539,6 +496,179 @@
       note +
       "</article>"
     );
+  }
+
+  function renderDeadlineItems(deadlines, now) {
+    const phasedGroups = getPhasedDeadlineGroups(deadlines);
+
+    if (phasedGroups) {
+      return (
+        '<div class="deadline-card__deadline-groups">' +
+        phasedGroups
+          .map(function (group) {
+            return (
+              '<section class="deadline-card__deadline-group">' +
+              '<div class="deadline-card__deadline-group-label" title="' +
+              escapeHtml(group.fullLabel) +
+              '">' +
+              escapeHtml(group.fullLabel) +
+              "</div>" +
+              '<div class="deadline-card__deadline-group-items">' +
+              group.items
+                .map(function (item) {
+                  return renderDeadlineItem(item.deadline, now, item.displayLabel, {
+                    fullLabel: item.fullLabel
+                  });
+                })
+                .join("") +
+              "</div>" +
+              "</section>"
+            );
+          })
+          .join("") +
+        "</div>"
+      );
+    }
+
+    return deadlines
+      .map(function (deadline) {
+        return renderDeadlineItem(deadline, now, deadline.label);
+      })
+      .join("");
+  }
+
+  function renderDeadlineItem(deadline, now, displayLabel, options) {
+    const config = options || {};
+    const isElapsed = deadline.timestamp < now.getTime();
+    const countdownLabel = getCountdownLabel(deadline, now);
+    const countdownBadge = countdownLabel
+      ? '<span class="deadline-card__deadline-badge" data-deadline-timestamp="' +
+        deadline.timestamp +
+        '" data-day-timestamp="' +
+        deadline.dayTimestamp +
+        '" data-has-exact-time="' +
+        (deadline.hasExactTime ? "true" : "false") +
+        '">' +
+        escapeHtml(countdownLabel) +
+        "</span>"
+      : "";
+    const timeParts = getDisplayTimeParts(deadline.timeLabel);
+    const timeLabelMarkup = timeParts.time
+      ? '<span class="deadline-card__deadline-time">' + escapeHtml(timeParts.time) + "</span>"
+      : "";
+    const timeZoneMarkup = timeParts.zone
+      ? '<span class="deadline-card__deadline-zone">' + escapeHtml(timeParts.zone) + "</span>"
+      : "";
+    const deadlineClassName =
+      "deadline-card__deadline" +
+      (config.compact ? " deadline-card__deadline--compact" : "") +
+      (isElapsed ? " deadline-card__deadline--elapsed" : "");
+    const separatorMarkup = config.compact
+      ? ""
+      : '<span class="deadline-card__deadline-separator" aria-hidden="true">|</span>';
+    const labelTitle = config.fullLabel
+      ? ' title="' + escapeHtml(config.fullLabel) + '"'
+      : "";
+
+    return (
+      '<div class="' + deadlineClassName + '">' +
+      '<span class="deadline-card__deadline-label"' +
+      labelTitle +
+      ">" +
+      escapeHtml(displayLabel) +
+      "</span>" +
+      separatorMarkup +
+      '<span class="deadline-card__deadline-date">' +
+      '<time datetime="' +
+      deadline.date +
+      '">' +
+      dateFormatter.format(deadline.displayDateObject) +
+      "</time>" +
+      timeLabelMarkup +
+      timeZoneMarkup +
+      "</span>" +
+      countdownBadge +
+      "</div>"
+    );
+  }
+
+  function getPhasedDeadlineGroups(deadlines) {
+    const groups = new Map();
+    const orderedGroups = [];
+    let parsedCount = 0;
+
+    deadlines.forEach(function (deadline) {
+      const parsed = parsePhasedDeadlineLabel(deadline.label);
+
+      if (!parsed) {
+        return;
+      }
+
+      parsedCount += 1;
+
+      if (!groups.has(parsed.groupKey)) {
+        groups.set(parsed.groupKey, {
+          sortKey: parsed.sortKey,
+          shortLabel: parsed.shortGroupLabel,
+          fullLabel: parsed.fullGroupLabel,
+          items: []
+        });
+        orderedGroups.push(parsed.groupKey);
+      }
+
+        groups.get(parsed.groupKey).items.push({
+          deadline: deadline,
+          displayLabel: parsed.displayItemLabel,
+          fullLabel: deadline.label,
+          itemOrder: parsed.itemOrder
+        });
+      });
+
+    if (parsedCount !== deadlines.length || groups.size < 2 || groups.size !== orderedGroups.length) {
+      return null;
+    }
+
+    return orderedGroups
+      .map(function (groupKey) {
+        const group = groups.get(groupKey);
+
+        group.items.sort(function (left, right) {
+          if (left.itemOrder !== right.itemOrder) {
+            return left.itemOrder - right.itemOrder;
+          }
+
+          return left.deadline.timestamp - right.deadline.timestamp;
+        });
+
+        return group;
+      })
+      .sort(function (left, right) {
+        return left.sortKey - right.sortKey;
+      });
+  }
+
+  function parsePhasedDeadlineLabel(label) {
+    const normalized = String(label || "").trim();
+    const match = normalized.match(/^(Cycle|Round)\s+(\d+)\s+(Abstract|Paper|Full paper)$/i);
+
+    if (!match) {
+      return null;
+    }
+
+    const phaseType = match[1].toLowerCase();
+    const phaseIndex = Number(match[2]);
+    const itemType = match[3].toLowerCase();
+    const phasePrefix = phaseType === "round" ? "R" : "C";
+    const isAbstract = itemType === "abstract";
+
+    return {
+      groupKey: phaseType + "-" + phaseIndex,
+      sortKey: phaseIndex,
+      shortGroupLabel: phasePrefix + phaseIndex,
+      fullGroupLabel: match[1] + " #" + phaseIndex,
+      displayItemLabel: isAbstract ? "Abstract" : "Full paper",
+      itemOrder: isAbstract ? 0 : 1
+    };
   }
 
   function getPrimarySubjectColor(subjectCodes) {
