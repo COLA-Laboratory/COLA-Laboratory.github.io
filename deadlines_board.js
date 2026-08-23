@@ -93,18 +93,19 @@
     const conferenceEndTimestamp = getConferenceEndTimestamp(schedule);
     const deadlines = (conference.deadlines || [])
       .map(function (deadline) {
-        const timeLabel = deadline.time_label || "11:59PM AOE";
-        const time24 = deadline.time_24 || "23:59";
-        const utcOffset = deadline.utc_offset || "-12:00";
+        const hasExactTime = Boolean(deadline.time_label && deadline.time_24 && deadline.utc_offset);
+        const timeLabel = deadline.time_label || "";
         const displayDateObject = new Date(deadline.date + "T00:00:00");
-        const dateObject = buildDeadlineDateObject(deadline.date, time24, utcOffset);
+        const dateObject = hasExactTime
+          ? buildDeadlineDateObject(deadline.date, deadline.time_24, deadline.utc_offset)
+          : new Date(deadline.date + "T23:59:59");
 
         return {
           label: deadline.label || "Deadline",
           date: deadline.date,
           year: Number(String(deadline.date).slice(0, 4)),
           timeLabel: timeLabel,
-          hasExactTime: true,
+          hasExactTime: hasExactTime,
           dayTimestamp: displayDateObject.getTime(),
           displayDateObject: displayDateObject,
           dateObject: dateObject,
