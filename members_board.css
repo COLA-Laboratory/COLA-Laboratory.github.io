@@ -1,0 +1,357 @@
+.members-board {
+  --members-accent: #176b78;
+  --members-border: rgba(127, 127, 127, 0.3);
+  --members-muted: 0.68;
+  margin-top: 1.5rem;
+  text-align: left;
+  letter-spacing: 0;
+}
+
+.members-section {
+  margin: 0 0 2.6rem;
+}
+
+.members-section__head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.45rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--members-border);
+}
+
+.members-section__title {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.35;
+  letter-spacing: 0;
+}
+
+.members-section__title i {
+  width: 1.35rem;
+  color: inherit;
+  text-align: center;
+}
+
+.members-section__count,
+.members-alumni__count {
+  flex: 0 0 auto;
+  font-size: 0.88rem;
+  opacity: var(--members-muted);
+}
+
+.members-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 1.6rem;
+}
+
+.members-grid--single {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.member-card {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  align-items: start;
+  gap: 1rem;
+  min-width: 0;
+  padding: 1rem 0.25rem;
+  border-bottom: 1px solid var(--members-border);
+}
+
+.member-card__portrait,
+.member-card__content {
+  min-width: 0;
+}
+
+.member-card__content {
+  align-self: start;
+}
+
+.members-board .member-card__image {
+  display: block;
+  max-width: none;
+  margin: 0;
+}
+
+.members-board .member-card:not(.member-card--faculty) .member-card__image {
+  width: 120px;
+  height: 120px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: center 30%;
+}
+
+.members-board .member-card__name {
+  margin: 0 0 0.4rem;
+  padding: 0;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0;
+}
+
+.member-card__role,
+.member-card__period,
+.member-card__interests,
+.member-card__appointment {
+  margin: 0;
+}
+
+.member-card__role {
+  font-weight: 400;
+}
+
+.member-card__period {
+  margin-top: 0.15rem;
+  font-size: 0.9rem;
+  opacity: var(--members-muted);
+}
+
+.member-card__interests {
+  margin-top: 0.55rem;
+  overflow-wrap: anywhere;
+}
+
+.member-card__label {
+  font-weight: 400;
+  opacity: var(--members-muted);
+}
+
+.alumni-entry__label {
+  font-weight: 400;
+}
+
+.member-card__label::after {
+  content: ": ";
+}
+
+.member-card__interests abbr {
+  text-decoration: underline dotted;
+  text-underline-offset: 0.16em;
+  cursor: help;
+}
+
+.member-card__appointments {
+  display: grid;
+  gap: 0.18rem;
+}
+
+.member-card__appointment {
+  line-height: 1.38;
+}
+
+.member-card__affiliation {
+  display: block;
+  opacity: 0.78;
+}
+
+.member-card--faculty .member-card__content {
+  min-height: 140px;
+  overflow-x: auto;
+  padding-bottom: 0.2rem;
+  white-space: nowrap;
+}
+
+.member-card--faculty {
+  grid-template-columns: 140px minmax(0, 1fr);
+  grid-template-areas:
+    "portrait content"
+    "links links";
+  column-gap: 1.4rem;
+  row-gap: 0.75rem;
+}
+
+.member-card--faculty .member-card__portrait {
+  grid-area: portrait;
+}
+
+.member-card--faculty .member-card__content {
+  grid-area: content;
+}
+
+.members-board .member-card--faculty .member-card__image {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+}
+
+.members-board .member-card--faculty .member-card__name {
+  margin-bottom: 0.55rem;
+  font-size: 1.15rem;
+}
+
+.member-card__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.75rem;
+  white-space: normal;
+}
+
+.member-card--faculty .member-card__links {
+  grid-area: links;
+  margin-top: 0;
+}
+
+.member-card__links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid var(--members-border);
+  border-radius: 4px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.member-card__links a:hover,
+.member-card__links a:focus-visible {
+  border-color: var(--members-accent);
+  color: var(--members-accent);
+}
+
+.members-alumni {
+  margin-top: 3rem;
+}
+
+.members-alumni__groups {
+  border-bottom: 1px solid var(--members-border);
+}
+
+.members-board .members-alumni__group {
+  padding: 0;
+  border: 0;
+  border-top: 1px solid var(--members-border);
+  border-radius: 0;
+}
+
+.members-board .members-alumni__group:first-child {
+  border-top: 0;
+}
+
+.members-board .members-alumni__group summary {
+  margin: 0;
+  padding: 0.85rem 0.2rem;
+  cursor: pointer;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.members-board .members-alumni__group[open] summary {
+  margin-bottom: 0;
+}
+
+.members-alumni__group summary::marker {
+  color: var(--members-accent);
+}
+
+.members-alumni__group summary > span:first-child {
+  margin-right: 0.55rem;
+}
+
+.members-alumni__list {
+  padding: 0 0 0.65rem 1.2rem;
+}
+
+.alumni-entry {
+  padding: 0.85rem 0;
+  border-top: 1px solid var(--members-border);
+}
+
+.alumni-entry:first-child {
+  border-top: 0;
+}
+
+.members-board .alumni-entry__name {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.35;
+  letter-spacing: 0;
+}
+
+.alumni-entry__tenure {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin: 0.15rem 0 0.55rem;
+  font-size: 0.9rem;
+  opacity: var(--members-muted);
+}
+
+.alumni-entry__row {
+  display: grid;
+  grid-template-columns: 8rem minmax(0, 1fr);
+  gap: 0.75rem;
+  margin: 0.25rem 0 0;
+}
+
+.alumni-entry__career {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.45rem;
+}
+
+.alumni-entry__career i {
+  color: var(--members-accent);
+}
+
+@media (max-width: 860px) {
+  .members-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 540px) {
+  .members-section__head {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  .member-card {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .member-card--faculty .member-card__content {
+    min-height: 0;
+    overflow-x: visible;
+    white-space: normal;
+  }
+
+  .member-card--faculty {
+    grid-template-areas:
+      "portrait"
+      "content"
+      "links";
+  }
+
+  .members-board .member-card--faculty .member-card__image {
+    width: 140px;
+    height: 140px;
+  }
+
+  .alumni-entry__row {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.05rem;
+  }
+
+  .members-alumni__list {
+    padding-left: 0.75rem;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .members-board {
+    --members-accent: #62b6c3;
+  }
+}
