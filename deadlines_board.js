@@ -93,6 +93,14 @@
     const conferenceEndTimestamp = getConferenceEndTimestamp(schedule);
     const deadlines = (conference.deadlines || [])
       .map(function (deadline) {
+        if (deadline.date === "TBD") {
+          return {
+            label: deadline.label || "Deadline",
+            isPending: true,
+            timestamp: null
+          };
+        }
+
         const hasExactTime = Boolean(deadline.time_label && deadline.time_24 && deadline.utc_offset);
         const timeLabel = deadline.time_label || "";
         const displayDateObject = new Date(deadline.date + "T00:00:00");
@@ -102,6 +110,7 @@
 
         return {
           label: deadline.label || "Deadline",
+          isPending: false,
           date: deadline.date,
           year: Number(String(deadline.date).slice(0, 4)),
           timeLabel: timeLabel,
@@ -113,9 +122,12 @@
         };
       })
       .filter(function (deadline) {
-        return !Number.isNaN(deadline.timestamp);
+        return deadline.isPending || !Number.isNaN(deadline.timestamp);
       })
       .sort(function (left, right) {
+        if (left.isPending !== right.isPending) {
+          return left.isPending ? 1 : -1;
+        }
         return left.timestamp - right.timestamp;
       });
 
@@ -201,9 +213,11 @@
       .map(function (conference) {
         const nextDeadline =
           conference.deadlines.find(function (deadline) {
-            return deadline.timestamp >= now.getTime();
+            return !deadline.isPending && deadline.timestamp >= nowTimestamp;
           }) || null;
-        const latestDeadline = conference.deadlines[conference.deadlines.length - 1] || null;
+        const datedDeadlines = conference.deadlines.filter((deadline) => !deadline.isPending);
+        const latestDeadline = datedDeadlines[datedDeadlines.length - 1] || null;
+        const hasPendingDeadline = conference.deadlines.some((deadline) => deadline.isPending);
 
         return Object.assign({}, conference, {
           nextDeadline: nextDeadline,
@@ -214,7 +228,8 @@
             conference.conferenceEndTimestamp,
             conference.conferenceYear,
             currentYear,
-            nowTimestamp
+            nowTimestamp,
+            hasPendingDeadline
           )
         });
       });
@@ -224,6 +239,12 @@
         return conference.status === "upcoming";
       })
       .sort(function (left, right) {
+        if (!left.nextDeadline) {
+          return right.nextDeadline ? 1 : 0;
+        }
+        if (!right.nextDeadline) {
+          return -1;
+        }
         return left.nextDeadline.timestamp - right.nextDeadline.timestamp;
       });
 
@@ -232,7 +253,8 @@
         return conference.status === "ongoing";
       })
       .sort(function (left, right) {
-        return right.latestDeadline.timestamp - left.latestDeadline.timestamp;
+        return (right.latestDeadline ? right.latestDeadline.timestamp : 0) -
+          (left.latestDeadline ? left.latestDeadline.timestamp : 0);
       });
 
     const archived = visibleConferences
@@ -240,7 +262,8 @@
         return conference.status === "archived";
       })
       .sort(function (left, right) {
-        return right.latestDeadline.timestamp - left.latestDeadline.timestamp;
+        return (right.latestDeadline ? right.latestDeadline.timestamp : 0) -
+          (left.latestDeadline ? left.latestDeadline.timestamp : 0);
       });
 
     renderSummary(visibleConferences.length, upcoming.length, ongoing.length, archived.length);
@@ -251,8 +274,14 @@
     renderMessage(visibleConferences.length, upcoming.length, ongoing.length, archived.length);
   }
 
-  function getConferenceStatus(nextDeadline, latestDeadline, conferenceEndTimestamp, conferenceYear, currentYear, nowTimestamp) {
+  function getConferenceStatus(nextDeadline, latestDeadline, conferenceEndTimestamp, conferenceYear, currentYear, nowTimestamp, hasPendingDeadline) {
     if (nextDeadline) {
+      return "upcoming";
+    }
+
+    if (hasPendingDeadline && (conferenceEndTimestamp
+      ? conferenceEndTimestamp >= nowTimestamp
+      : conferenceYear >= currentYear)) {
       return "upcoming";
     }
 
@@ -428,7 +457,9 @@
       ? '<p class="deadline-card__note">' + escapeHtml(conference.note) + "</p>"
       : "";
 
-    const statusLabel = getStatusLabel(conference.status);
+    const statusLabel = conference.status === "upcoming" && !conference.nextDeadline
+      ? "Dates TBD"
+      : getStatusLabel(conference.status);
     const statusClass = "deadline-card__status deadline-card__status--" + conference.status;
     const scheduleItems = conference.schedule
       .map(function (entry) {
@@ -540,7 +571,7 @@
 
   function renderDeadlineItem(deadline, now, displayLabel, options) {
     const config = options || {};
-    const isElapsed = deadline.timestamp < now.getTime();
+    const isElapsed = !deadline.isPending && deadline.timestamp < now.getTime();
     const countdownLabel = getCountdownLabel(deadline, now);
     const countdownBadge = countdownLabel
       ? '<span class="deadline-card__deadline-badge" data-deadline-timestamp="' +
@@ -570,6 +601,9 @@
     const labelTitle = config.fullLabel
       ? ' title="' + escapeHtml(config.fullLabel) + '"'
       : "";
+    const dateMarkup = deadline.isPending
+      ? '<span title="To be determined">TBD</span>'
+      : '<time datetime="' + deadline.date + '">' + dateFormatter.format(deadline.displayDateObject) + "</time>";
 
     return (
       '<div class="' + deadlineClassName + '">' +
@@ -580,11 +614,7 @@
       "</span>" +
       separatorMarkup +
       '<span class="deadline-card__deadline-date">' +
-      '<time datetime="' +
-      deadline.date +
-      '">' +
-      dateFormatter.format(deadline.displayDateObject) +
-      "</time>" +
+      dateMarkup +
       timeLabelMarkup +
       timeZoneMarkup +
       "</span>" +
@@ -707,6 +737,10 @@
   }
 
   function getCountdownLabel(deadline, now) {
+    if (deadline.isPending) {
+      return "";
+    }
+
     if (deadline.hasExactTime) {
       const totalSeconds = Math.ceil((deadline.timestamp - now.getTime()) / 1000);
 
