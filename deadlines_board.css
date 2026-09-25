@@ -883,6 +883,8 @@
     align-items: flex-start;
     flex-direction: column;
     min-height: 0;
+    gap: 0.35rem;
+    margin-bottom: 0.3rem;
   }
 
   .deadline-card__header-tags {
@@ -915,6 +917,14 @@
 
   .deadline-card__deadline-label {
     justify-self: start;
+  }
+
+  .deadline-card__deadline-separator {
+    display: none;
+  }
+
+  .deadline-card__deadline-date {
+    flex-wrap: wrap;
   }
 
   .deadline-card__deadline-badge {
