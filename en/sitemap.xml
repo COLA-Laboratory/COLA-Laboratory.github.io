@@ -18,6 +18,11 @@
     <lastmod>2026-04-03T23:47:00+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
+                hreflang="en"
+                href="https://example.com/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="ru"
                 href="https://example.com/ru/categories/"
                 />
@@ -25,11 +30,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://example.com/zh/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.com/categories/"
                 />
   </url><url>
     <loc>https://example.com/categories/COLALab-Papers/</loc>
@@ -42,6 +42,11 @@
     <lastmod>2026-04-03T23:47:00+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
+                hreflang="en"
+                href="https://example.com/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="ru"
                 href="https://example.com/ru/tags/"
                 />
@@ -49,11 +54,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://example.com/zh/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.com/tags/"
                 />
   </url><url>
     <loc>https://example.com/categories/LaTeX-skills/</loc>
@@ -70,12 +70,6 @@
   </url><url>
     <loc>https://example.com/tags/overleaf/</loc>
     <lastmod>2026-04-03T23:47:00+01:00</lastmod>
-  </url><url>
-    <loc>https://example.com/academicons/academicons-1.9.0/README/</loc>
-    <lastmod>2020-11-28T23:10:45+00:00</lastmod>
-  </url><url>
-    <loc>https://example.com/academicons/academicons-1.9.0/test/</loc>
-    <lastmod>2020-11-28T23:10:45+00:00</lastmod>
   </url><url>
     <loc>https://example.com/docs/shortcodes/</loc>
     <lastmod>2025-03-29T22:38:26+00:00</lastmod>
@@ -104,9 +98,6 @@
     <loc>https://example.com/docs/shortcodes/tabs/</loc>
     <lastmod>2025-03-29T22:38:26+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/academicons/</loc>
-    <lastmod>2020-11-28T23:10:45+00:00</lastmod>
-  </url><url>
     <loc>https://example.com/docs/events/archive/archive_seminar/</loc>
     <lastmod>2026-04-03T23:47:00+01:00</lastmod>
   </url><url>
@@ -123,7 +114,7 @@
     <lastmod>2026-04-05T17:18:19+01:00</lastmod>
   </url><url>
     <loc>https://example.com/docs/</loc>
-    <lastmod>2026-09-25T09:05:13+01:00</lastmod>
+    <lastmod>2026-09-25T10:44:13+01:00</lastmod>
   </url><url>
     <loc>https://example.com/docs/research/emoc/</loc>
     <lastmod>2022-06-01T13:16:48+08:00</lastmod>
@@ -135,6 +126,11 @@
     <lastmod>2026-09-25T09:05:13+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
+                hreflang="en"
+                href="https://example.com/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="ru"
                 href="https://example.com/ru/"
                 />
@@ -142,11 +138,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://example.com/zh/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.com/"
                 />
   </url><url>
     <loc>https://example.com/docs/misc/dtec/</loc>
@@ -168,7 +159,7 @@
     <lastmod>2023-07-10T11:03:33+08:00</lastmod>
   </url><url>
     <loc>https://example.com/docs/research/publications/</loc>
-    <lastmod>2026-09-25T09:05:13+01:00</lastmod>
+    <lastmod>2026-09-25T10:44:13+01:00</lastmod>
   </url><url>
     <loc>https://example.com/docs/events/readinggroup/</loc>
     <lastmod>2026-04-03T23:47:00+01:00</lastmod>
