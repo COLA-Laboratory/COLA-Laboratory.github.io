@@ -335,6 +335,7 @@
 .deadline-card {
   --deadline-header-track: 1.56rem;
   --deadline-header-optical-trim: 0.8rem;
+  container: deadline-card / inline-size;
   position: relative;
   overflow: hidden;
   display: flex;
@@ -628,7 +629,7 @@
 
 .deadline-card__deadline {
   display: grid;
-  grid-template-columns: 5.55rem auto minmax(0, 1fr) max-content;
+  grid-template-columns: 6.4rem auto minmax(0, 1fr) max-content;
   align-items: center;
   gap: 0.38rem;
   padding: 0.16rem 0.42rem;
@@ -834,6 +835,30 @@
   margin: 0.72rem 0 0;
   color: var(--gray-500);
   line-height: 1.6;
+}
+
+@container deadline-card (max-width: 27rem) {
+  .deadline-card__deadline {
+    grid-template-columns: 1fr;
+    align-items: flex-start;
+    gap: 0.18rem;
+  }
+
+  .deadline-card__deadline-groups {
+    grid-template-columns: 1fr;
+  }
+
+  .deadline-card__deadline-separator {
+    display: none;
+  }
+
+  .deadline-card__deadline-date {
+    flex-wrap: wrap;
+  }
+
+  .deadline-card__deadline-badge {
+    justify-self: start;
+  }
 }
 
 @media (max-width: 960px) {
